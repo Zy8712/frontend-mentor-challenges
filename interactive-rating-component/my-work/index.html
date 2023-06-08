@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <!-- Rating state start -->
+  <div id="sec1" class="mainContent">
+
+    <p class="star">
+      <img src="./images/icon-star.svg" alt="star.svg">
+    </p>
+
+    <h2 class="query">How did we do?</h2>
+
+    <p class="query-ex">
+      Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
+    </p>
+
+    <p class="ratingOptions button-align">
+      <button id="but1">1</button>
+      <button id="but2">2</button>
+      <button id="but3">3</button>
+      <button id="but4">4</button>
+      <button id="but5">5</button>
+    </p>
+
+    <div class="button-align">
+      <button id="submitButton">Submit</button>
+    </div>
+  </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <div id="sec2" class="mainContent thankyou invisible">
+    <p>
+      <img src="./images/illustration-thank-you.svg" alt="thankyou.svg">
+    </p>
+
+    <p class="rateReview" id="rr"> You selected  <!-- Add rating here --> out of 5 </p>
+
+
+    <h2 class="thanksText">Thank you!</h2>
+
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
+    <!-- Thank you state end -->
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bryan Li</a>.
+  </div>
+
+  <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
