@@ -2,6 +2,13 @@
 
 :root{
   --main-font-theme: "Overpass";
+  --theme-white: hsl(0, 0%, 100%);
+  --theme-orange: hsl(25, 97%, 53%);
+  --theme-light-grey: hsl(217, 12%, 63%);
+  --theme-medium-grey: hsl(216, 12%, 54%);
+  --theme-dark-blue: hsl(213, 19%, 18%);
+  --theme-very-dark-blue: hsl(216, 12%, 8%);
+  --custom-dark-blue: hsl(215, 21%, 16%);
 }
 
 body{
@@ -10,7 +17,7 @@ body{
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: hsl(216, 12%, 8%);
+  background-color: var(--theme-very-dark-blue);
   font-family: var(--main-font-theme);
 }
 
@@ -23,7 +30,7 @@ p{
   width: 340px;
   border: 3px black solid;
   padding: 28px;
-  background-color: hsl(215, 21%, 16%);
+  background-color: var(--custom-dark-blue);
   border-style: none;
   border-radius: 18px;
 }
@@ -31,7 +38,7 @@ p{
 .star{
   border-style: none;
   border-radius: 100px;
-  background-color: hsl(213, 19%, 18%);
+  background-color: var(--theme-dark-blue);
   width: 45px;
   height: 45px;
   display: flex;
@@ -42,13 +49,13 @@ p{
 }
 
 .query{
-  color: hsl(0, 0%, 100%);
+  color: var(--theme-white);
   margin-top: 28px;
   margin-bottom: 0px;
 }
 
 .mainContent > p{
-  color: hsl(217, 12%, 63%);
+  color: var(--theme-light-grey);
 }
 
 .ratingOptions{
@@ -63,17 +70,17 @@ p{
 .ratingOptions > button{
   width: 50px;
   height: 50px;
-  background-color: hsl(213, 19%, 18%);
+  background-color: var(--theme-dark-blue);
   border-radius: 100px;
   border-style: none;
-  color: hsl(217, 12%, 63%);
+  color: var(--theme-light-grey);
   font-weight: 700;
 }
 
 #submitButton{
   width: 98%;
   height: 45px;
-  background-color: hsl(25, 97%, 53%);
+  background-color: var(--theme-orange);
   border-radius: 100px;
   border-style: none;
   color: white;
@@ -101,9 +108,9 @@ p{
 }
 
 p.rateReview{
-  color: hsl(25, 97%, 53%);
+  color: var(--theme-orange);
   font-weight: 100;
-  background-color: hsl(213, 19%, 18%);
+  background-color: var(--theme-dark-blue);
   border-radius: 75px;
   padding-top: 8px;
   padding-bottom: 8px;

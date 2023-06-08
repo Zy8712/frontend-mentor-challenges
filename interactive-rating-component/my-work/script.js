@@ -1,5 +1,6 @@
 var currentSelection = null;
 var currentVal = 0;
+
 window.onload = function() {
   for (var i = 0; i < 5; i++) {
     var buttonName = "but" + (i + 1);
@@ -10,6 +11,8 @@ window.onload = function() {
   }
   var submit = document.getElementById("submitButton");
   submit.addEventListener("click", submitCheck);
+  submit.addEventListener("mouseover", submitHover);
+  submit.addEventListener("mouseout", submitHover2);
 }
 
 function changeSelectColor() {
@@ -54,4 +57,14 @@ function submitCheck(){
     var finalRating = document.getElementById("rr");
     finalRating.innerHTML = "You selected " +currentVal +" out of 5";
   }
+}
+
+function submitHover(){
+	this.style.color = "hsl(25, 97%, 53%)";
+	this.style.backgroundColor = "hsl(0, 0%, 100%)";
+}
+
+function submitHover2(){
+	this.style.color = "hsl(0, 0%, 100%)";
+	this.style.backgroundColor = "hsl(25, 97%, 53%)";
 }
