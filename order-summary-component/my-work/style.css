@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+  --font-theme: "Red Hat Display";
+  --theme-pale-blue: hsl(225, 100%, 94%);
+  --theme-bright-blue: hsl(245, 75%, 52%);
+
+  --theme-very-pale-blue: hsl(225, 100%, 98%);
+  --theme-desaturated-blue: hsl(224, 23%, 55%);
+  --theme-dark-blue: hsl(223, 47%, 23%);
+
+  --custom-purple-blue: #766cf1;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--theme-pale-blue);
+  display: flex; /* sets to flex diplay */
+  flex-direction: column; /* stacks two main divs ontop of each other */
+  align-items: center; /* horizontally aligns items */
+  justify-content: center; /* vertically aligns items */
+  font-family: var(--font-theme), sans-serif;
+}
+
+.container{
+  width: 420px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+div.mainImg{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+div.mainImg > img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.centerFocus{
+  margin: 30px 45px 0px 45px;
+}
+
+.textCentering{
+  text-align: center;
+}
+
+.description{
+  color: slategrey;
+}
+
+.orderDetails{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--theme-very-pale-blue);
+  border-radius: 10px;
+}
+
+.musicIcon{
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pricePlan{
+  margin-left: 0px;
+  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.plan{
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.price{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.changeLink > a {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.changeLink > a:hover{
+  color: var(--custom-purple-blue);
+}
+
+
+.completeTransaction{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.completeTransaction > button{
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  background-color: var(--theme-bright-blue);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.completeTransaction > button:hover{
+  background-color: var(--custom-purple-blue);
+  cursor: pointer;
+}
+
+.completeTransaction > p{
+  color: slategrey;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.completeTransaction > p:hover{
+  color: var(--theme-dark-blue);
+  cursor: pointer;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+/* When screen size is small (i.e. mobile devices) */
+@media (max-width: 720px){
+  body{
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+
+}
