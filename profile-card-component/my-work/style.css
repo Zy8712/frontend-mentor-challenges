@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+  --theme-dark-cyan: hsl(185, 75%, 39%);
+  --theme-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --theme-dark-grayish-blue: hsl(227, 10%, 46%);
+  --theme-dark-gray: hsl(0, 0%, 59%);
+  --font-theme: "Kumbh Sans";
+}
+
+body{
+  background-color: var(--theme-dark-cyan);
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  /* top img is offset 52 percent of the vw from the right and offset 35 of the vh from the bottom*/
+  /* bottom img is offset 48 percent of the vw from the left and offset 52 of the vh from the top*/
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+
+  display: flex; /* sets display to flex */
+  flex-direction: column; /* sets flex direction to column */
+
+  /* justify-content: center vertically aligns items when flex direction is column */
+  /* justify-content: center horizontally aligns items when flex direction is row */
+
+  /* align-items: center horizontally aligns items when flex direction is column */
+  /* align-items: center vertically aligns items when flex direction is row */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-theme);
+}
+
+.main_content{
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow:  0 10px 30px hsla(0, 0%, 0%, 20%);
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.card_pattern{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card_pattern > img{
+  /* two options to round image edges*/
+  /* first option is to apply border radius to image directly as seen below */
+  /* second option is to apply border radius to div encapsulating image and then overflow: hidden*/
+  border-radius: 15px 15px 0 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card_profile_pic{
+  position: relative;
+  top: -55px;
+  z-index: 3;
+}
+
+.card_profile_pic > img{
+  border-radius: 50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
+.card_profile_info{
+  position: relative;
+  top: -55px;
+  margin-bottom: 10px;
+}
+
+.card_profile_info > h3{
+  margin-bottom: 0px;
+  color: var(--theme-very-dark-desaturated-blue);
+}
+
+.card_profile_info > h3 > span{
+  margin-bottom: 0px;
+  color: var(--theme-dark-gray);
+  font-weight: normal;
+}
+
+.card_profile_info > p{
+  margin-top: 8px;
+  text-align: center;
+  color: var(--theme-dark-gray);
+  font-size: 14px;
+}
+
+.card_profile_stats{
+  width: 100%;
+  display: flex;
+  border-top-color: rgba(150, 150, 150, 0.25);
+  border-top-width: 1px;
+  border-top-style: solid;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -55px;
+}
+
+.card_profile_stats > div{
+  display: inline-block;
+  text-align: center;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-top: 5px;
+}
+
+.card_profile_stats > div > h3{
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: var(--theme-very-dark-desaturated-blue);
+}
+
+.card_profile_stats > div > p{
+  letter-spacing: 1.5px;
+  font-size: 10px;
+  color: var(--theme-dark-gray);
+  margin-top: 5px;
+}
+
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
