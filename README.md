@@ -10,6 +10,34 @@
       <td>Trial #</td>
     </tr>
     <tr>
+      <td>3 Column Preview Card Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>Links</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">🔗 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/3-colum-preview-card-component-bx04fR0CV3">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/3-column-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jun 13th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>background-color:rgba(0,0,0,0)</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>Results Summary Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -17,7 +45,7 @@
       </td>
       <td>
         <details>
-          <summary>Relevant Links</summary>
+          <summary>Links</summary>
           <br>
           <p><a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV">🔗 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/results-summary-component-ei-KIkDlH6">📨 Submission</a></p>
@@ -28,7 +56,7 @@
       <td>Jun 11th, 2023</td>
       <td>
         <details>
-          <summary> 🗒️ Things I've Learned</summary>
+          <summary> 📝</summary>
           <ul>
             <br>
             <li>gradient-backgrounds</li>
@@ -45,7 +73,7 @@
           </ul>
         </details>
       </td>
-      <td> Trial#1</td>
+      <td>#1</td>
     </tr>
       <tr>
       <td>Profile Card Component</td>
@@ -55,7 +83,7 @@
       </td>
       <td>
         <details>
-          <summary>Relevant Links</summary>
+          <summary>Links</summary>
           <br>
           <p><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">🔗 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/profile-card-component-xUxpY2QYRd">📨 Submission</a></p>
@@ -66,7 +94,7 @@
       <td>Jun 10th, 2023</td>
       <td>
         <details>
-          <summary> 🗒️ Things I've Learned</summary>
+          <summary> 📝</summary>
           <ul>
             <br>
             <li>postion:relative</li>
@@ -83,7 +111,7 @@
           </ul>
         </details>
       </td>
-      <td> Trial#1</td>
+      <td>#1</td>
     </tr>
       <tr>
       <td>Order Summary Component</td>
@@ -93,7 +121,7 @@
       </td>
       <td>
         <details>
-          <summary>Relevant Links</summary>
+          <summary>Links</summary>
           <br>
           <p><a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">🔗 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/order-summary-component-WE31xQiACv">📨 Submission</a></p>
@@ -104,7 +132,7 @@
       <td>Jun 9th, 2023</td>
       <td>
         <details>
-          <summary> 🗒️ Things I've Learned</summary>
+          <summary> 📝</summary>
           <ul>
             <br>
             <li>background-image:url()</li>
@@ -121,7 +149,7 @@
           </ul>
         </details>
       </td>
-      <td> Trial#1</td>
+      <td>#1</td>
     </tr>
         <tr>
       <td>Interactive Rating Component</td>
@@ -132,7 +160,7 @@
       </td>
       <td>
         <details>
-          <summary>Relevant Links</summary>
+          <summary>Links</summary>
           <br>
           <p><a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">🔗 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/interactive-rating-component-rtYk-cl4oF">📨 Submission</a></p>
@@ -143,7 +171,7 @@
       <td>Jun 8th, 2023</td>
       <td>
         <details>
-          <summary> 🗒️ Things I've Learned</summary>
+          <summary> 📝</summary>
           <ul>
             <br>
             <li>justify-content:space-between</li>
@@ -158,7 +186,7 @@
           </ul>
         </details>
       </td>
-      <td> Trial#1</td>
+      <td>#1</td>
     </tr>
   <tr>
       <td>QR Code Component</td>
@@ -168,7 +196,7 @@
       </td>
       <td>
         <details>
-          <summary>Relevant Links</summary>
+          <summary>Links</summary>
           <br>
           <p><a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">🔗 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/qr-code-component--5WXBrWYG6">📨 Submission</a></p>
@@ -179,7 +207,7 @@
       <td>Jun 5th, 2023</td>
       <td>
         <details>
-          <summary> 🗒️ Things I've Learned</summary>
+          <summary> 📝</summary>
           <ul>
             <br>
             <li>horizontal centering</li>
@@ -191,9 +219,11 @@
           </ul>
         </details>
       </td>
-      <td> Trial#1</td>
+      <td>#1</td>
     </tr>
 </table>
+
+
   
 
   
