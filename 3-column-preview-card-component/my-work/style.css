@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+  --theme-bright-orange: hsl(31, 77%, 52%);
+  --theme-dark-cyan: hsl(184, 100%, 22%);
+  --theme-very-dark-cyan: hsl(179, 100%, 13%);
+
+  --theme-transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --theme-very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+
+  --font-theme-lexend: "Lexend Deca";
+  --font-theme-shoulders: "Big Shoulders Display";
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-content{
+  width: 864px;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.main-content > div{
+  height: 380px;
+  width: 288px;
+  padding: 38px;
+}
+
+.main-content > div > h1{
+  color: var(--theme-very-light-gray);
+  font-family: var(--font-theme-shoulders);
+}
+
+.main-content > div > p{
+  color: var(--theme-transparent-white);
+  font-family: var(--font-theme-lexend);
+  font-size: 15px;
+  margin-bottom: 90px;
+  line-height: 24px;
+}
+
+#sedans-section{
+  background-color: var(--theme-bright-orange);
+}
+
+#suvs-section{
+  background-color: var(--theme-dark-cyan);
+}
+
+#luxury-section{
+  background-color: var(--theme-very-dark-cyan);
+}
+
+#sedans-section button{
+  color: var(--theme-bright-orange);
+  background-color: var(--theme-very-light-gray);
+  border-style: none;
+  border-radius: 50px;
+  padding: 12px 30px 12px 30px; /* top right bottom left */
+  font-size: 15px;
+  font-family: var(--font-theme-lexend);
+}
+
+#suvs-section button{
+  color: var(--theme-dark-cyan);
+  background-color: var(--theme-very-light-gray);
+  border-style: none;
+  border-radius: 50px;
+  padding: 12px 30px 12px 30px; /* top right bottom left */
+  font-size: 15px;
+  font-family: var(--font-theme-lexend);
+}
+
+#luxury-section button{
+  color: var(--theme-very-dark-cyan);
+  background-color: var(--theme-very-light-gray);
+  border-style: none;
+  border-radius: 50px;
+  padding: 12px 30px 12px 30px; /* top right bottom left */
+  font-size: 15px;
+  font-family: var(--font-theme-lexend);
+}
+
+#sedans-section button:hover, #suvs-section button:hover, #luxury-section button:hover {
+  color: var(--theme-very-light-gray);
+  background-color: rgba(255,255,255,0);
+  border: 2px solid var(--theme-very-light-gray);
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 720px){
+  body{
+    overflow: scroll;
+  }
+
+  .main-content{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .main-content > div{
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+  }
+
+  .main-content > div > p{
+    margin-bottom: 20px;
+    margin-right: 65px;
+  }
+}
