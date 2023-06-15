@@ -3,9 +3,9 @@
 <table>
     <tr>
       <td>Project Name</td>
-      <td>Languages & Frameworks</td>
+      <td>Languages/Frameworks</td>
       <td>Links</td>
-      <td>Completion Date</td>
+      <td>Date Completed</td>
       <td>Takeaways</td>
       <td>Trial #</td>
     </tr>
