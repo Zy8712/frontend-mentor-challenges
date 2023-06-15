@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+:root{
+  /* Primary */
+  --theme-soft-blue: hsl(215, 51%, 70%);
+  --theme-cyan: hsl(178, 100%, 50%);
+
+  /* Neutral */
+  --theme-very-dark-blue-main: hsl(217, 54%, 11%); /* main gb*/
+  --theme-very-dark-blue-card: hsl(216, 50%, 16%); /* card bg*/
+  --theme-very-dark-blue-line: hsl(215, 32%, 27%); /* line */
+  --theme-white: hsl(0, 0%, 100%);
+
+  --font-theme-outfit: "Outfit";
+}
+
+body{
+  background-color: var(--theme-very-dark-blue-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-content{
+  width: 320px;
+  background-color: var(--theme-very-dark-blue-card);
+  border-radius: 15px;
+  border-style: none;
+  font-family: var(--font-theme-outfit);
+}
+
+.image-div {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 20px;
+  border-style: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image-div > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.info-div{
+  margin: 20px;
+}
+
+.info-div > h3{
+  color: var(--theme-white);
+  font-weight: 500;
+}
+
+.info-div > h3:hover{
+  color: var(--theme-cyan);
+  cursor: pointer;
+}
+
+.info-div > p{
+  color: var(--theme-soft-blue);
+  font-weight: 300;
+}
+
+.details-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth{
+  color: var(--theme-cyan);
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.eth > img{
+  margin-right: 5px;
+}
+
+.clock{
+  color: var(--theme-soft-blue);
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.clock > img{
+  margin-right: 5px;
+}
+
+.nft-credits{
+  color: var(--theme-soft-blue);
+  border-top-color: var(--theme-very-dark-blue-line);
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 25px;
+}
+
+.nft-credits > p{
+  display: flex;
+  align-items: center;
+}
+
+.nft-credits > p > img{
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.nft-credits > p > span{
+  color: var(--theme-white);
+  margin-left: 3px;
+}
+
+.nft-credits > p > span:hover{
+  color: var(--theme-cyan);
+  cursor: pointer;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--theme-white);
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
