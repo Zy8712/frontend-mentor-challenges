@@ -81,7 +81,7 @@
           <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/3-column-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
-      <td>Jun 13th, 2023</td>
+      <td>Jun 12th, 2023</td>
       <td>
         <details>
           <summary> 📝 </summary>
