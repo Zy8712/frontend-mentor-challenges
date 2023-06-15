@@ -4,7 +4,7 @@
     <tr>
       <td>Project Name</td>
       <td>Languages/Frameworks</td>
-      <td>Links</td>
+      <td>Links 🔗</td>
       <td>Date Completed</td>
       <td>Takeaways</td>
       <td>Trial #</td>
