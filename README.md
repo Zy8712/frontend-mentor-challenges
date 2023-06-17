@@ -59,7 +59,9 @@
           <summary> 📝 </summary>
           <ul>
             <br>
-            <li></li>
+            <li>"curtain" mechanic</li>
+            <li>gradient overlay on hover</li>
+            <li>"inset: 0"</li>
           </ul>
         </details>
       </td>
