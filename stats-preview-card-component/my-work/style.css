@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root{
+  /* Primary */
+  --theme-very-dark-blue: hsl(233, 47%, 7%); /* Main Background */
+  --theme-dark-desaturated-blue: hsl(244, 38%, 16%); /* Card Background */
+  --theme-soft-violet: hsl(277, 64%, 61%); /* Accent */
+
+  /* Neutral */
+  --theme-white: hsl(0, 0%, 100%); /* Main heading, stats */
+  --theme-slightly-transparent-white-mainpara: hsla(0, 0%, 100%, 0.75); /* Main Paragraph */
+  --theme-slightly-transparent-white-stathead: hsla(0, 0%, 100%, 0.6); /* Stat Heading */
+
+  --font-theme-inter: "Inter";
+  --font-theme-lexend: "Lexend Deca";
+}
+
+body{
+  background-color: var(--theme-very-dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-content{
+  background-color: var(--theme-dark-desaturated-blue);
+  width: 1152px;
+  height: 446px;
+  display: flex;
+  border-style: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.main-content > div{
+  width: 50%;
+  height: 100%;
+}
+
+.info-div-content{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-right: 120px;
+  margin-left: 70px;
+}
+
+.info-div-content > h1{
+  font-family: var(--font-theme-inter);
+  color: var(--theme-white);
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.info-div-content > h1 > span{
+  color: var(--theme-soft-violet);
+}
+
+.info-div-content > p{
+  color: var(--theme-slightly-transparent-white-mainpara);
+  font-family: var(--font-theme-lexend);
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 15px;
+}
+
+.stats-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.stats-div > div > h2{
+  color: var( --theme-white);
+  font-family: var(--font-theme-inter);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.stats-div > div > p{
+  text-transform: uppercase;
+  color: var(--theme-slightly-transparent-white-stathead);
+  font-family: var(--font-theme-lexend);
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.image-div{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: var(--theme-soft-violet);
+}
+
+/*.image-div > .curtain{
+  background-color: var(--theme-soft-violet);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 90%;
+}*/
+
+
+/* set images src using css */
+/* https://sabe.io/blog/css-set-img-src */
+.main-graphic{
+  width: 100%;
+  height: 100%;
+  content: url("./images/image-header-desktop.jpg");
+  background-color: var(--theme-soft-violet);
+  opacity: 0.6;
+}
+
+
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--theme-white);
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media(max-width: 720px) {
+
+  body{
+    overflow: scroll;
+  }
+
+  .main-content{
+    width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main-content > div{
+    width: 100%;
+  }
+
+  .image-div{
+    height: auto;
+    width: 100%;
+  }
+
+  .info-div{
+    height: auto;
+    width: 100%;
+  }
+
+  .main-graphic{
+    content: url("./images/image-header-mobile.jpg");
+  }
+
+  .info-div-content{
+    text-align: center;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .stats-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+}
