@@ -10,6 +10,36 @@
       <td>Trial #</td>
     </tr>
     <tr>
+      <td>Stats Preview Card Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-GbuSpqg7Vg">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/stats-preview-card-component/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/stats-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jun 16th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>"curtain" mechanic</li>
+            <li>mix-blend-mode</li>
+            <li>content:url()</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>NFT Preview Card Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
