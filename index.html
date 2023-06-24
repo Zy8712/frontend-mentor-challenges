@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Work on Frontend Mentor Challenges</title> <!-- Add Title -->
+  <link rel="icon" type="image/x-icon" href="./frontend-mentor-mywork-directory/main/images/frontend-mentor-logo-transparent.png" /> <!-- Add Browser Icon -->
+
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/aos.css" />
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/line-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-pjI1+7GlPIETBpPtcyldI3H8tq+3gMToXAQ2Mf0eLJJw1mIh35pO/xVL0gRx/pXoIHY3qF1fJg2dOFN1aTQ2VQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<!-- Scrollspy. Automatically update Bootstrap navigation or list group components
+based on scroll position to indicate which link is currently active in the viewport.
+https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
+<body data-bs-spy="scroll" data-target=".navbar">
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top"> <!-- fixed-top ensures that content is not pushed below it -->
+    <div class="container flex-lg-column"> <!-- flex-lg-column changes nav to column format when window is large -->
+
+      <button type="button" id="minimize-navbar-button" class="position-absolute top-0 start-0 d-none d-lg-block">
+        <i class="las la-bars"></i> <!-- Load in three-lines menu icon -->
+      </button>
+
+      <button type="button" id="site-appearance-settings-button" class="position-absolute bottom-0 start-0 d-none d-lg-block">
+        <i class="las la-cog"></i> <!-- Load in gear/settings menu icon -->
+      </button>
+
+      <a class="navbar-brand mx-lg-auto mb-lg-4" href="https://github.com/Zy8712"> <!--mb-lg-4 margin bottom 4 in large window, mx-lg-auto margin left and right auto-->
+        <span class="h3 fw-bold d-block d-lg-none">Frontend Mentor Work</span><!--d-lg-none only shows name when window is small-->
+        <!-- Adjust border of photo. https://getbootstrap.com/docs/4.0/utilities/borders/-->
+        <img src="./main/images/frontend-mentor-logo-transparent.png" class="d-none d-lg-block" id="side_icon" alt="side_pic">
+      </a>
+      <!-- code for dropdown menu when window size is small -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center"> <!-- flex-lg-column changes nav to column format when window is large -->
+
+          <li class="nav-item"> <!-- Nav Bar Item 1 -->
+            <a class="nav-link" href="#home" title="" id="nav-option0">Home</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 2 -->
+            <a class="nav-link" href="#newbie" title="" id="nav-option1">Newbie</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 3 -->
+            <a class="nav-link" href="#junior" title="" id="nav-option2">Junior</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 4 -->
+            <a class="nav-link" href="#intermediate" title="" id="nav-option3">Intermediate</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 5 -->
+            <a class="nav-link" href="#advanced" title="" id="nav-option4">Advanced</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 6 -->
+            <a class="nav-link" href="#guru" title="" id="nav-option5">Guru</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 7 -->
+            <a class="nav-link" href="#links" title="" id="nav-option6">Links</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 8 -->
+            <a class="nav-link" href="#contact" title="" id="nav-option7">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="content-wrapper" class="full-wrapper">
+
+    <button onclick="topFunction()" id="to_top" title="Go back up">
+      <img src="./frontend-mentor-mywork-directory/main/custom/onlinewebfonts_up_arrow.svg">
+    </button>
+
+
+    <section id="home" class="full-height px-lg-5 theme1-background"> <!-- px-lg-5 adds padding to content-->
+      <div class="container"> <!-- use to  style="border: black 3px solid" to see how container works -->
+        <div class="logo-box">
+          <img src="./frontend-mentor-mywork-directory/main/images/frontend-mentor-logo-transparent-fullname.png" alt="logo1">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="newbie" class="full-height px-lg-5">
+
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">"Embarking on the frontend journey, one step at a time"</h6>
+            <h2>Newbie Frontend Mentor Challenges</h2>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="row gy-4">
+
+
+              <div class="col-md-12"  data-aos="fade-up">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./stats-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Stats Preview Card Component</h4>
+                    <p>Completed: June 16th, 2023</p>
+                    <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/stats-preview-card-component/my-work" target="_blank" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                    <a href="./stats-preview-card-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12" data-aos="fade-up">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./product-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Product Preview Card Component</h4>
+                    <p>Completed: June 13th, 2023</p>
+                    <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/product-preview-card-component/my-work" target="_blank" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                    <a href="./product-preview-card-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./results-summary-component/my-work/design/desktop-preview.jpg" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Results Summary Component</h4>
+                    <p>CompletedL: June 11th, 2023</p>
+                      <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/results-summary-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                      <a href="./results-summary-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-custom rounded-4 bg-base shadow-effect">
+                    <div class="card-custom-image rounded-4">
+                      <img class="rounded-4" src="./order-summary-component/my-work/design/desktop-preview.jpg" alt="">
+                    </div>
+                    <div class="card-custom-content p-4">
+                      <h4>Order Summary Component</h4>
+                      <p>Completed: June 9th, 2023</p>
+                        <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/order-summary-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                        <a href="./order-summary-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-custom rounded-4 bg-base shadow-effect">
+                      <div class="card-custom-image rounded-4">
+                        <img class="rounded-4" src="./qr-code-component/my-work/design/desktop-preview.jpg" alt="">
+                      </div>
+                      <div class="card-custom-content p-4">
+                        <h4>QR Code Component</h4>
+                        <p>Completed: June 5th, 2023</p>
+                          <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/qr-code-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                          <a href="./qr-code-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                        </div>
+                      </div>
+                    </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-6">
+            <div class="row gy-4">
+
+              <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./nft-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>NFT Preview Card Component</h4>
+                    <p>Completed: June 14th, 2023</p>
+                      <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/nft-preview-card-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                      <a href="./nft-preview-card-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card-custom rounded-4 bg-base shadow-effect">
+                    <div class="card-custom-image rounded-4">
+                      <img class="rounded-4" src="./3-column-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
+                    </div>
+                    <div class="card-custom-content p-4">
+                      <h4>3 Column Preview Card Component</h4>
+                      <p>Completed: June 12th, 2023</p>
+                        <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                        <a href="./3-column-preview-card-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-custom rounded-4 bg-base shadow-effect">
+                      <div class="card-custom-image rounded-4">
+                        <img class="rounded-4" src="./profile-card-component/my-work/design/desktop-preview.jpg" alt="">
+                      </div>
+                      <div class="card-custom-content p-4">
+                        <h4>Profile Card Component</h4>
+                        <p>Completed: June 10th, 2023</p>
+                          <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/profile-card-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                          <a href="./profile-card-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+                      <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom-image rounded-4">
+                          <img class="rounded-4" src="./interactive-rating-component/my-work/design/desktop-preview.jpg" alt="">
+                        </div>
+                        <div class="card-custom-content p-4">
+                          <h4>Interactive Rating Component</h4>
+                          <p>Completed: June 8th, 2023</p>
+                            <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/interactive-rating-component/my-work" class="link-custom me-5"><i class="lab la-github"></i> GitHub Repository</a>
+                            <a href="./interactive-rating-component/my-work/index.html" class="link-custom"><i class="las la-link"></i> Website Link</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+      </div>
+    </section>
+
+
+    <section id="junior" class="full-height px-lg-5">
+
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">"Embracing the frontend craft with growing confidence"</h6>
+            <h2>Junior Frontend Mentor Challenges</h2>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+
+    <section id="intermediate" class="full-height px-lg-5">
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">"Navigating the frontend maze with steady progress"</h6>
+            <h2>Intermediate Frontend Mentor Challenges</h2>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+    <section id="advanced" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">"Pushing boundaries, unlocking new frontend horizons"</h6>
+            <h2>Advanced Frontend Mentor Challenges</h2>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+
+
+    <section id="guru" class="full-height px-lg-5">
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">"Inspiring awe with frontend mastery and boundless creativity"</h6>
+            <h2>Guru Frontend Mentor Challenges</h2>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+    <section id="links" class="full-height px-lg-5">
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">How to contact me ;)</h6>
+            <h2>Relevant Links</h2>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="full-height px-lg-5 contact-background">
+      <div class="container">
+
+
+
+
+      </div>
+    </section>
+
+
+    <footer class="py-4 px-lg-5 mb-0"> <!-- py-5-->
+      <div class="container mb-0">
+
+        <!-- justify-content-between adds spacing between the credits box and the socials box -->
+        <div class="row gy-4 justify-content-between">
+
+          <div class="col-auto my-site-cred">
+            <p class="mb-0">Full Site Credits: <a href="./alt/index-credits.html" class="fw-bold link-custom">HERE</a></p>
+          </div>
+
+          <div class="col-auto">
+            <div class="social-icons">
+              <a href="https://github.com/Zy8712"><i class="lab la-github"></i></a>
+              <a href="https://www.linkedin.com/in/bryan-li-a15437250/"><i class="lab la-linkedin-in"></i></a>
+              <a href="https://leetcode.com/Zy8712/"><i class="las la-code"></i></a>
+              <a href="#"><i class="lab la-twitter"></i></a>
+              <a href="bryan.li71298@gmail.com"><i class="las la-envelope"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script type="text/javascript" src="./frontend-mentor-mywork-directory/main/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./frontend-mentor-mywork-directory/main/js/aos.js"></script>
+  <script type="text/javascript" src="./frontend-mentor-mywork-directory/main/js/main.js"></script>
+  <script type="text/javascript" src="./frontend-mentor-mywork-directory/main/js/prototype.js"></script>
+</body>
+</html>

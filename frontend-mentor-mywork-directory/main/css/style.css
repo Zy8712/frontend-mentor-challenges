@@ -1,0 +1,365 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root{
+    --color-body: #ffffff; /* white */
+    --color-heading: #eef3db; /* baige */                           /* og */
+    --color-base: #2596be; /* cool blue */
+    --color-base2: #000000;  /* black */
+    --color-brand: #e0f780; /* slightly less bright yellow green */ /* og */
+    --color-brand2: #deff58; /* bright yellow green */              /* og */
+    --color-body-bright: white;
+    --sidebar-width: 220px;
+    --font-base: "Bai Jamjuree";
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Disable side scrolling */
+/* https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll */
+/* !!! This code causes scrollspy to break new code was added to replace this */
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+
+body{
+  background-color: var(--color-base2);
+  color: var(--color-body);
+  font-family: var(--font-base), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-body);
+  transition: all 0.4s ease;
+}
+
+a:hover{
+  color: var(--color-brand);
+}
+
+img{
+  width: 100%;
+}
+
+.text-brand{
+  color: var(--color-brand);
+}
+
+.bg-base{
+  background: var(--color-base);
+  /* color base: #033f47 is the same as (3, 63, 71)*/
+  /*background: rgba(3, 63, 71, 0.5);*/
+}
+
+.bg-base2{
+  background: rgba(7, 152, 171, 0.4);
+}
+
+.full-height{
+  min-height: 100vh;
+  height: 100%;
+  /* center the content of the section */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid rgba(255,255,255, 0.1);
+
+  /* next two lines fixes scrollspy while keeping horizontally overflowing elements hidden */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.logo-box{
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+}
+
+.theme1-background{
+  background-image: url(../images/peakpx-iceberg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.vert-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vert-center > img{
+  opacity: 0.8;
+}
+
+.vert-center > img:hover{
+  opacity: 1;
+}
+
+.shadow-effect{
+  transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+  /*background: rgba(3, 63, 71, 1);*/
+  box-shadow: -6px 6px 0 0 var(--color-brand); /* from the x-axis -6 pixel, from the y-axis*/
+  opacity: 1;
+}
+
+.iconbox{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background-color: rgba(39, 49, 56, 0.7);
+  /* background-color: rgb(7, 152, 171); */
+  /* background-color: var(--color-brand); */
+  color: var(--color-base);
+}
+
+/* NAVBAR */
+
+/* Navbar class when window size is small */
+.navbar{
+  background: linear-gradient(rgba(107,128,204, 0.4), rgba(107,128,204, 0.4)), url(../images/peakpx-iceberg.jpg); /* rgba = rgb + opacity */
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar .nav-link{
+  font-weight: 700;
+  text-transform: uppercase; /* text-transform - used to change everything to uppercase or lowercase*/
+  color: white;
+}
+
+.navbar .nav-link:hover{
+  color: var(--color-brand);
+}
+
+/* changes color of text/link in navbar to active page, e.g. services text highlighted when in services section */
+/* works together with scrollspy in body tag */
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px){ /* if browser window is equal to this or greater than, the following occurs */
+  /* Making the navbar a column with background image and opacity overlaying ontop of background image */
+  .navbar{
+    min-height: 100vh;
+    width: var(--sidebar-width);
+    /* https://www.w3schools.com/colors/colors_picker.asp */
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(../images/peakpx-iceberg.jpg); /* rgba = rgb + opacity */
+    background-size: cover;
+    background-position: left;
+  }
+
+  .navbar2{
+    width: 50px;
+  }
+
+  .navbar-brand2{
+    width: 0%;
+    border-width: 0px;
+    border-style: none;
+    border-color: transparent;
+  }
+
+  .full-wrapper{
+    padding-left: var(--sidebar-width);
+  }
+
+  .content-change-wrapper{
+    padding-left: 50px;
+  }
+}
+
+.btn{
+  padding: 12px 28px;
+  font-weight: 700;
+}
+
+.btn-brand{
+  background-color: var(--color-brand);
+  border-color: var(--color-brand);
+  color: var(--color-base);
+}
+
+.btn-brand:hover,
+.btn-brand:focus{
+  background-color: var(--color-brand2);
+  color: var(--color-base);
+  border-color: var(--color-brand2);
+}
+
+
+.link-custom{
+  font-weight: 700;
+  position: relative;
+}
+
+.link-custom::after{
+  content: "";
+  width: 0%; /* animate the underline */
+  height: 2px;
+  background-color: var(--color-brand);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s; /* animate the underline */
+}
+
+/* animate the underline */
+.link-custom:hover::after{
+  width: 100%;
+}
+
+.translucent-card{
+  opacity: 0.5;
+}
+
+
+/* SETTINGS INCLUSIVE TO PROJECT & BLOG SECTION */
+.card-custom .card-custom-image{
+  overflow: hidden;
+}
+
+.card-custom .card-custom-image img{
+  transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+  transform: scale(1.1);
+}
+
+/* CONTACT */
+#contact .form-control {
+  background-color: var(--color-base);
+  opacity: 0.5;
+  border-color: var(--color-base);
+  color: var(--color-body);
+}
+
+#contact .form-control:focus {
+  border-color: var(--color-brand);
+  box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+  color: var(--color-body);
+}
+
+#contact input.form-control {
+  height: 44px;
+}
+
+.my-site-cred{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SOCIAL ICONS */
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-base);
+  border-radius: 100px;
+  font-size: 24px;
+}
+
+
+
+
+/*/////////////////////////////////////*/
+/*// TOP LEFT MINIMIZE NAVBAR TOGGLE //*/
+/*/////////////////////////////////////*/
+
+#minimize-navbar-button{
+  width: 50px;                 /* width of button attribute is set to 50px */
+  height: 50px;               /* height of button attribute is set to 50px */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;    /* background of button is transparent so it matches thae current navbar background */
+  border-radius: 100px;
+  border-color: transparent;  /* border-color of button is set to transparent so no lines appear around button */
+  font-size: 24px;
+  transition-delay: 0.1s;     /* adds a delay between hovering over the button and the highlighting */
+}
+
+#minimize-navbar-button:hover{
+  border-color: rgba(107, 128, 204, 0.4);     /* border of button changes uppon hover */
+  background-color: rgba(107, 128, 204, 0.4); /* background of button changes upon hover */
+}
+
+/*//////////////////////////////////////*/
+/* BOTTOM LEFT APPEARANCE NAVBAR TOGGLE */
+/*//////////////////////////////////////*/
+
+#site-appearance-settings-button{
+  width: 50px;                 /* width of button attribute is set to 50px */
+  height: 50px;               /* height of button attribute is set to 50px */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;    /* background of button is transparent so it matches thae current navbar background */
+  border-radius: 100px;
+  border-color: transparent;  /* border-color of button is set to transparent so no lines appear around button */
+  font-size: 24px;
+  transition-delay: 0.1s;     /* adds a delay between hovering over the button and the highlighting */
+}
+
+#site-appearance-settings-button:hover{
+  border-color: rgba(166,108,192, 0.4);     /* border of button changes uppon hover */
+  background-color: rgba(166,108,192, 0.4); /* background of button changes upon hover */
+}
+
+
+/*//////////////////////////////////////*/
+/*// BACK TO TOP BUTTON ON MAIN PAGE  //*/
+/*//////////////////////////////////////*/
+
+#to_top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#to_top img{
+  width: 28px; /* set width of image which also affects size of button */
+  height: 28px; /* set height of image which also affects size of button */
+}
+
+#to_top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
