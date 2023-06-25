@@ -32,6 +32,25 @@ body{
   font-family: var(--font-base), sans-serif;
 }
 
+/* Custom scrollbar */
+/* https://css-tricks.com/classy-and-cool-custom-css-scrollbars-a-showcase/ */
+html::-webkit-scrollbar {
+    background-color: #000;
+    width: 12px;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #a520ca), color-stop(1, #2681cc));
+    border-radius: 10px;
+}
+/* end of code for custom scrollbar */
+
 h1, h2, h3, h4, h5, h6{
   color: var(--color-heading);
   font-weight: 700;
@@ -82,10 +101,14 @@ img{
   overflow-x: hidden;
 }
 
+#newbie{
+  overflow: hidden;
+}
+
 
 .logo-box{
   overflow: hidden;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 
@@ -305,6 +328,7 @@ img{
   border-color: transparent;  /* border-color of button is set to transparent so no lines appear around button */
   font-size: 24px;
   transition-delay: 0.1s;     /* adds a delay between hovering over the button and the highlighting */
+  color: white;
 }
 
 #minimize-navbar-button:hover{
@@ -327,6 +351,7 @@ img{
   border-color: transparent;  /* border-color of button is set to transparent so no lines appear around button */
   font-size: 24px;
   transition-delay: 0.1s;     /* adds a delay between hovering over the button and the highlighting */
+  color: white;
 }
 
 #site-appearance-settings-button:hover{

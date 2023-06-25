@@ -32,14 +32,14 @@ window.onscroll = function(){
 
 function changeNavBar(){
   if (navbar_minimized == false){
-    $("nav-option0").innerHTML = "H";
-    $("nav-option1").innerHTML = "I";
-    $("nav-option2").innerHTML = "S";
-    $("nav-option3").innerHTML = "P";
-    $("nav-option4").innerHTML = "A";
-    $("nav-option5").innerHTML = "T";
-    $("nav-option6").innerHTML = "B";
-    $("nav-option7").innerHTML = "C";
+    $("nav-option0").innerHTML = "[H]";
+    $("nav-option1").innerHTML = "[1]";
+    $("nav-option2").innerHTML = "[2]";
+    $("nav-option3").innerHTML = "[3]";
+    $("nav-option4").innerHTML = "[4]";
+    $("nav-option5").innerHTML = "[5]";
+    $("nav-option6").innerHTML = "[L]";
+    $("nav-option7").innerHTML = "[C]";
 
 
     $("nav-option0").title = "Home";
@@ -106,14 +106,14 @@ function checkNavBarText(){
     $("nav-option7").title = "";
   }
   else if (w >= 992 && navbar_minimized == true){
-    $("nav-option0").innerHTML = "H";
-    $("nav-option1").innerHTML = "I";
-    $("nav-option2").innerHTML = "S";
-    $("nav-option3").innerHTML = "P";
-    $("nav-option4").innerHTML = "A";
-    $("nav-option5").innerHTML = "T";
-    $("nav-option6").innerHTML = "B";
-    $("nav-option7").innerHTML = "C";
+    $("nav-option0").innerHTML = "[H]";
+    $("nav-option1").innerHTML = "[1]";
+    $("nav-option2").innerHTML = "[2]";
+    $("nav-option3").innerHTML = "[3]";
+    $("nav-option4").innerHTML = "[4]";
+    $("nav-option5").innerHTML = "[5]";
+    $("nav-option6").innerHTML = "[L]";
+    $("nav-option7").innerHTML = "[C]";
 
     $("nav-option0").title = "Home";
     $("nav-option1").title = "Newbie";
