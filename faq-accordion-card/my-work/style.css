@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+  /* Text */
+  --theme-very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --theme-soft-red: hsl(14, 88%, 65%); /* hover summary color */
+
+  /* Background Gradient */
+  --theme-soft-violet: hsl(273, 75%, 66%);
+  --theme-soft-blue: hsl(240, 73%, 65%);
+
+  /* Text */
+  --theme-very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --theme-dark-grayish-blue: hsl(240, 6%, 50%);
+
+  /* Dividers */
+  --theme-light-grayish-blue: hsl(240, 5%, 91%);
+
+  --font-theme-kumbh: "Kumbh Sans";
+}
+
+body{
+  background-image: linear-gradient(var(--theme-soft-violet), var(--theme-soft-blue));
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centers content when flex-column */
+  align-items: center; /* horizontally centers content when flex-column */
+
+  font-family: var(--font-theme-kumbh);
+}
+
+.main-content{
+  width: 920px;
+  height: 520px;
+  background-color: white;
+  display: flex;
+  border-style: none;
+  border-radius: 20px;
+  /* when given the overflow: hidden property it also affects all of its descendants */
+  /* the .main-image-box gets hidden despite it being a direct descendant of .image-div */
+  /* .image-div having the property of overflow: visible or not having overflow: hidden does not fix the hidden box problem*/
+}
+
+.image-div{
+  background-image: url("./images/bg-pattern-desktop.svg");
+  /* distance from the center horizontally, distance from the center vertically */
+  background-position: -580px -300px;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  /* the postion relative property affects not only the div itself but also its descendants*/
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.main-image-container-desktop{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+}
+
+.main-image{
+  width: 500px;
+  position: relative;
+  top: 10%;
+  right: 18%;
+  z-index: 2;
+}
+
+.main-image-box{
+  position: absolute;
+  /* having a z-index ensures that the item in question stays above the other items */
+  /* without z-index we'd have to worry about the ordering of the items in the html file */
+  /* without z-index assiedn to .main-image-box, .main-image-container-desktop, main-image*/
+  /* e.g. .main-image-box listed before .main-image-container-desktop leads to .main-image-box being covered by its sibling */
+  z-index: 100;
+  /* postion x% from the top of the direct ancestor if the ancestor has position: relative */
+  /* if ancestor doesn't have position: relative it will be x% from the body */
+  /* postion x% from the right as well */
+  top: 35%;
+  right: 85%;
+}
+
+.main-image-mobile{
+  display: none;
+}
+
+.faq-div{
+  width: 50%;
+  height: 100%;
+}
+
+.faq-div-contents{
+  margin: 80px 90px 0px 30px; /* top right bottom left */
+}
+
+.faq-div-contents > h1{
+  margin-bottom: 35px;
+  color: var(--theme-very-dark-desaturated-blu);
+}
+
+hr{
+  border-top: 1px solid var(--theme-light-grayish-blue); /* change color of hr */
+}
+
+details{
+  font-size: 12px;
+}
+
+
+.custom-details summary {
+  list-style-type: none; /* Hide default marker */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  color: var(--theme-very-dark-grayish-blue);
+}
+
+.custom-details summary::-webkit-details-marker {
+  display: none; /* Hide WebKit default arrow */
+}
+
+.custom-details summary:hover{
+  color: var(--theme-soft-red);
+  cursor: pointer;
+}
+
+.custom-details details[open] summary {
+  /* Font weight when details is open */
+  font-weight: 700;
+}
+
+.custom-arrow-icon{
+  /* Set the SVG image as the background */
+  background-image: url("./images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* Set the width and height of the SVG */
+  width: 15px;
+  height: 8px;
+  display: inline-block;
+  /* Add any additional styling as needed */
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+  margin-right: 10px;
+
+}
+
+.custom-details summary .toggle {
+  display: none; /* Hide the checkbox input */
+}
+
+.custom-details summary .toggle:checked + .custom-arrow-icon {
+  transform: rotate(180deg); /* Rotate the icon 180 degrees when checked */
+}
+
+.custom-details > p{
+  color: var(--theme-dark-grayish-blue);
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution a{
+  color: white;
+}
+
+@media (max-width: 720px){
+  body{
+    overflow-y: scroll;
+  }
+
+  .main-content{
+    width: 360px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-div{
+    background-image: url("./images/bg-pattern-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 100%;
+    height: 30%;
+  }
+
+  .main-image-container-desktop{
+    display: none;
+  }
+
+  .main-image-box{
+    display: none;
+  }
+
+  .main-image-mobile{
+    display: block;
+    width: 300px;
+    position: relative;
+    top: -60%;
+    right: -8%;
+    z-index: 2;
+  }
+
+  .faq-div{
+    width: 100%;
+    height: 70%;
+  }
+
+  .faq-div-contents{
+    margin: 30px 30px 30px 30px; /* top right bottom left */
+  }
+
+  .faq-div-contents > h1{
+    margin-bottom: 35px;
+    margin-top: -20px;
+    text-align: center;
+  }
+}
