@@ -34,7 +34,8 @@ body{
 
 .main-content{
   width: 920px;
-  height: 520px;
+  /* set min-height to this so that if elements inside needs extra space it'll expand in height as needed */
+  min-height: 520px;
   background-color: white;
   display: flex;
   border-style: none;
@@ -113,7 +114,7 @@ details{
 }
 
 
-.custom-details summary {
+.custom-details summary{
   list-style-type: none; /* Hide default marker */
   display: flex;
   justify-content: space-between;
@@ -135,9 +136,15 @@ details{
   cursor: pointer;
 }
 
-.custom-details details[open] summary {
+.custom-details[open] summary{
   /* Font weight when details is open */
   font-weight: 700;
+}
+
+.custom-details[open] summary .custom-arrow-icon{
+  /* rotates icon */
+  /* 180deg = clockwise rotation, -180deg = anti-clockwise */
+  transform: rotate(-180deg);
 }
 
 .custom-arrow-icon{
@@ -153,14 +160,6 @@ details{
   transition: transform 0.3s ease; /* Add a transition for smooth animation */
   margin-right: 10px;
 
-}
-
-.custom-details summary .toggle {
-  display: none; /* Hide the checkbox input */
-}
-
-.custom-details summary .toggle:checked + .custom-arrow-icon {
-  transform: rotate(180deg); /* Rotate the icon 180 degrees when checked */
 }
 
 .custom-details > p{
@@ -184,7 +183,7 @@ details{
 
   .main-content{
     width: 360px;
-    height: 620px;
+    min-height: 620px;
     display: flex;
     flex-direction: column;
   }
@@ -195,7 +194,7 @@ details{
     background-repeat: no-repeat;
     background-size: 300px;
     width: 100%;
-    height: 30%;
+    height: 35%;
   }
 
   .main-image-container-desktop{
@@ -217,7 +216,7 @@ details{
 
   .faq-div{
     width: 100%;
-    height: 70%;
+    height: 65%;
   }
 
   .faq-div-contents{
