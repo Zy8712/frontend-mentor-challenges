@@ -12,6 +12,37 @@
       <td>Trial #</td>
     </tr>
     <tr>
+      <td>Faq Accordion Card</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/faq-accordion-card-pure-html-and-css-no-js-x32Gj2HTI0">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/faq-accordion-card/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/faq-accordion-card/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jun 30th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>transform:rotate(-180deg)</li>
+            <li>min-height</li>
+            <li>summary::-webkit-details-marker</li>
+            <li>[open]</li>li
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>Stats Preview Card Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -24,7 +55,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-GbuSpqg7Vg">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/stats-preview-card-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/stats-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/stats-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 16th, 2023</td>
@@ -54,7 +85,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/nft-preview-card-component-ZoPootN-vz">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/nft-preview-card-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/nft-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/nft-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 14th, 2023</td>
@@ -84,7 +115,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/product-preview-card-component-XUeCFaM_c7">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/product-preview-card-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/product-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/product-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 13th, 2023</td>
@@ -112,7 +143,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/3-colum-preview-card-component-bx04fR0CV3">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/3-column-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 12th, 2023</td>
@@ -140,7 +171,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/results-summary-component-ei-KIkDlH6">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/results-summary-component">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/results-summary-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/results-summary-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 11th, 2023</td>
@@ -178,7 +209,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/profile-card-component-xUxpY2QYRd">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/profile-card-component">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-challenges/blob/main/profile-card-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/profile-card-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 10th, 2023</td>
@@ -216,7 +247,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/order-summary-component-WE31xQiACv">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/order-summary-component">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-practice/blob/main/order-summary-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/order-summary-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 9th, 2023</td>
@@ -255,7 +286,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/interactive-rating-component-rtYk-cl4oF">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/interactive-rating-component">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-practice/blob/main/interactive-rating-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/interactive-rating-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 8th, 2023</td>
@@ -291,7 +322,7 @@
           <p><a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">💾 Challenge</a></p>
           <p><a href="https://www.frontendmentor.io/solutions/qr-code-component--5WXBrWYG6">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/qr-code-component">👨‍💻 My_Code</a></p>
-          <p><a href="https://htmlpreview.github.io/?https://github.com/Zy8712/frontend-mentor-practice/blob/main/qr-code-component/my-work/index.html">🖥️ Preview</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/qr-code-component/my-work/index.html">🖥️ Preview</a></p>
         </details>
       </td>
       <td>Jun 5th, 2023</td>
@@ -312,12 +343,3 @@
       <td>#1</td>
     </tr>
 </table>
-
-
-  
-
-  
-
-  
-
-
