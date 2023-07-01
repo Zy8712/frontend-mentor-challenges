@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  /* Primary */
+  --theme-tomato: hsl(4, 100%, 67%);
+
+  /* Neutral */
+  --theme-dark-slate-grey: hsl(234, 29%, 20%);
+  --theme-charcoal-grey: hsl(235, 18%, 26%);
+  --theme-grey: hsl(231, 7%, 60%);
+  --theme-white: hsl(0, 0%, 100%);
+
+  --font-theme-roboto: "Roboto";
+
+  --custom-red: rgba(238,77,110,255);
+  --custom-orange: rgba(255,106,58,255);
+}
+
+body{
+  background-color: var(--theme-charcoal-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-theme-roboto);
+}
+
+
+/************************************/
+
+#signup-div{
+  width: 890px;
+  height: 600px;
+  background-color: var(--theme-white);
+  border-style: none;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-div{
+  width: 50%;
+  height: 100%;
+}
+
+p{
+  font-size: 16px;
+}
+
+.info-div-content{
+  margin-left: 60px;
+  margin-top: 80px;
+  margin-right: 20px;
+}
+
+.info-div-content > h1{
+  font-size: 55px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.statement{
+  margin-bottom: 25px;
+}
+
+.checklist{
+  display: flex;
+  align-items: center; /* vertically aligns items */
+}
+
+.checklist > img{
+  margin-right: 15px;
+}
+
+.info-div-content > h6{
+  margin-top: 40px;
+  margin-bottom: 1px;
+}
+
+
+#emailError{
+  display: none;
+  color: var(--theme-tomato);
+  margin-left: 54%;
+}
+
+.email-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+input[type="email"]{
+  width: 100%;
+  height: 50px;
+  padding-left: 25px;
+  color: var(--theme-grey);
+  border-radius: 6px;
+  border-color: var(--theme-grey);
+  border-width: 1px;
+}
+
+input[type="email"]:hover{
+  cursor: pointer;
+}
+
+#subscribeButton{
+  width: 100%;
+  height: 50px;
+  color: var(--theme-white);
+  font-weight: 700;
+  border-style: none;
+  border-radius: 5px;
+  background-color: var(--theme-dark-slate-grey);
+}
+
+#subscribeButton:hover{
+  /* https://www.w3schools.com/css/css3_gradients.asp#:~:text=If%20you%20want%20more%20control,equivalent%20to%20%22to%20right%22. */
+  background-image: linear-gradient(to right, var(--custom-red), var(--custom-orange));
+  cursor: pointer;
+}
+
+.image-div{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.image-div > img{
+  content: url("./assets/images/illustration-sign-up-desktop.svg");
+  height: 92%;
+  margin: 25px;
+}
+
+/****************************************/
+
+#success-div{
+  display: none;
+  width: 420px;
+  height: 420px;
+  background-color: var(--theme-white);
+  border-style: none;
+  border-radius: 28px;
+}
+
+.success-div-content{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.success-div-content img{
+  width: 52px;
+  height: 52px;
+}
+
+.success-div-content > h1{
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.success-div-content > p{
+  font-size: 14px;
+}
+
+.confirmMessage{
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.confirmMessage > span{
+  font-weight: 700;
+}
+
+#dismissButton{
+  width: 100%;
+  height: 45px;
+  color: var(--theme-white);
+  font-weight: 700;
+  border-style: none;
+  border-radius: 5px;
+  background-color: var(--theme-dark-slate-grey);
+}
+
+#dismissButton:hover{
+  /* https://www.w3schools.com/css/css3_gradients.asp#:~:text=If%20you%20want%20more%20control,equivalent%20to%20%22to%20right%22. */
+  background-image: linear-gradient(to right, var(--custom-red), var(--custom-orange));
+  cursor: pointer;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--theme-white);
+}
+
+.attribution a{
+  /*color: hsl(228, 45%, 44%);*/
+  color: var(--theme-tomato);
+}
+
+@media (max-width: 890px){
+  body{
+    /* https://stackoverflow.com/questions/71238213/overflow-x-scroll-cuts-left-side-of-the-component */
+    /* https://stackoverflow.com/questions/60945205/css-overflow-x-scroll-cuts-off-beginning-of-div */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* prevents items from being cut off on the left side of div */
+    overflow-x: scroll; /* enables horizontal scrollbar */
+  }
+
+  .attribution{
+    width: 890px;
+  }
+}
+
+@media (max-width: 420px){
+  body{
+    background-color: var(--theme-white);
+    display: block;
+    max-height: 100vh;
+    overflow: hidden;
+    font-family: var(--font-theme-roboto);
+    overflow-x: hidden;
+  }
+
+  .image-div{
+    width: 100%;
+    height: 40%;
+  }
+
+  .image-div > img{
+    content: url("./assets/images/illustration-sign-up-mobile.svg");
+    height: 100%;
+    margin: 0px;
+  }
+
+  #signup-div{
+    width: 100%;
+    height: 100%;
+    background-color: var(--theme-white);
+    border-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .info-div{
+    width: 100%;
+    height: 60%;
+  }
+
+  .info-div-content{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+  .info-div-content > h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .info-div-content > h6{
+    margin-top: 40px;
+    margin-bottom: 1px;
+  }
+
+  #emailError{
+    display: none;
+    color: var(--theme-tomato);
+    margin-left: 45%;
+  }
+
+  .attribution{
+    display: none;
+  }
+
+  #success-div{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: var(--theme-white);
+  }
+
+  .success-div-content{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 150px;
+  }
+
+  .success-div-content > h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .confirmMessage{
+    line-height: 22px;
+    margin-bottom: 350px;
+  }
+
+}
