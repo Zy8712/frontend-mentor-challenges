@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+:root{
+  --theme-very-dark-grayish-blue: hsl(217, 19%, 35%); /* header, name */
+  --theme-desaturated-dark-blue: hsl(214, 17%, 51%); /* paragraph */
+  --theme-grayish-blue: hsl(212, 23%, 69%); /* date */
+  --theme-light-grayish-blue: hsl(210, 46%, 95%); /* background, button background */
+
+  --font-theme-manrope: "Manrope";
+}
+
+body{
+  background-color: var(--theme-light-grayish-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-theme-manrope);
+}
+
+.main-content{
+  width: 720px;
+  background-color: white;
+  display: flex;
+  flex-direction: row; /* default value so not needed but added for readability*/
+  border-style: none;
+  border-radius: 10px;
+  box-shadow:  0 10px 30px hsla(0, 0%, 0%, 20%);
+  z-index: 1;
+}
+
+.image-div{
+  width: 40%;
+  height: 100%;
+  overflow: hidden; /* hides the extra 22% image width */
+}
+
+.image-div > img{
+  width: 122%; /* cuts out right side of image, combined with overflow to hide it */
+  height: 100%;
+  border-radius: 10px;
+}
+
+.info-div{
+  width: 60%;
+  height: 100%;
+}
+
+.info-div-content{
+  margin-left: 35px;
+  margin-right: 30px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.info-div-content > h3{
+  color: var(--theme-very-dark-grayish-blue);
+  margin-right: 15px;
+}
+
+.info-div-content > p{
+  font-size: 13px;
+  color: var(--theme-desaturated-dark-blue);
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.profile-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.avatar-div{
+  margin-right: 15px;
+}
+
+.avatar-div > img{
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  border-radius: 100px;
+}
+
+.profile-div > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.other-div > p:first-child{
+  font-size: 13px;
+  color: var(--theme-very-dark-grayish-blue);
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.other-div > p:last-child{
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--theme-grayish-blue);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.avatar-div-mobile{
+  margin-right: 15px;
+}
+
+.avatar-div-mobile > img{
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  border-radius: 100px;
+}
+
+.other-div-mobile > p:first-child{
+  font-size: 13px;
+  color: var(--theme-very-dark-grayish-blue);
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.other-div-mobile > p:last-child{
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--theme-grayish-blue);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.share-div{
+  margin-left: 155px;
+  position: relative;
+}
+
+/* https://stackoverflow.com/questions/67983001/how-to-position-a-popup-beside-the-button-that-triggered-it-with-css-and-javascript*/
+.share-socials{
+  z-index: 10000;
+  position: absolute;
+  background-color: var(--theme-very-dark-grayish-blue);
+  width: 240px;
+  border-radius: 8px;
+  right: -93px;
+  top: 50%;
+  box-shadow:  0 10px 30px hsla(0, 0%, 0%, 20%);
+  display: none;
+}
+
+.social-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.social-items > img:hover{
+  cursor: pointer;
+}
+
+.share-socials > div > p{
+  color: var(--theme-grayish-blue);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 6px;
+}
+
+/* Mobile socials popup */
+
+#profile-stuff-mobile{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  margin-bottom: 0px;
+  border-style: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+#share-popup-mobile{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-items-mobile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.social-items-mobile > img:hover{
+  cursor: pointer;
+}
+
+#share-popup-mobile > p{
+  color: var(--theme-grayish-blue);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 6px;
+}
+
+#share-popup-mobile > img{
+  margin-left: 15px;
+}
+
+.social-items-mobile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.social-items-mobile > img:hover{
+  cursor: pointer;
+}
+
+
+.share-div-mobile{
+  margin-left: 120px;
+  position: relative;
+}
+
+.share-div-mobile > button{
+  border-style: none;
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  color: var(--theme-very-dark-grayish-blue);
+  background-color: var(--theme-light-grayish-blue);
+}
+
+.share-div-mobile > button:hover{
+  cursor: pointer;
+}
+
+/* https://stackoverflow.com/questions/7073484/how-do-css-triangles-work */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path */
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid var(--theme-very-dark-grayish-blue);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.share-div > button{
+  border-style: none;
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  color: var(--theme-very-dark-grayish-blue);
+  background-color: var(--theme-light-grayish-blue);
+}
+
+.share-div > button:hover{
+  cursor: pointer;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 620px){
+  .main-content{
+    width: 400px;
+    height: 625px;
+    flex-direction: column; /* default value so not needed but added for readability*/
+  }
+
+  .image-div{
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+  }
+
+  .image-div > img{
+    width: 100%; /* cuts out right side of image, combined with overflow to hide it */
+    height: 120%;
+  }
+
+  .info-div{
+    width: 100%;
+    height: 60%;
+  }
+
+  .info-div-content{
+    margin-left: 45px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .info-div-content > h3{
+    margin-right: 10px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  .info-div-content > p{
+    font-size: 16px;
+  }
+
+  .profile-div{
+    margin-top: 35px;
+  }
+
+  .share-div{
+    margin-left: 110px;
+    position: relative;
+  }
+
+  #profile-stuff-desktop{
+    display: none;
+  }
+
+  #profile-stuff-mobile{
+    display: flex;
+  }
+
+  #share-div-mobile-id{
+  }
+
+
+}
