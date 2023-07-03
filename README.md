@@ -12,6 +12,93 @@
       <td>Trial #</td>
     </tr>
     <tr>
+      <td>Testimonials Grid Section</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-qowee5U_uf">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/testimonials-grid-section/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/testimonials-grid-section/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 3rd, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>css-grid</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>Article Preview Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/article-preview-component-8AC3WxuhNz">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/article-preview-component/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/article-preview-component/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 1st, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>triangle-shape-made-using-border</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+     <tr>
+      <td>Newsletter Sign-up Form With Success Message</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-_1HqFFvXBf">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/newsletter-sign-up-with-success-message/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/newsletter-sign-up-with-success-message/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 1st, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>linear-gradient(to right,,)</li>
+            <li>email-regex</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>Faq Accordion Card</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -36,7 +123,7 @@
             <li>transform:rotate(-180deg)</li>
             <li>min-height</li>
             <li>summary::-webkit-details-marker</li>
-            <li>[open]</li>li
+            <li>[open]</li>
           </ul>
         </details>
       </td>
