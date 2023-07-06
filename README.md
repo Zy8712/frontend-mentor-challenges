@@ -1,15 +1,15 @@
 # frontend-mentor-challenges
 
-<h2>View Custom Directory <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/">Here</a></h2>
+<h2>View Custom Directory <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/"><ins>Here</ins></a></h2>
 
 <table>
     <tr>
       <td>Project Name</td>
       <td>Languages/Frameworks</td>
-      <td>Links 🔗</td>
+      <td>Links</td>
       <td>Date Completed</td>
-      <td>Takeaways</td>
-      <td>Trial #</td>
+      <td>Learned</td>
+      <td>Trial#</td>
     </tr>
     <tr>
       <td>Testimonials Grid Section</td>
@@ -124,6 +124,7 @@
             <li>min-height</li>
             <li>summary::-webkit-details-marker</li>
             <li>[open]</li>
+            <li>customizing details & summary</li>
           </ul>
         </details>
       </td>
