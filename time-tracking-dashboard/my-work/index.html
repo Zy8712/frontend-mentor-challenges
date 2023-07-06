@@ -1,0 +1,179 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<title>Frontend Mentor | Time tracking dashboard</title>
+
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="grid-container">
+
+    <div class="grid-box-1">
+      <div class="profile-box">
+        <img src="./images/image-jeremy.png" alt="profile_icon">
+        <div class="profile-box-text">
+          <h4>Report for</h4>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div id="option-select-box">
+        <p id="option-select-daily">Daily</p>
+        <p id="option-select-weekly">Weekly</p>
+        <p id="option-select-monthly">Monthly</p>
+      </div>
+    </div>
+
+    <div class="grid-box-2">
+      <div class="inner-box">
+        <div class="inner-box-content">
+          <div class="category">
+            <h3>Work</h3>
+            <img src="./images/icon-ellipsis.svg" alt="options">
+          </div>
+          <div id="daily-1" class="visible">
+            <h1>5hrs</h1> <!-- daily -->
+            <p>Yesterday - 7hrs</p> <!-- daily -->
+          </div>
+          <div id="weekly-1" class="hidden">
+            <h1>32hrs</h1> <!-- weekly -->
+            <p>Last Week - 36hrs</p> <!-- weekly -->
+          </div>
+          <div id="monthly-1" class="hidden">
+            <h1>103hrs</h1> <!-- monthly -->
+            <p>Last Month - 128hrs</p> <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-box-3">
+      <div class="inner-box">
+        <div class="inner-box-content">
+          <div class="category">
+            <h3>Play</h3>
+            <img src="./images/icon-ellipsis.svg" alt="options">
+          </div>
+          <div id="daily-2" class="visible">
+            <h1>1hr</h1> <!-- daily -->
+            <p>Yesterday - 2hrs</p> <!-- daily -->
+          </div>
+          <div id="weekly-2" class="hidden">
+            <h1>10hrs</h1> <!-- weekly -->
+            <p>Last Week - 8hrs</p> <!-- weekly -->
+          </div>
+          <div id="monthly-2" class="hidden">
+            <h1>23hrs</h1> <!-- monthly -->
+            <p>Last Month - 29hrs</p> <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-box-4">
+      <div class="inner-box">
+        <div class="inner-box-content">
+          <div class="category">
+            <h3>Study</h3>
+            <img src="./images/icon-ellipsis.svg" alt="options">
+          </div>
+          <div id="daily-3" class="visible">
+            <h1>0hrs</h1> <!-- daily -->
+            <p>Yesterday - 1hr</p> <!-- daily -->
+          </div>
+          <div id="weekly-3" class="hidden">
+            <h1>4hrs</h1> <!-- weekly -->
+            <p>Last Week - 7hrs</p> <!-- weekly -->
+          </div>
+          <div id="monthly-3" class="hidden">
+            <h1>13hrs</h1> <!-- monthly -->
+            <p>Last Month - 19hrs</p> <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-box-5">
+      <div class="inner-box">
+        <div class="inner-box-content">
+          <div class="category">
+            <h3>Exercise</h3>
+            <img src="./images/icon-ellipsis.svg" alt="options">
+          </div>
+          <div id="daily-4" class="visible">
+            <h1>1hr</h1> <!-- daily -->
+            <p>Yesterday - 1hr</p> <!-- daily -->
+          </div>
+          <div id="weekly-4" class="hidden">
+            <h1>4hrs</h1> <!-- weekly -->
+            <p>Last Week - 5hrs</p> <!-- weekly -->
+          </div>
+          <div id="monthly-4" class="hidden">
+            <h1>11hrs</h1> <!-- monthly -->
+            <p>Last Month - 18hrs</p> <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-box-6">
+      <div class="inner-box">
+        <div class="inner-box-content">
+          <div class="category">
+            <h3>Social</h3>
+            <img src="./images/icon-ellipsis.svg" alt="options">
+          </div>
+          <div id="daily-5" class="visible">
+            <h1>1hr</h1> <!-- daily -->
+            <p>Yesterday - 3hrs</p></p> <!-- daily -->
+          </div>
+          <div id="weekly-5" class="hidden">
+            <h1>5hrs</h1> <!-- weekly -->
+            <p>Last Week - 10hrs</p> <!-- weekly -->
+          </div>
+          <div id="monthly-5" class="hidden">
+            <h1>21hrs</h1> <!-- monthly -->
+            <p>Last Month - 23hrs</p> <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-box-7">
+      <div class="inner-box">
+        <div class="inner-box-content">
+          <div class="category">
+            <h3>Self Care</h3>
+            <img src="./images/icon-ellipsis.svg" alt="options">
+          </div>
+          <div id="daily-6" class="visible">
+            <h1>0hrs</h1> <!-- daily -->
+            <p>Yesterday - 1hr</p> <!-- daily -->
+          </div>
+          <div id="weekly-6" class="hidden">
+            <h1>2hrs</h1> <!-- weekly -->
+            <p>Last Week - 2hrs</p> <!-- weekly -->
+          </div>
+          <div id="monthly-6" class="hidden">
+            <h1>7hrs</h1> <!-- monthly -->
+            <p>Last Month - 11hrs</p> <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bryan Li</a>.
+  </div>
+
+  <script src="./script.js" type="text/javascript"></script>
+</body>
+</html> -->

@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root{
+  /* Primary */
+  --theme-blue: hsl(246, 80%, 60%); /* Profile Box*/
+
+  --theme-light-red1: hsl(15, 100%, 70%); /* Work */
+  --theme-soft-blue: hsl(195, 74%, 62%); /* Play */
+  --theme-light-red2: hsl(348, 100%, 68%); /* Study */
+  --theme-lime-green: hsl(145, 58%, 55%); /* Exercise */
+  --theme-violet: hsl(264, 64%, 52%); /* Social */
+  --theme-soft-orange: hsl(43, 84%, 65%); /* Self-Care */
+
+  /* Neutal */
+  --theme-very-dark-blue: hsl(226, 43%, 10%); /* Background */
+  --theme-dark-blue: hsl(235, 46%, 20%); /* Grid Boxes */
+  --theme-desaturated-blue: hsl(235, 45%, 61%); /* Unselected Option Text */
+  --theme-pale-blue: hsl(236, 100%, 87%); /* Option Text Hover */
+
+  --custom-white: white;
+  --custom-white-2: rgba(255, 255, 255, 0.6);
+
+  --font-theme-rubik: "Rubik";
+
+  --site-grid-box-border-radius: 12px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--theme-very-dark-blue);
+  font-family: var(--font-theme-rubik);
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+/* https://css-tricks.com/classy-and-cool-custom-css-scrollbars-a-showcase/ */
+html::-webkit-scrollbar {
+    background-color: #000;
+    width: 12px;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #a520ca), color-stop(1, #2681cc));
+    border-radius: 10px;
+}
+/* end of code for custom scrollbar */
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  grid-auto-rows: 260px;
+  grid-gap: 28px;
+}
+
+.grid-container > div{
+  border-style: none;
+  border-radius: var(--site-grid-box-border-radius);
+}
+
+/* */
+
+.grid-box-1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: var(--theme-dark-blue);
+}
+
+.profile-box{
+  border-style: none;
+  border-radius: var(--site-grid-box-border-radius);
+  height: 60%;
+  background-color: var(--theme-blue);
+  padding: 30px;
+}
+
+.profile-box > img{
+  width: 80px;
+  border-style: solid;
+  border-color: var(--custom-white);
+  border-width: 3px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.profile-box h4, .profile-box h1{
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.profile-box h4{
+  color: var(--theme-pale-blue);
+  font-weight: 400;
+}
+
+.profile-box h1{
+  color: var(--custom-white);
+  font-weight: 300;
+  font-size: 40px;
+}
+
+#option-select-box{
+  padding-top: 20px;
+  padding-left: 30px;
+  color: var(--theme-desaturated-blue);
+}
+
+#option-select-daily{
+  color: var(--custom-white);
+}
+
+#option-select-daily:hover, #option-select-weekly:hover, #option-select-monthly:hover{
+  /* https://stackoverflow.com/questions/40734464/javascript-backgroundcolor-does-remove-css-hover */
+  color: var(--theme-pale-blue) !important;
+  cursor: pointer !important;
+}
+
+.grid-box-2{
+  background-color: var(--theme-light-red1);
+  background-image: url("./images/icon-work.svg");
+  background-repeat: no-repeat;
+  /* background postion -10 from the top 20 from the right */
+  background-position: top -10px right 20px;
+}
+
+.grid-box-3{
+  background-color: var(--theme-soft-blue);
+  background-image: url("./images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: top -5px right 20px;
+}
+
+.grid-box-4{
+  background-color: var(--theme-light-red2);
+  background-image: url("./images/icon-study.svg");
+  background-repeat: no-repeat;
+  background-position: top -5px right 20px;
+}
+
+.grid-box-5{
+  background-color: var(--theme-lime-green);
+  background-image: url("./images/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-position: top 0px right 20px;
+}
+
+.grid-box-6{
+  background-color: var(--theme-violet);
+  background-image: url("./images/icon-social.svg");
+  background-repeat: no-repeat;
+  background-position: top -10px right 20px;
+}
+
+.grid-box-7{
+  background-color: var(--theme-soft-orange);
+  background-image: url("./images/icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-position: top 0px right 20px;
+}
+
+.grid-box-2, .grid-box-3, .grid-box-4, .grid-box-5, .grid-box-6, .grid-box-7{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.inner-box{
+  background-color: var(--theme-dark-blue);
+  height: 80%;
+  border-style: none;
+  border-radius: var(--site-grid-box-border-radius);
+}
+
+.inner-box:hover{
+  background-color: var(--theme-desaturated-blue);
+  cursor: pointer;
+}
+
+.inner-box-content{
+  padding: 30px;
+}
+
+div.category{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+div.category > h3{
+  margin: 0px;
+  color: var(--custom-white);
+  font-weight: 400;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
+.visible > h1{
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  color: var(--custom-white);
+}
+
+.visible > p{
+  color: var(--custom-white-2);
+  font-size: 14px;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 921px) and (max-width: 1040px){
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-auto-rows: 220px;
+    grid-gap: 22px;
+  }
+
+  #option-select-box{
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+
+  .inner-box-content{
+    padding: 20px;
+  }
+
+  div.category{
+    margin-bottom: 0px;
+  }
+
+  .visible > p{
+    margin-top: 8px;
+  }
+}
+
+
+@media (max-width: 920px){
+  body{
+    overflow-y: scroll;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 220px);
+    grid-auto-rows: 220px;
+    grid-gap: 20px;
+  }
+
+  .grid-box-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .profile-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .profile-box > img{
+    margin-bottom: 0px;
+  }
+
+  .profile-box-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+  }
+
+  .profile-box h4, .profile-box h1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .profile-box-text > h1{
+    font-size: 30px;
+  }
+
+  #option-select-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .grid-box-2, .grid-box-3, .grid-box-4, .grid-box-5, .grid-box-6, .grid-box-7{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .visible{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .visible > p{
+    margin-top: 0px;
+  }
+
+}
