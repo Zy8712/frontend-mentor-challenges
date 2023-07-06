@@ -101,7 +101,7 @@ img{
   overflow-x: hidden;
 }
 
-#newbie{
+#newbie, #junior, #intermediate, #advanced, #guru{
   overflow: hidden;
 }
 
@@ -388,3 +388,214 @@ img{
 #to_top:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+.card-links-mentor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/***************************/
+
+.fzRyZz {
+    border: 1px solid rgb(106, 190, 205);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.fzRyZz .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.GMmqe {
+    background-color: rgb(106, 190, 205);
+    color: rgb(255, 255, 255);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+}
+.fzRyZz .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.iwoLXp {
+    background-color: transparent;
+    color: rgb(106, 190, 205);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+/**************************/
+
+.bLiSTN {
+    border: 1px solid rgb(170, 215, 66);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bLiSTN .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.kIqvgs {
+    background-color: rgb(170, 215, 66);
+    color: rgb(255, 255, 255);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.bLiSTN .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.dBQvhX {
+    background-color: transparent;
+    color: rgb(170, 215, 66);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+/***************************************/
+
+.fJyEgm {
+    border: 1px solid rgb(241, 182, 4);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.fJyEgm .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.bGFySL {
+    background-color: rgb(241, 182, 4);
+    color: rgb(255, 255, 255);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.fJyEgm .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.djkAXo {
+    background-color: transparent;
+    color: rgb(241, 182, 4);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+/***************************************/
+
+.igElrH {
+    border: 1px solid rgb(244, 137, 37);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.igElrH .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.jyfuIS {
+    background-color: rgb(244, 137, 37);
+    color: rgb(255, 255, 255);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.igElrH .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.kfRURh {
+    background-color: transparent;
+    color: rgb(244, 137, 37);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+
+/**************************************/
+
+.cHSMVW {
+    border: 1px solid rgb(237, 44, 73);
+    border-radius: 0.5rem;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cHSMVW .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.cuXWXz {
+    background-color: rgb(237, 44, 73);
+    color: rgb(255, 255, 255);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.cHSMVW .Text__Wrapper-sc-zbm6r7-0 {
+    padding: 0rem 0.75rem;
+}
+
+.icsAAY {
+    background-color: transparent;
+    color: rgb(237, 44, 73);
+    font-family: Barlow, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+
+
+/*************************************/
