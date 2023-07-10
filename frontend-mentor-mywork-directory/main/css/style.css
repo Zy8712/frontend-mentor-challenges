@@ -105,6 +105,18 @@ img{
   overflow: hidden;
 }
 
+#newbie, #intermediate, #guru, #contact{
+  background-image: url("../images/peakpx-iceberg_cleanup_enhanced_cropped_copy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#junior, #advanced, #links, footer{
+  background-image: url("../images/peakpx-iceberg_cleanup_enhanced_cropped.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 
 .logo-box{
   overflow: hidden;
@@ -302,6 +314,17 @@ img{
 .social-icons a {
   width: 40px;
   height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-base);
+  border-radius: 100px;
+  font-size: 24px;
+}
+
+#leetcode_icon, #frontendmentor_icon{
+  width: 20px;
+  height: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
