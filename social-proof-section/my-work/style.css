@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+  /* Primary */
+  --theme-very-dark-magenta: hsl(300, 43%, 22%);
+  --theme-soft-pink: hsl(333, 80%, 67%);
+
+  /* Neutral */
+  --theme-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --theme-light-grayish-magenta: hsl(300, 24%, 96%);
+  --theme-white: hsl(0, 0%, 100%);
+
+  --font-theme-spartan: "League Spartan";
+}
+
+body{
+  background-color: var(--theme-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  overflow: hidden;
+
+  font-family: var(--font-theme-spartan);
+
+  background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 0px left 0px, bottom 0px right 0px;
+}
+
+.container{
+  width: 1120px;
+  height: 640px;
+}
+
+.info-section{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-div{
+  display: flex;
+  flex-direction: column;
+
+  width: 35%;
+  height: 100%;
+}
+
+.info-div > h1{
+  font-size: 55px;
+  color: var(--theme-very-dark-magenta);
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.info-div > p{
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--theme-dark-grayish-magenta);
+
+  line-height: 20px;
+}
+
+.rating-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 65%;
+  height: 80%;
+}
+
+.rating-div-column-1, .rating-div-column-2, .rating-div-column-3{
+  width: 70%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.rating-div-column-1{
+  align-items: flex-start;
+}
+
+.rating-div-column-2{
+  align-items: center;
+}
+
+.rating-div-column-3{
+  align-items: flex-end;
+}
+
+.rating-div-column-1 > div, .rating-div-column-2 > div, .rating-div-column-3 > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-style: none;
+  border-radius: 8px;
+  width: 85%;
+  background-color: var(--theme-light-grayish-magenta);
+
+  padding: 2px;
+}
+
+.star-box > img{
+  margin-right: 5px;
+}
+
+.rating-div-column-1 > div > p, .rating-div-column-2 > div > p, .rating-div-column-3 > div > p{
+  font-weight: 700;
+  color: var(--theme-very-dark-magenta);
+
+  margin-left: 20px;
+}
+
+
+ .review-section{
+   width: 100%;
+   height: 55%;
+ }
+
+.review-section{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.review-section-column{
+  width: 33%;
+  height: 100%;
+}
+
+#review-section-column-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#review-section-column-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ #review-section-column-3{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+ }
+
+.review-div{
+  width: 350px;
+  height: 220px;
+  background-color: var(--theme-very-dark-magenta);
+  color: var(--theme-white);
+  border-style: none;
+  border-radius: 5px;
+
+  display: inline-block;
+}
+
+.review-div-content{
+  margin: 30px;
+}
+
+.review-head{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.review-head > img{
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+.review-head > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review-head > div > h4, .review-head > div > p{
+  margin: 0px;
+}
+
+.review-head > div > h4{
+  margin-bottom: 3px;
+}
+
+.review-head > div > p{
+  color: var(--theme-soft-pink);
+}
+
+.review-div-content > p{
+  line-height: 22px;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 721px) and (max-width: 1180px){
+  body{
+    align-items: flex-start;
+    overflow-x: scroll;
+  }
+
+  .attribution{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 720px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0px left 0px, bottom 0px right 0px;
+  }
+
+  .container{
+    width: 360px;
+    height: 1450px;
+  }
+
+  .info-section{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .info-div{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .rating-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    margin-bottom: 50px;
+  }
+
+  .rating-div-column-1, .rating-div-column-2, .rating-div-column-3{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  .rating-div-column-1{
+    align-items: center;
+  }
+
+  .rating-div-column-2{
+    align-items: center;
+  }
+
+  .rating-div-column-3{
+    align-items: center;
+  }
+
+  .rating-div-column-1 > div,
+  .rating-div-column-2 > div,
+  .rating-div-column-3 > div{
+    display: block;
+    width: 100%;
+  }
+
+  .star-box{
+    display: block;
+    width: 100%;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .rating-div-column-1 > div > p,
+  .rating-div-column-2 > div > p,
+  .rating-div-column-3 > div > p{
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .review-section{
+    width: 100%;
+    height: 50%;
+  }
+
+ .review-section{
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+ }
+
+ .review-section-column{
+   width: 100%;
+   height: 33%;
+ }
+
+ #review-section-column-1{
+   justify-content: flex-start;
+ }
+
+ #review-section-column-2{
+   justify-content: flex-start;
+ }
+
+  #review-section-column-3{
+    justify-content: flex-start;
+  }
+
+.attribution{
+  margin-top: 0px;
+}
+
+
+}
