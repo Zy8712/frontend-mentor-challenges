@@ -1,6 +1,8 @@
 # frontend-mentor-challenges
 
-<h2>View Custom Directory <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/"><ins>Here</ins></a></h2>
+<p>View Custom Directory (Completed Challenges Only): <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/"><ins>HERE</ins></a></p>
+
+<p>My Frontend Mentor Profile: <a href="https://www.frontendmentor.io/profile/Zy8712"><ins>HERE</ins></a></p>
 
 <table>
     <tr>
@@ -10,6 +12,96 @@
       <td>Date Completed</td>
       <td>Learned</td>
       <td>Trial#</td>
+    </tr>
+    <tr>
+      <td>Social Proof Section</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/social-proof-section-FOXXl7AMZE">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/social-proof-section/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/social-proof-section/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 11th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>annoying diagonal layout</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>Fylo Data Storage Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/fylo-data-storage-component-9keEWaAQjz">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/fylo-data-storage-component/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/fylo-data-storage-component/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 7th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>background-position: bottom 0px right 0px;</li>
+            <li>progress bar</li>
+            <li>postion:relative</li>
+            <li>position:absolute</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>Time Tracking Dashboard</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/time-tracking-dashboard-sxlo8TfAxh">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/time-tracking-dashboard/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/time-tracking-dashboard/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 6th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>css-grid</li>
+            <li>top:</li>
+            <li>right:</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
     </tr>
     <tr>
       <td>Testimonials Grid Section</td>
@@ -431,3 +523,88 @@
       <td>#1</td>
     </tr>
 </table>
+
+<br>
+
+# challenge preview screenshots provided
+
+<details>
+    <summary>Social Proof Section Preview</summary>
+    <br>
+    <img src="./social-proof-section/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Fylo Data Storage Component Preview</summary>
+    <br>
+    <img src="./fylo-data-storage-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Time Tracking Dashboard Preview</summary>
+    <br>
+    <img src="./time-tracking-dashboard/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Testimonials Grid Section Preview</summary>
+    <br>
+    <img src="./testimonials-grid-section/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Article Preview Component Preview</summary>
+    <br>
+    <img src="./article-preview-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Newsletter Signup With Success Message Preview</summary>
+    <br>
+    <img src="./newsletter-sign-up-with-success-message/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Faq Accordion Card Preview</summary>
+    <br>
+    <img src="./faq-accordion-card/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Stats Preview Card Component Preview</summary>
+    <br>
+    <img src="./stats-preview-card-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>NFT Preview Card Component	Preview</summary>
+    <br>
+    <img src="./nft-preview-card-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Product Preview Card Component	Preview</summary>
+    <br>
+    <img src="./product-preview-card-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>3 Column Preview Card Component Preview</summary>
+    <br>
+    <img src="./3-column-preview-card-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Results Summary Component Preview</summary>
+    <br>
+    <img src="./results-summary-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Profile Card Component Preview</summary>
+    <br>
+    <img src="./profile-card-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Order Summary Component Preview</summary>
+    <br>
+    <img src="./order-summary-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Interactive Rating Component Preview</summary>
+    <br>
+    <img src="./interactive-rating-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>QR Code Component Preview</summary>
+    <br>
+    <img src="./qr-code-component/my-work/design/desktop-preview.jpg">
+</details>
