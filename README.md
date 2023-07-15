@@ -14,6 +14,36 @@
       <td>Trial#</td>
     </tr>
     <tr>
+      <td>News Homepage</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/news-homepage-Z5PzicRyH6">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/news-homepage/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/news-homepage/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 14th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>navbar-overlay</li>
+            <li>CSS NESTING</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>Social Proof Section</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
