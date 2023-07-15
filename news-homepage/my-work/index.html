@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="container-contents">
+
+    <div class="navbar-box">
+
+      <div class="logo-box">
+        <img src="./assets/images/logo.svg" alt="logo_icon">
+      </div>
+
+      <div class="nav-options-box">
+        <p>Home</p>
+        <p>New</p>
+        <p>Popular</p>
+        <p>Trending</p>
+        <p>Categories</p>
+      </div>
+
+      <div class="menu-toggle" id="toggle-nav-menu-mobile">
+        <img src="./assets/images/icon-menu.svg" alt="menu_icon">
+      </div>
+
+    </div>
+
+    <div class="menu-popout">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        <img src="./assets/images/icon-menu-close.svg">
+      </a>
+      <p>Home</p>
+      <p>New</p>
+      <p>Popular</p>
+      <p>Trending</p>
+      <p>Categories</p>
+    </div>
+
+    <div class="top-section-box">
+
+      <div class="feature-box">
+
+        <div class="image-box">
+          <picture>
+            <source media="(max-width:420px)" srcset="./assets/images/image-web-3-mobile.jpg">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="main_feature_image">
+          </picture>
+        </div>
+
+        <div class="feature-box-main-content">
+
+          <div class="feature-box-heading">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+
+          <div class="feature-box-text">
+            <p>
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+              But is it really fulfilling its promise?
+            </p>
+
+            <button>Read more</button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="new-news-section">
+        <div class="new-news-box">
+          <div class="new-news-box-content">
+
+            <div>
+              <h1>New</h1>
+            </div>
+
+            <div>
+              <h3>Hydrogen VS Electric Cars</h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+
+            <hr>
+
+            <div>
+              <h3>The Downsides of AI Artistry</h3>
+              <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+
+            <hr>
+
+            <div>
+              <h3>Is VC Funding Drying Up?</h3>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="top-news-box">
+
+      <div>
+        <div class="image-box">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="retro_image">
+        </div>
+        <div class="article-details-box">
+          <div class="article-details-box-content">
+            <h1>01</h1>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="image-box">
+          <img src="./assets/images/image-top-laptops.jpg" alt="laptop_image">
+        </div>
+        <div class="article-details-box">
+          <div class="article-details-box-content">
+            <h1>02</h1>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="image-box">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="growth_image">
+        </div>
+        <div class="article-details-box">
+          <div class="article-details-box-content">
+            <h1>03</h1>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bryan Li</a>.
+  </div>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
