@@ -21,7 +21,16 @@ let top_page_button = document.getElementById("to_top");
 
 window.onload = function(){
   var minimize_button = $("minimize-navbar-button");
+
   minimize_button.observe("click", changeNavBar); // can use .observe or .addEventListener
+
+  var settings_button = $("site-appearance-settings-button");
+
+  settings_button.observe("click", showSettings);
+
+  var close_settings_button = $("close-site-appearance-settings-button");
+
+  close_settings_button.observe("click", closeSettings);
 
   window.addEventListener("resize", checkNavBarText);
 }
@@ -124,6 +133,16 @@ function checkNavBarText(){
     $("nav-option6").title = "Links";
     $("nav-option7").title = "Contact";
   }
+}
+
+function showSettings(){
+  var settings_box_popup = $("site-settings-popup");
+  settings_box_popup.style.display = "block";
+}
+
+function closeSettings(){
+  var settings_box_popup = $("site-settings-popup");
+  settings_box_popup.style.display = "none";
 }
 
 function scrollFunction() {
