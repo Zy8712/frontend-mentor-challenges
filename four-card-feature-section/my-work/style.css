@@ -102,12 +102,12 @@ body{
 }
 
 #supervisor-box, #teambuilder-box, #karma-box, #calculator-box{
-    /* horizontal, vertical, blur, radius*/
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  /* horizontal, vertical, blur, radius*/
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 
-    border-style: none;
-    border-radius: 5px;
+  border-style: none;
+  border-radius: 5px;
 }
 
 #supervisor-box{
@@ -149,9 +149,82 @@ body{
 .attribution{
   font-size: 11px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .attribution a{
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 421px) and (max-width: 920px){
+  body{
+    overflow-x: auto;
+
+    align-items: flex-start;
+  }
+
+  footer{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 420px){
+  body{
+    overflow-y: scroll;
+  }
+
+  .container{
+    width: 360px;
+    height: 1300px;
+  }
+
+  .headline-section{
+    width: 100%;
+    height: 20%;
+  }
+
+  .headline-section-contents{
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .headline-section-contents > h1{
+    font-size: 25px;
+  }
+
+  .description-section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description-section > .left-column,
+  .description-section > .center-column,
+  .description-section > .right-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-section > .left-column,
+  .description-section > .right-column{
+    height: 25%;
+  }
+
+  .description-section > .center-column{
+    height: 50%;
+  }
+
+  .description-section > .left-column,
+  .description-section > .right-column{
+    justify-content: center;
+  }
+
+  .description-section > .center-column{
+    justify-content: space-around;
+  }
 }
