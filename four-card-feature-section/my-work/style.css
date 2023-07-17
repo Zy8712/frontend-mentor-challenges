@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root{
+  /* Primary */
+  --theme-red: hsl(0, 78%, 62%);
+  --theme-cyan: hsl(180, 62%, 55%);
+  --theme-orange: hsl(34, 97%, 64%);
+  --theme-blue: hsl(212, 86%, 64%);
+
+  /* Neutral */
+  --theme-very-dark-blue: hsl(234, 12%, 34%);
+  --theme-grayish-blue: hsl(229, 6%, 66%);
+  --theme-very-light-gray: hsl(0, 0%, 98%);
+
+  --font-theme-poppins: "Poppins";
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  overflow: hidden;
+
+  font-family: var(--font-theme-poppins);
+  background-color: var(--theme-very-light-gray);
+}
+
+.container{
+  width: 1180px;
+  height: 720px;
+}
+
+.headline-section{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline-section-contents{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headline-section-contents > p,
+.headline-section-contents > h1{
+  margin: 0px;
+}
+
+.headline-section-contents > p{
+  font-size: 15px;
+  color: var(--theme-grayish-blue);
+  margin-top: 15px;
+}
+
+.headline-section-contents > h1:first-of-type{
+  font-weight: 200;
+}
+
+.headline-section-contents > h1{
+  color: var(--theme-very-dark-blue);
+}
+
+.description-section{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.description-section > .left-column,
+.description-section > .center-column,
+.description-section > .right-column{
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-section > .left-column,
+.description-section > .right-column{
+  justify-content: center;
+}
+
+.description-section > .center-column{
+  justify-content: space-between;
+}
+
+.description-section > .left-column > div,
+.description-section > .center-column > div,
+.description-section > .right-column > div{
+  width: 360px;
+  height: 230px;
+}
+
+#supervisor-box, #teambuilder-box, #karma-box, #calculator-box{
+    /* horizontal, vertical, blur, radius*/
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+
+    border-style: none;
+    border-radius: 5px;
+}
+
+#supervisor-box{
+  border-top: 5px solid var(--theme-cyan);
+}
+
+#teambuilder-box{
+  border-top: 5px solid var(--theme-red);
+}
+
+#karma-box{
+  border-top: 5px solid var(--theme-orange);
+}
+
+#calculator-box{
+  border-top: 5px solid var(--theme-blue);
+}
+
+.box-contents{
+  position: relative;
+  margin: 25px;
+}
+
+.box-contents > img{
+  position: absolute;
+  z-index: 999;
+  right: 0px;
+}
+
+.box-contents > p{
+  font-size: 15px;
+  color: var(--theme-grayish-blue);
+}
+
+.box-contents > h3{
+  color: var(--theme-very-dark-blue);
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}

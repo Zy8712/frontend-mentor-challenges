@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Work on Frontend Mentor Challenges</title>
+  <title>Bryan Li | Frontend Mentor Work</title>
   <link rel="icon" type="image/x-icon" href="./frontend-mentor-mywork-directory/main/images/frontend-mentor-logo-transparent.png" /> <!-- Browser Icon -->
 
   <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/bootstrap.min.css" />
@@ -33,7 +33,7 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
       </button>
 
       <a class="navbar-brand mx-lg-auto mb-lg-4" href="https://github.com/Zy8712"> <!--mb-lg-4 margin bottom 4 in large window, mx-lg-auto margin left and right auto-->
-        <span class="h3 fw-bold d-block d-lg-none">Frontend Mentor Work</span><!--d-lg-none only shows name when window is small-->
+        <span class="h3 fw-bold d-block d-lg-none">Bryan Li | Frontend Mentor Work</span><!--d-lg-none only shows name when window is small-->
         <!-- Adjust border of photo. https://getbootstrap.com/docs/4.0/utilities/borders/-->
         <img src="./frontend-mentor-mywork-directory/main/images/frontend-mentor-logo-transparent.png" class="d-none d-lg-block" id="side_icon" alt="side_pic">
       </a>
@@ -82,7 +82,29 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
     </div>
   </nav>
 
+  <div class="settings-popup" id="site-settings-popup">
+    <button type="button" id="close-site-appearance-settings-button" class="position-absolute top-0 end-0 d-none d-lg-block">
+      <i class="las la-times"></i>
+    </button>
+    <div class="settings-popup-box">
+      <div class="settings-popup-box-contents">
+        <h2>Change Theme</h2>
+        <div id="settings-theme-options">
+          <button>
+            <img src="./frontend-mentor-mywork-directory/main/images/peakpx-iceberg.jpg" alt="iceberg_img">
+          </button>
+          <button>
+            <img src="">
+          </button>
+          <button>
+            <img src="">
+          </button>
+        </div>
 
+
+      </div>
+    </div>
+  </div>
 
   <div id="content-wrapper" class="full-wrapper">
 
@@ -108,11 +130,37 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           <div class="col-lg-8">
             <h6 class="text-brand">"Embarking on the frontend journey, one step at a time"</h6>
             <h2>Newbie Frontend Mentor Challenges</h2>
-            <span class="Difficulty__Wrapper-sc-1nnz2qu-0 fzRyZz"><span class="Text__Wrapper-sc-zbm6r7-0 GMmqe">1</span><span class="Text__Wrapper-sc-zbm6r7-0 iwoLXp">newbie</span></span>
+            <span class="newbie-difficulty-box">
+              <span class="Text__Wrapper-sc-zbm6r7-0 newbie-difficulty-number">1</span>
+              <span class="Text__Wrapper-sc-zbm6r7-0 newbie-difficulty-text">newbie</span>
+            </span>
           </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4">#
+
+          <div class="col-md-6"  data-aos="fade-up" data-aos-delay="150">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./four-card-feature-section/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>Four Card Feature Section</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: July 16th, 2023 [Trial #1]</p>
+                <div class="card-links-mentor">
+                  <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/four-card-feature-section/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./four-card-feature-section/my-work/index.html" target="_blank" class="link-custom"><i class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-md-6"  data-aos="fade-up" data-aos-delay="150">
             <div class="card-custom rounded-4 bg-base shadow-effect">
@@ -120,8 +168,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./social-proof-section/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Social Proof Section</h4>
-                <p>Completed: July 9th, 2023</p>
+                <div class="proj-details">
+                  <h4>Social Proof Section</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: July 9th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/social-proof-section/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -138,8 +192,15 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./article-preview-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Article Preview Component</h4>
-                <p>Completed: July 1st, 2023</p>
+                <div class="proj-details">
+                  <h4>Article Preview Component</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg" alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: July 1st, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/article-preview-component/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -155,8 +216,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./faq-accordion-card/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Faq Accordion Card</h4>
-                <p>Completed: June 26th, 2023</p>
+                <div class="proj-details">
+                  <h4>Faq Accordion Card</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 26th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/faq-accordion-card/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -172,8 +239,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./stats-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Stats Preview Card Component</h4>
-                <p>Completed: June 16th, 2023</p>
+                <div class="proj-details">
+                  <h4>Stats Preview Card Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 16th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/stats-preview-card-component/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -189,8 +262,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./nft-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>NFT Preview Card Component</h4>
-                <p>Completed: June 14th, 2023</p>
+                <div class="proj-details">
+                  <h4>NFT Preview Card Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 14th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/nft-preview-card-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -206,8 +285,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./product-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Product Preview Card Component</h4>
-                <p>Completed: June 13th, 2023</p>
+                <div class="proj-details">
+                  <h4>Product Preview Card Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 13th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/product-preview-card-component/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -223,8 +308,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./3-column-preview-card-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>3 Column Preview Card Component</h4>
-                <p>Completed: June 12th, 2023</p>
+                <div class="proj-details">
+                  <h4>3 Column Preview Card Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 12th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -240,8 +331,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./results-summary-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Results Summary Component</h4>
-                <p>Completed: June 11th, 2023</p>
+                <div class="proj-details">
+                  <h4>Results Summary Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 11th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/results-summary-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -257,8 +354,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./profile-card-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Profile Card Component</h4>
-                <p>Completed: June 10th, 2023</p>
+                <div class="proj-details">
+                  <h4>Profile Card Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 10th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/profile-card-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -274,8 +377,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./order-summary-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Order Summary Component</h4>
-                <p>Completed: June 9th, 2023</p>
+                <div class="proj-details">
+                  <h4>Order Summary Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 9th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/order-summary-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -291,8 +400,15 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./interactive-rating-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Interactive Rating Component</h4>
-                <p>Completed: June 8th, 2023</p>
+                <div class="proj-details">
+                  <h4>Interactive Rating Component</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg" alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: June 8th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/interactive-rating-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -308,8 +424,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./qr-code-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>QR Code Component</h4>
-                <p>Completed: June 5th, 2023</p>
+                <div class="proj-details">
+                  <h4>QR Code Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: June 5th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/qr-code-component/my-work" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -334,20 +456,31 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           <div class="col-lg-8">
             <h6 class="text-brand">"Embracing the frontend craft with growing confidence"</h6>
             <h2>Junior Frontend Mentor Challenges</h2>
-            <span class="Difficulty__Wrapper-sc-1nnz2qu-0 bLiSTN"><span class="Text__Wrapper-sc-zbm6r7-0 kIqvgs">2</span><span class="Text__Wrapper-sc-zbm6r7-0 dBQvhX">junior</span></span>
+            <span class="junior-difficulty-box">
+              <span class="Text__Wrapper-sc-zbm6r7-0 junior-difficulty-number">2</span>
+              <span class="Text__Wrapper-sc-zbm6r7-0 junior-difficulty-text">junior</span>
+            </span>
           </div>
         </div>
 
         <div class="row gy-4">
-		
+
           <div class="col-md-6"  data-aos="fade-up" data-aos-delay="300">
             <div class="card-custom rounded-4 bg-base shadow-effect">
               <div class="card-custom-image rounded-4">
                 <img class="rounded-4" src="./news-homepage/my-work/design/desktop-preview.jpg" alt="">
               </div>
+
               <div class="card-custom-content p-4">
-                <h4>News Homepage</h4>
-                <p>Completed: July 14th, 2023</p>
+                <div class="proj-details">
+                  <h4>News Homepage</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg" alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: July 14th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/news-homepage/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -363,8 +496,14 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./fylo-data-storage-component/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Fylo Data Storage Component</h4>
-                <p>Completed: July 7th, 2023</p>
+                <div class="proj-details">
+                  <h4>Fylo Data Storage Component</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: July 7th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/fylo-data-storage-component/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -380,13 +519,21 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./time-tracking-dashboard/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Time Tracking Dashboard</h4>
-                <p>Completed: July 6th, 2023</p>
+                <div class="proj-details">
+                  <h4>Time Tracking Dashboard</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg" alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: July 6th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/time-tracking-dashboard/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
                   <a href="./time-tracking-dashboard/my-work/index.html" target="_blank" class="link-custom"><i class="las la-external-link-alt"></i> Preview</a>
                 </div>
+
               </div>
             </div>
           </div>
@@ -397,26 +544,39 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 <img class="rounded-4" src="./testimonials-grid-section/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Testimonials Grid Section</h4>
-                <p>Completed: July 3rd, 2023</p>
+                <div class="proj-details">
+                  <h4>Testimonials Grid Section</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                  </div>
+                </div>
+                <p>Completed: July 3rd, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/testimonials-grid-section/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
                   <a href="./testimonials-grid-section/my-work/index.html" target="_blank" class="link-custom"><i class="las la-external-link-alt"></i> Preview</a>
                 </div>
+
               </div>
             </div>
           </div>
 
           <div class="col-md-6"  data-aos="fade-up" data-aos-delay="300">
             <div class="card-custom rounded-4 bg-base shadow-effect">
-
               <div class="card-custom-image rounded-4">
                 <img class="rounded-4" src="./newsletter-sign-up-with-success-message/my-work/design/desktop-preview.jpg" alt="">
               </div>
               <div class="card-custom-content p-4">
-                <h4>Newsletter Sign-up Form With Success Message</h4>
-                <p>Completed: July 1st, 2023</p>
+                <div class="proj-details">
+                  <h4>Newsletter Sign-up Form With Success Message</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg" alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: July 1st, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
                   <a href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/newsletter-sign-up-with-success-message/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
@@ -440,12 +600,12 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           <div class="col-lg-8">
             <h6 class="text-brand">"Navigating the frontend maze with steady progress"</h6>
             <h2>Intermediate Frontend Mentor Challenges</h2>
-            <span class="Difficulty__Wrapper-sc-1nnz2qu-0 fJyEgm"><span class="Text__Wrapper-sc-zbm6r7-0 bGFySL">3</span><span class="Text__Wrapper-sc-zbm6r7-0 djkAXo">intermediate</span></span>
+            <span class="intermediate-difficulty-box">
+              <span class="Text__Wrapper-sc-zbm6r7-0 intermediate-difficulty-number">3</span>
+              <span class="Text__Wrapper-sc-zbm6r7-0 intermediate-difficulty-text">intermediate</span>
+            </span>
           </div>
         </div>
-
-
-
 
       </div>
     </section>
@@ -457,12 +617,12 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           <div class="col-lg-8">
             <h6 class="text-brand">"Pushing boundaries, unlocking new frontend horizons"</h6>
             <h2>Advanced Frontend Mentor Challenges</h2>
-            <span class="Difficulty__Wrapper-sc-1nnz2qu-0 igElrH"><span class="Text__Wrapper-sc-zbm6r7-0 jyfuIS">4</span><span class="Text__Wrapper-sc-zbm6r7-0 kfRURh">advanced</span></span>
+            <span class="advanced-difficulty-box">
+              <span class="Text__Wrapper-sc-zbm6r7-0 advanced-difficulty-number">4</span>
+              <span class="Text__Wrapper-sc-zbm6r7-0 advanced-difficulty-text">advanced</span>
+            </span>
           </div>
         </div>
-
-
-
 
 
       </div>
@@ -476,10 +636,12 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           <div class="col-lg-8">
             <h6 class="text-brand">"Inspiring awe with frontend mastery and boundless creativity"</h6>
             <h2>Guru Frontend Mentor Challenges</h2>
-            <span class="Difficulty__Wrapper-sc-1nnz2qu-0 cHSMVW"><span class="Text__Wrapper-sc-zbm6r7-0 cuXWXz">5</span><span class="Text__Wrapper-sc-zbm6r7-0 icsAAY">guru</span></span>
+            <span class="guru-difficulty-box">
+              <span class="Text__Wrapper-sc-zbm6r7-0 guru-difficulty-number">5</span>
+              <span class="Text__Wrapper-sc-zbm6r7-0 guru-difficulty-text">guru</span>
+            </span>
           </div>
         </div>
-
 
 
       </div>
