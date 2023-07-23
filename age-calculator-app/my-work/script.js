@@ -23,6 +23,8 @@ window.addEventListener("load", function() {
   document.getElementById("yearEntry").getElementsByTagName("input")[0].value = entryYear;
 });
 
+
+
 window.onload = function(){
   var calculateButton = document.getElementById("calculate-arrow");
   calculateButton.addEventListener("click", checkConditions);
@@ -214,6 +216,6 @@ function displayCalculatedAge(){
   var displayDay = document.getElementById("dayDisplay");
 
   displayYear.innerHTML = ageYears;
-  displayMonth.innerHTML = ageMonths;
+  displayMonth.innerHTML = ageMonths + 1;
   displayDay.innerHTML = ageDays;
 }
