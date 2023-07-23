@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="container-content">
+
+        <div class="entry-boxes-section">
+          <div id="dayEntry">
+            <p class="fieldTitle">Day</p>
+            <input type="text" value="DD" maxlength="2" class="">
+            <div id="dayWarning" class="display-none">
+              <p class="missingField display-none">This field is required</p>
+              <p class="invalidField display-none">Must be a valid day</p>
+            </div>
+          </div>
+
+          <div id="monthEntry">
+            <p class="fieldTitle">Month</p>
+            <input type="text" value="MM" maxlength="2" class="">
+            <div id="monthWarning" class="display-none">
+              <p class="missingField display-none">This field is required</p>
+              <p class="invalidField display-none">Must be a valid month</p>
+            </div>
+          </div>
+
+          <div id="yearEntry">
+            <p class="fieldTitle">Year</p>
+            <input type="text" value="YYYY" maxlength="4" class="">
+            <div id="yearWarning" class="display-none">
+              <p class="missingField display-none">This field is required</p>
+              <p class="invalidField display-none">Must be in the past</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="section-divider">
+          <hr>
+          <button id="calculate-arrow">
+            <img src="./assets/images/icon-arrow.svg" alt="arrow_icon">
+          </button>
+        </div>
+
+        <div class="age-display-section">
+
+          <p><span id="yearDisplay">--</span> years</p>
+          <p><span id="monthDisplay">--</span> months</p>
+          <p><span id="dayDisplay">--</span> days</p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Bryan Li</a>.
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

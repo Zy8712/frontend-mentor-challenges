@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bryan Li | Frontend Mentor Work</title>
+  <meta charset="utf-8"> <!-- 8-bit Encoding - Ensures Proper Character Encoding  -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Rendering Specification - Ensures Better Browser Compatibility-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Display Specifications - Ensures Optimal Display -->
+  <title>Bryan Li | Frontend Mentor Work</title> <!-- Browser Tab Title -->
   <link rel="icon" type="image/x-icon" href="./frontend-mentor-mywork-directory/main/images/frontend-mentor-logo-transparent.png" /> <!-- Browser Icon -->
 
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/aos.css" />
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/line-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-  integrity="sha512-pjI1+7GlPIETBpPtcyldI3H8tq+3gMToXAQ2Mf0eLJJw1mIh35pO/xVL0gRx/pXoIHY3qF1fJg2dOFN1aTQ2VQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS Stylesheet Imports/Links -->
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/bootstrap.min.css" /> <!-- Bootstrap Library -->
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/aos.css" /> <!-- Animated on Scroll Library -->
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/line-awesome.min.css" /> <!-- Line Awesome Library -->
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/style.css" /> <!-- Custom Stylesheet -->
 </head>
 
 <!-- Scrollspy. Automatically update Bootstrap navigation or list group components
@@ -83,21 +81,36 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
   </nav>
 
   <div class="settings-popup" id="site-settings-popup">
+
     <button type="button" id="close-site-appearance-settings-button" class="position-absolute top-0 end-0 d-none d-lg-block">
       <i class="las la-times"></i>
     </button>
-    <div class="settings-popup-box">
-      <div class="settings-popup-box-contents">
-        <h2>Change Theme</h2>
+
+    <div id="site-settings-popup-box">
+      <div id="settings-popup-box-contents">
+
+        <div id="dark-light-toggle-box">
+          <h2 id="dark-light-toggle-box-text">Appearance (Light):</h2>
+          <button id="dark-light-button">
+            <img id="light-mode-icon" src="./frontend-mentor-mywork-directory/main/images/sun-svgrepo-com.svg" alt="light_mode_icon">
+            <img id="dark-mode-icon" src="./frontend-mentor-mywork-directory/main/images/moon-svgrepo-com.svg" alt="night_mode_icon">
+          </button>
+        </div>
+
+        <h2>Change Theme:</h2>
+
         <div id="settings-theme-options">
-          <button>
-            <img src="./frontend-mentor-mywork-directory/main/images/peakpx-iceberg.jpg" alt="iceberg_img">
+          <button id="iceberg-theme-button">
+            <img title="Iceberg Theme" src="./frontend-mentor-mywork-directory/main/images/peakpx-iceberg.jpg" alt="iceberg_img">
           </button>
-          <button>
-            <img src="">
+          <button id="goldmoon-theme-button">
+            <img title="Goldmoon Theme" src="./frontend-mentor-mywork-directory/main/images/peakpx-goldmoon.jpg" alt="goldmoon_img">
           </button>
-          <button>
-            <img src="">
+          <button id="citiscape-theme-button">
+            <img title="Citiscape Theme" src="./frontend-mentor-mywork-directory/main/images/peakpx-citiscape.jpg" alt="citiscape_img">
+          </button>
+          <button id="sunrise-theme-button">
+            <img title="Sunrise Theme" src="./frontend-mentor-mywork-directory/main/images/peakpx-sunrise.jpg" alt="sunrise_img">
           </button>
         </div>
 
@@ -487,13 +500,36 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
         </div>
 
         <div class="row gy-4">
+		
+          <div class="col-md-6"  data-aos="fade-up" data-aos-delay="150">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./age-calculator-app/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>Age Calculator App</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon" title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon" title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg" alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: July 23rd, 2023 [Trial #1]</p>
+                <div class="card-links-mentor">
+                  <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q" target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/age-calculator-app/my-work" target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./age-calculator-app/my-work/index.html" target="_blank" class="link-custom"><i class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-md-6"  data-aos="fade-up" data-aos-delay="300">
             <div class="card-custom rounded-4 bg-base shadow-effect">
               <div class="card-custom-image rounded-4">
                 <img class="rounded-4" src="./news-homepage/my-work/design/desktop-preview.jpg" alt="">
               </div>
-
               <div class="card-custom-content p-4">
                 <div class="proj-details">
                   <h4>News Homepage</h4>
@@ -629,6 +665,8 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
             </span>
           </div>
         </div>
+
+        
 
       </div>
     </section>
