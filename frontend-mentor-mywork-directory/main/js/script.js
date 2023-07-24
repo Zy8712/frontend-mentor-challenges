@@ -1,10 +1,9 @@
 /* Initialize Animate on Scroll */
-
 AOS.init();
+
 // You can also pass an optional settings object
 // below listed default settings
 AOS.init({
-
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
@@ -13,30 +12,64 @@ AOS.init({
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
 });
 
-var navbar_minimized = false;
+var navbar_minimized = false; // variable for vertical nav bar status
+
 let top_page_button = document.getElementById("to_top");
 
-window.onload = function(){
-  var minimize_button = $("minimize-navbar-button");
+var darklightValue = false; // false for light, true for dark
 
+/* Function called upon page load */
+window.onload = function(){
+  /* Minimize Vertical Navbar Button (Three Horizonal Lines Icon) */
+  var minimize_button = $("minimize-navbar-button");
   minimize_button.observe("click", changeNavBar); // can use .observe or .addEventListener
 
+  /* Site Appearance Settings Button (Gear Icon) */
   var settings_button = $("site-appearance-settings-button");
-
   settings_button.observe("click", showSettings);
 
+  /* Close Site Appearance Menu (X Mark Shown After Opening Menu) */
   var close_settings_button = $("close-site-appearance-settings-button");
-
   close_settings_button.observe("click", closeSettings);
+
+  /* Dark Mode / Light Mode Toggle Switch */
+  var dark_light_button = $("dark-light-button");
+  dark_light_button.addEventListener("click", switchDarkLight);
+
+  const checkbox = document.getElementById('dark-light-checkbox');
+
+  let isAOSRunning = false; // Flag to track if AOS animations are running
+
+  // Add an event listener to the checkbox
+  checkbox.addEventListener('change', function (event) {
+    // Check if AOS animations are currently running
+    if (isAOSRunning) {
+      return; // If AOS is running, exit the function to avoid duplicate calls
+    }
+
+    // Disable AOS temporarily
+    isAOSRunning = true;
+    AOS.refreshHard();
+
+    // Your logic here to handle the checkbox state change
+    // This code block will only be executed once per click.
+
+    // Re-enable AOS
+    setTimeout(function () {
+      AOS.init();
+      isAOSRunning = false; // Reset the flag after re-enabling AOS
+    }, 100);
+  });
+
 
   window.addEventListener("resize", checkNavBarText);
 }
 
+/* Function called upon scrolling up and down page */
 window.onscroll = function(){
-  scrollFunction();
+  scrollFunction(); // Calss the scroll function
 }
 
 function changeNavBar(){
@@ -143,6 +176,45 @@ function showSettings(){
 function closeSettings(){
   var settings_box_popup = $("site-settings-popup");
   settings_box_popup.style.display = "none";
+}
+
+function switchDarkLight(){
+  var settingsBox = $("site-settings-popup-box");
+  var popupBox = $("settings-popup-box-contents");
+  var toggleBox = $("dark-light-toggle-box");
+  var newBackgroundColor, newTextColor;
+
+  var light_icon = $("light-mode-icon");
+  var dark_icon = $("dark-mode-icon");
+
+  var dark_light_text = $("dark-light-toggle-box-text");
+  console.log(darklightValue);
+
+
+  if (darklightValue == false) {
+    console.log("1");
+    newBackgroundColor = "black";
+    newTextColor = "white";
+    light_icon.style.display = "none";
+    dark_icon.style.display = "block";
+    dark_light_text.innerHTML = "Appearance (Dark):";
+    darklightValue = true;
+  } else if (darklightValue == true){
+    console.log("2");
+
+    newBackgroundColor = "white";
+    newTextColor = "black";
+    light_icon.style.display = "block";
+    dark_icon.style.display = "none";
+    dark_light_text.innerHTML = "Appearance (Light):";
+    darklightValue = false;
+  }
+
+  settingsBox.style.backgroundColor = newBackgroundColor;
+
+  const h2Elements = popupBox.querySelectorAll('h2');
+  h2Elements.forEach(h2 => h2.style.color = newTextColor);
+
 }
 
 function scrollFunction() {
