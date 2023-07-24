@@ -14,6 +14,91 @@
       <td>Trial#</td>
     </tr>
     <tr>
+      <td>Age Calculator App</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/age-calculator-app-8b0ZHnNRAr">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/age-calculator-app/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/age-calculator-app/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 23rd, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li></li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>Single Price Grid Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/single-price-grid-component-Z4vMDh1uSW">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/single-price-grid-component/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/single-price-grid-component/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 17th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li></li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>Four Card Feature Section</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/four-card-feature-section--oQiA0MbvB">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/four-card-feature-section/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/four-card-feature-section/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 16th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li></li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>News Homepage</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -558,6 +643,26 @@
 
 # challenge preview screenshots provided
 
+<details>
+    <summary>Age Calculator App</summary>
+    <br>
+    <img src="./age-calculator-app/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Single Price Grid Component</summary>
+    <br>
+    <img src="./single-price-grid-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Four Card Feature Section</summary>
+    <br>
+    <img src="./four-card-feature-section/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>News Homepage</summary>
+    <br>
+    <img src="./news-homepage/my-work/design/desktop-preview.jpg">
+</details>
 <details>
     <summary>Social Proof Section Preview</summary>
     <br>
