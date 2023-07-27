@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+  /* Primary */
+  --theme-light-cyan: hsl(193, 38%, 86%);
+  --theme-neon-green: hsl(150, 100%, 66%);
+
+  /* Neutral */
+  --theme-grayish-blue: hsl(217, 19%, 38%);
+  --theme-dark-grayish-blue: hsl(217, 19%, 24%);
+  --theme-dark-blue: hsl(218, 23%, 16%);
+
+  --font-size-quote: 28px;
+  --font-theme-manrope: "Manrope";
+}
+
+body{
+  background-color: var(--theme-dark-blue);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  overflow: hidden;
+
+  margin: 0px;
+
+  font-family: var(--font-theme-manrope);
+}
+
+.container{
+  width: 520px;
+  height: 300px;
+
+  background-color: var(--theme-dark-grayish-blue);
+  border-style: none;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container-content{
+  margin: 25px 25px 30px 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  height: 80%;
+}
+
+.container-content > h5{
+  display: block;
+
+  color: var(--theme-neon-green);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.container-content > h2{
+  color: var(--theme-light-cyan);
+  text-align: center;
+}
+
+.container-content > picture{
+  position: absolute;
+  bottom: 15px;
+}
+
+.advice-div{
+  display: inline;
+
+  position: absolute;
+  bottom: -60px;
+}
+
+#random-advice-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-style: none;
+  border-radius: 100px;
+  padding: 15px;
+
+  background-color: var(--theme-neon-green);
+}
+
+#random-advice-button:hover{
+  /* horizontal, vertical, blur, radius*/
+  box-shadow: 0px 0px 20px 3px var(--theme-neon-green);
+  cursor: pointer;
+}
+
+#random-advice-button:disabled {
+  background-color: var(--theme-grayish-blue);
+  cursor: not-allowed; /* Show "not allowed" cursor for disabled state */
+}
+
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  color: var(--theme-neon-green);
+  margin-top: 40px;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:420px) {
+  .container{
+    width: 300px;
+    height: 300px;
+  }
+}
