@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+:root{
+
+  /* Primary */
+  --theme-strong-cyan: hsl(172, 67%, 45%);              /* text-input focus border, reset button background*/
+
+  /* Neutral */
+  --theme-very-dark-cyan: hsl(183, 100%, 15%);          /* tipping options background, calc background */
+  --theme-dark-grayish-cyan: hsl(186, 14%, 43%);        /* calc darker text*/
+  --theme-grayish-cyan: hsl(184, 14%, 56%);             /* tipping heading text */
+  --theme-light-grayish-cyan: hsl(185, 41%, 84%);         /* body background, reset button hover */
+  --theme-very-light-grayish-cyan: hsl(189, 41%, 97%);    /* text-input background */
+  --theme-white: hsl(0, 0%, 100%);                        /* container */
+
+  --font-size-form-inputs: 24px;
+  --font-theme-space-mono: "Space Mono";
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+
+  background-color: var(--theme-light-grayish-cyan);
+  font-family: var(--font-theme-space-mono);
+  font-style: normal;
+}
+
+.logo-box{
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.container{
+  width: 840px;
+  height: 420px;
+
+  background-color: var(--theme-white);
+  border-style: none;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-content{
+  height: 370px;
+  margin: 25px;
+
+  display: flex;
+}
+
+.half-container{
+  width: 50%;
+  height: 100%;
+}
+
+.user-inputs{
+  width: 90%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-box-input{
+  width: 100%;
+}
+
+.text-box-input > p{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: var(--theme-dark-grayish-cyan);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-tip > p{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--theme-dark-grayish-cyan);
+}
+
+#bill-input-span, #people-input-span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background-color: var(--theme-very-light-grayish-cyan);
+  height: 50px;
+}
+
+#bill-input-span > input[type="text"], #people-input-span > input[type="text"]{
+  width: 100%;
+  height: 100%;
+  font-size: var(--font-size-form-inputs);
+  font-family: var(--font-theme-space-mono);
+  background-color: var(--theme-very-light-grayish-cyan);
+  border-style: none;
+  text-align: right;
+  padding-right: 15px;
+}
+
+#bill-input-span > input[type="text"]:hover, #people-input-span > input[type="text"]:hover{
+  cursor: pointer;
+}
+
+#bill-input-span > input[type="text"]:focus, #people-input-span > input[type="text"]:focus{
+  outline-color: var(--theme-strong-cyan);
+  color: var(--theme-very-dark-cyan);
+}
+
+#bill-input-span > input[type="text"]::placeholder, #people-input-span > input[type="text"]::placeholder{
+  color: var(--theme-grayish-cyan);
+}
+
+#bill-input-span > img, #people-input-span > img{
+  position: absolute;
+  margin-left: 15px;
+}
+
+.error-message{
+  color: red;
+}
+
+.display-none{
+  display: none;
+}
+
+.tipping-options{
+  display: grid;
+  grid-template-columns: repeat(3, 110px);
+  grid-gap: 12px;
+}
+
+.tipping-options > div{
+  border-style: none;
+  border-radius: 5px;
+
+  background-color: var(--theme-very-dark-cyan);
+  text-align: center;
+  color: var(--theme-white);
+  padding: 8px;
+
+  font-size: 18px;
+}
+
+.tipping-options > div:hover{
+  background-color: var(--theme-light-grayish-cyan);
+  color: var(--theme-very-dark-cyan);
+  cursor: pointer;
+}
+
+#custom-tip{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 18px;
+  font-family: var(--font-theme-space-mono);
+  background-color: var(--theme-very-light-grayish-cyan);
+  text-align: center;
+  padding: 0px;
+
+  display: flex;
+  flex-grow: 0px;
+}
+
+#custom-tip:focus{
+  text-align: right;
+  padding-right: 5px;
+  outline-color: var(--theme-strong-cyan);
+  color: var(--theme-very-dark-cyan);
+}
+
+#custom-tip::placeholder{
+  color: var(--theme-very-dark-cyan);
+}
+
+#custom-tip:focus::placeholder{
+  color: transparent;
+}
+
+.calculation-outputs{
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--theme-very-dark-cyan);
+  border-style: none;
+  border-radius: 10px;
+
+  display: flex;
+}
+
+.calculation-outputs-content{
+  width: 100%;
+
+  margin: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.metric{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.metric > div > p:first-child{
+  color: var(--theme-white);
+  margin: 0px;
+}
+
+.metric > div > p:not(:first-child){
+  color: var(--theme-dark-grayish-cyan);
+  margin: 0px;
+}
+
+#person-tip, #total-tip{
+  color: var(--theme-strong-cyan);
+  font-size: 40px;
+}
+
+
+
+#reset-button{
+  background-color: var(--theme-strong-cyan);
+  border-style: none;
+  border-radius: 3px;
+  height: 40px;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+#reset-button:hover{
+  background-color: var(--theme-light-grayish-cyan);
+  cursor: pointer;
+}
+
+#reset-button:disabled{
+  background-color: var(--theme-grayish-cyan);
+  cursor: not-allowed;
+}
+
+footer{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 421px) and (max-width: 840px) {
+  body{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  body{
+    overflow-y: scroll;
+  }
+
+  .container{
+    width: 360px;
+    height: 740px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-content{
+    width: 310px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .half-container{
+    width: 100%;
+  }
+
+  .half-container:first-child{
+    height: 65%;
+    margin-bottom: 20px;
+  }
+
+  .half-container:not(:first-child){
+    height: 35%;
+  }
+
+
+  .user-inputs{
+    width: 100%;
+  }
+
+  .select-tip{
+    width: 100%;
+  }
+
+  .tipping-options{
+    display: grid;
+    grid-template-columns: repeat(2, 145px);
+    grid-gap: 16px;
+  }
+
+  .metric{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  #person-tip, #total-tip{
+    color: var(--theme-strong-cyan);
+    font-size: 30px;
+  }
+
+
+}
