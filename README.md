@@ -14,6 +14,40 @@
       <td>Trial#</td>
     </tr>
     <tr>
+      <td>Advice Generator App</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/advice-generator-app-POlPklQasY">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/advice-generator-app/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/advice-generator-app/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 27th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>api-access</li>
+            <li>button:disabled</li>
+            <li>cursor:none-allowed</li>
+            <li>setTimeout</li>
+            <li>rotate</li>
+            <li>transform</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>Age Calculator App</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -36,7 +70,9 @@
           <summary> 📝 </summary>
           <ul>
             <br>
-            <li></li>
+            <li>localstorage</li>
+            <li>:focus</li>
+            <li>outline:none</li>
           </ul>
         </details>
       </td>
