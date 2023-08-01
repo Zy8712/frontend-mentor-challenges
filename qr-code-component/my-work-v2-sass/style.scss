@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$theme-white: hsl(0, 0%, 100%); /* main box */
+$theme-light-gray: hsl(212, 45%, 89%); /* page background */
+$theme-grayish-blue: hsl(220, 15%, 55%); /* paragraph */
+$theme-dark-blue: hsl(218, 44%, 22%); /* heading */
+$font-theme-outfit: "Outfit";
+$font-size-paragraph: 15px;
+
+@mixin center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: $theme-light-gray;
+    @include center-content;
+    min-height: 100vh;
+    overflow: hidden;
+
+    font-family: $font-theme-outfit;
+}
+
+main{
+    @include center-content;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background-color: $theme-white;
+    width: 360px;
+    height: 540px;
+    border-style: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+    .container-contents{
+        margin: 20px;
+        text-align: center;
+        h2{
+            color: $theme-dark-blue;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        p{
+            font-size: $font-size-paragraph;
+            color: $theme-grayish-blue;
+            margin-left: 28px;
+            margin-right: 28px;
+        }
+    }
+}
+
+.image-div{
+    width: 320px;
+    height: 320px;
+    border-style: none;
+    border-radius: 10px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+    a{  
+        color: hsl(228, 45%, 44%);
+    }
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+/* main box */
+/* page background */
+/* paragraph */
+/* heading */
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "Outfit";
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 360px;
+  height: 540px;
+  border-style: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.container .container-contents {
+  margin: 20px;
+  text-align: center;
+}
+.container .container-contents h2 {
+  color: hsl(218, 44%, 22%);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container .container-contents p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.image-div {
+  width: 320px;
+  height: 320px;
+  border-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
