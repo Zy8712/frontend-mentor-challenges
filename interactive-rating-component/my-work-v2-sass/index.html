@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <main>
+
+    <div id="rating-section" class="rating-container">
+      <div class="rating-container-content">
+
+        <!-- Rating state start -->
+        <div class="image-box">
+          <img src="./images/icon-star.svg" alt="star_icon">
+        </div>
+
+        <h2>How did we do?</h2>
+
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+
+        <p class="rating-options">
+          <button id="rating1">1</button>
+          <button id="rating2">2</button>
+          <button id="rating3">3</button>
+          <button id="rating4">4</button>
+          <button id="rating5">5</button>
+        </p>
+
+        <button id="submit-button">Submit</button>
+
+        <!-- Rating state end -->
+      </div>
+    </div>
+
+    <div id="thankyou-section" class="success-container display-none">
+      <div class="success-container-content">
+        <!-- Thank you state start -->
+        <p>
+          <img src="./images/illustration-thank-you.svg" alt="thankyou.svg">
+        </p>
+
+        <p class="rating-review" id="rr">You selected <!-- Add rating here --> out of 5 </p>
+
+        <h2 class="thanksText">Thank you!</h2>
+
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+
+        <!-- Thank you state end -->
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Bryan Li</a>.
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

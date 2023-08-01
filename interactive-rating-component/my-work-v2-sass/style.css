@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "Overpass";
+  background-color: hsl(216, 12%, 8%);
+}
+
+.rating-container {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(215, 21%, 16%);
+  border-style: none;
+  border-radius: 20px;
+}
+.rating-container .rating-container-content {
+  margin: 25px;
+}
+
+.rating-container-content .image-box {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(213, 19%, 18%);
+  border-style: none;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rating-container-content h2 {
+  color: hsl(0, 0%, 100%);
+}
+.rating-container-content p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+}
+
+.rating-options {
+  display: flex;
+  justify-content: space-between;
+}
+.rating-options button {
+  width: 50px;
+  height: 50px;
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
+  border-style: none;
+  border-radius: 100px;
+  font-weight: 700;
+}
+.rating-options button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+#submit-button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 15px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 50px;
+  width: 100%;
+}
+#submit-button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 380px;
+  background-color: hsl(213, 19%, 18%);
+  border-style: none;
+  border-radius: 20px;
+}
+.success-container .success-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+.success-container .success-container-content .thanksText {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.success-container .success-container-content p {
+  color: hsl(216, 12%, 54%);
+}
+.success-container .success-container-content .rating-review {
+  background-color: hsl(215, 21%, 16%);
+  color: hsl(25, 97%, 53%);
+  border-style: none;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+}
+
+.display-none {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
