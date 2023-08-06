@@ -14,6 +14,126 @@
       <td>Trial#</td>
     </tr>
     <tr>
+      <td>Fylo Dark Theme Landing Page</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-NxcaRtrhLs">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/fylo-dark-theme-landing-page/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/fylo-dark-theme-landing-page/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 5th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li>scss</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+    <tr>
+      <td>Interactive Rating Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/interactive-rating-component-using-sassscss-FpQcumQJXM">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/interactive-rating-component/my-work-v2-sass">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/interactive-rating-component/my-work-v2-sass/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 1st, 2023</td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li>scss</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+    <tr>
+      <td>QR Code Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/qr-code-component-using-scss-IM83KoTJDG">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/qr-code-component/my-work-v2-sass">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/qr-code-component/my-work-v2-sass/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 31st, 2023</td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li>scss</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+    <tr>
+      <td>Tip Calculator App</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/tip-calculator-app-s83BB2jDXr">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/tip-calculator-app/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/tip-calculator-app/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Jul 30th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>button:disabled</li>
+            <li>textbox-outline</li>
+            <li>regex</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
       <td>Advice Generator App</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -603,7 +723,7 @@
       </td>
       <td>#1</td>
     </tr>
-        <tr>
+    <tr>
       <td>Interactive Rating Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -640,7 +760,7 @@
       </td>
       <td>#1</td>
     </tr>
-  <tr>
+    <tr>
       <td>QR Code Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
