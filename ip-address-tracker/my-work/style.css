@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+:root {
+  /* Colours */
+  --theme-very-dark-gray: hsl(0, 0%, 17%);
+  --theme-dark-gray: hsl(0, 0%, 59%);
+  /* Font/Text */
+  --font-size-text-input: 18px;
+  --font-theme-rubik: "Rubik";
+}
+
+body {
+  margin: 0px;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-theme-rubik);
+}
+
+main {
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+main > .info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/pattern-bg-desktop.png");
+  height: 280px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+main > .map-section {
+  flex-grow: 3;
+}
+
+.info-section {
+  position: relative;
+}
+.info-section > h1 {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.info-section > .input-box {
+  display: flex;
+  align-items: center;
+}
+.info-section > .input-box > input[type=text] {
+  width: 500px;
+  font-size: 18px;
+  padding: 18px 0px 18px 22px;
+  border-style: none;
+  border-radius: 14px 0px 0px 14px;
+  font-family: var(--font-theme-rubik);
+}
+.info-section > .input-box > input[type=text]:focus {
+  outline-style: none;
+}
+.info-section > .input-box > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 57.5px;
+  width: 57.5px;
+  background-color: var(--theme-very-dark-gray);
+  border-style: none;
+  border-radius: 0px 14px 14px 0px;
+}
+.info-section > .input-box > div:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+.info-section > .ip-address-info-box {
+  width: 1140px;
+  height: 180px;
+  background-color: white;
+  border-style: none;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -90px;
+  z-index: 999;
+}
+
+.ip-address-info-box > .ip-address-info-box-content {
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) {
+  width: 270.5px;
+  height: 130px;
+}
+.ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) > .info-div-content {
+  margin: 20px 20px 20px 25px;
+}
+.ip-address-info-box > .ip-address-info-box-content > .vertical-line {
+  height: 75px;
+  width: 2px;
+  border-left: 1px solid var(--theme-dark-gray);
+}
+
+.info-div-content > h5 {
+  margin: 0px;
+  color: var(--theme-dark-gray);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.info-div-content > h2 {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  width: 100vw;
+  z-index: 999;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution > a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 541px) and (max-width: 1020px) {
+  .info-section .ip-address-info-box {
+    width: 577.5px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: -120px;
+  }
+  .ip-address-info-box > .ip-address-info-box-content {
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    /* for some reason this is able to select the second vertical line*/
+  }
+  .ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) {
+    width: 240px;
+    height: 80px;
+  }
+  .ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) > .info-div-content {
+    margin: 0px;
+  }
+  .ip-address-info-box > .ip-address-info-box-content > .vertical-line:nth-of-type(4) {
+    display: none;
+  }
+  .info-div-content > h2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 540px) {
+  main .info-section {
+    background-image: url("./images/pattern-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  .info-section .input-box > input[type=text] {
+    width: 280px;
+    padding: 18px 0px 18px 18px;
+  }
+  .info-section .ip-address-info-box {
+    width: 350px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: -160px;
+  }
+  .ip-address-info-box > .ip-address-info-box-content {
+    margin: 18px 12px 12px 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+    /* for some reason this is able to select the second vertical line*/
+    /* ANSWER: nth-of-type() goes by tag name not class */
+    /* https://stackoverflow.com/questions/31848259/nth-of-type-selecting-wrong-element */
+  }
+  .ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) {
+    width: 350px;
+    height: 60px;
+  }
+  .ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) > .info-div-content {
+    margin: 0px;
+  }
+  .ip-address-info-box > .ip-address-info-box-content > .vertical-line {
+    display: none;
+  }
+  .info-div-content > h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=style.css.map */

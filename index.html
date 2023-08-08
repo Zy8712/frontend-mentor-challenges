@@ -3,23 +3,23 @@
 
 <head>
   <meta charset="utf-8"> <!-- 8-bit Encoding - Ensures Proper Character Encoding  -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Rendering Specification - Ensures Better Browser Compatibility-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Display Specifications - Ensures Optimal Display -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bryan Li | Frontend Mentor Work</title> <!-- Browser Tab Title -->
   <link rel="icon" type="image/x-icon"
     href="./frontend-mentor-mywork-directory/main/images/frontend-mentor-logo-transparent.png" /> <!-- Browser Icon -->
 
   <!-- CSS Stylesheet Imports/Links -->
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/bootstrap.min.css" />
   <!-- Bootstrap Library -->
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/aos.css" />
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/bootstrap.min.css" />
   <!-- Animated on Scroll Library -->
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/line-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/aos.css" />
   <!-- Line Awesome Library -->
-  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/line-awesome.min.css" />
   <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./frontend-mentor-mywork-directory/main/css/style.css" />
 </head>
 
 <!-- Scrollspy. Automatically update Bootstrap navigation or list group components
@@ -28,8 +28,9 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
 
 <body data-bs-spy="scroll" data-target=".navbar" class="">
 
+  <!-- fixed-top ensures that content is not pushed below it -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <!-- fixed-top ensures that content is not pushed below it -->
+
     <div class="container flex-lg-column"> <!-- flex-lg-column changes nav to column format when window is large -->
 
       <button type="button" id="minimize-navbar-button" class="position-absolute top-0 start-0 d-none d-lg-block">
@@ -40,9 +41,9 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
         class="position-absolute bottom-0 start-0 d-none d-lg-block">
         <i class="las la-cog"></i> <!-- Load in gear/settings menu icon -->
       </button>
-
+        
+      <!--mb-lg-4 margin bottom 4 in large window, mx-lg-auto margin left and right auto-->
       <a class="navbar-brand mx-lg-auto mb-lg-4" href="https://github.com/Zy8712">
-        <!--mb-lg-4 margin bottom 4 in large window, mx-lg-auto margin left and right auto-->
         <span class="h3 fw-bold d-block d-lg-none">Bryan Li | Frontend Mentor
           Work</span><!--d-lg-none only shows name when window is small-->
         <!-- Adjust border of photo. https://getbootstrap.com/docs/4.0/utilities/borders/-->
@@ -56,11 +57,16 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-          <!-- flex-lg-column changes nav to column format when window is large -->
+
+        <!-- flex-lg-column changes nav to column format when window is large -->
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center mt-5">
 
           <li class="nav-item"> <!-- Nav Bar Item 1 -->
             <a class="nav-link" href="#home" title="" id="nav-option0">Home</a>
+          </li>
+
+          <li class="nav-item"> <!-- Nav Bar Item 1.5 -->
+            <a class="nav-link" href="#featured" title="" id="nav-option0.5">Featured</a>
           </li>
 
           <li class="nav-item"> <!-- Nav Bar Item 2 -->
@@ -155,6 +161,139 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           <img src="./frontend-mentor-mywork-directory/main/images/16876663005141248.jpg" alt="logo1">
         </div>
       </div>
+    </section>
+
+    <section id="featured" class="full-height px-lg-5">
+
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">"A collection of my most cherished completed projects that I thoroughly enjoyed creating"</h6>
+            <h2>Featured Projects</h2>
+            <span class="featured-projects-box">
+              <span class="Text__Wrapper-sc-zbm6r7-0 featured-projects-icon">
+                <img src="./frontend-mentor-mywork-directory/main/images/stars-whitesparkle-svgrepo-com.svg">
+              </span>
+              <span class="Text__Wrapper-sc-zbm6r7-0 featured-projects-text">top picks</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./tip-calculator-app/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>Tip Calculator App</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon"
+                      title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon"
+                      title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg"
+                      alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <div class="card-links-mentor mt-3">
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/tip-calculator-app/my-work"
+                    target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./tip-calculator-app/my-work/index.html" target="_blank" class="link-custom"><i
+                      class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./advice-generator-app/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>Advice Generator App</h4>
+                  <div class="prog-lang-icon icon-4">
+                    <img src="./frontend-mentor-mywork-directory/main/images/api-svgrepo-com.svg" alt="api_icon"
+                      title="API">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon"
+                      title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon"
+                      title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg"
+                      alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <div class="card-links-mentor mt-3">
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/advice-generator-app/my-work"
+                    target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./advice-generator-app/my-work/index.html" target="_blank" class="link-custom"><i
+                      class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./age-calculator-app/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>Age Calculator App</h4>
+                  <div class="prog-lang-icon icon-3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon"
+                      title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon"
+                      title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg"
+                      alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <div class="card-links-mentor mt-3">
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/age-calculator-app/my-work"
+                    target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./age-calculator-app/my-work/index.html" target="_blank" class="link-custom"><i
+                      class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./faq-accordion-card/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>Faq Accordion Card</h4>
+                  <div class="prog-lang-icon icon-2">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon"
+                      title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon"
+                      title="CSS3">
+                  </div>
+                </div>
+                <div class="card-links-mentor mt-3">
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/faq-accordion-card/my-work"
+                    target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./faq-accordion-card/my-work/index.html" target="_blank" class="link-custom"><i
+                      class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
     </section>
 
 
@@ -670,7 +809,7 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                   <h4>Fylo Dark Theme Landing Page</h4>
                   <div class="prog-lang-icon icon-4">
                     <img src="./frontend-mentor-mywork-directory/main/images/scss2-svgrepo-com.svg" alt="sass_icon"
-                    title="SASS">
+                      title="SASS">
                     <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon"
                       title="HTML5">
                     <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon"
@@ -681,8 +820,8 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
                 </div>
                 <p>Completed: August 5th, 2023 [Trial #1]</p>
                 <div class="card-links-mentor">
-                  <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd" target="_blank"
-                    class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
+                  <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd"
+                    target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
                   <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/fylo-dark-theme-landing-page/my-work"
                     target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
                   <a href="./fylo-dark-theme-landing-page/my-work/index.html" target="_blank" class="link-custom"><i
@@ -953,6 +1092,44 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
           </div>
         </div>
 
+        <div class="row gy-4">
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./ip-address-tracker/my-work/design/desktop-preview.jpg" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <div class="proj-details">
+                  <h4>IP Address Tracker</h4>
+                  <div class="prog-lang-icon icon-5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/api-svgrepo-com.svg" alt="api_icon"
+                    title="API">
+                    <img src="./frontend-mentor-mywork-directory/main/images/scss2-svgrepo-com.svg" alt="sass_icon"
+                      title="SASS">
+                    <img src="./frontend-mentor-mywork-directory/main/images/html5-svgrepo-com.svg" alt="html5_icon"
+                      title="HTML5">
+                    <img src="./frontend-mentor-mywork-directory/main/images/css3-svgrepo-com.svg" alt="css3_icon"
+                      title="CSS3">
+                    <img src="./frontend-mentor-mywork-directory/main/images/javascript-svgrepo-com.svg"
+                      alt="javascript_icon" title="Javascript">
+                  </div>
+                </div>
+                <p>Completed: August 7th, 2023 [Trial #1]</p>
+                <div class="card-links-mentor">
+                  <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0"
+                    target="_blank" class="link-custom"><i class="las la-info-circle"></i> Challenge Info</a>
+                  <a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/ip-address-tracker/my-work"
+                    target="_blank" class="link-custom"><i class="lab la-github"></i> GitHub Repo</a>
+                  <a href="./ip-address-tracker/my-work/index.html" target="_blank" class="link-custom"><i
+                      class="las la-external-link-alt"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
 
 
       </div>
@@ -971,6 +1148,8 @@ https://getbootstrap.com/docs/5.0/components/scrollspy/ -->
             </span>
           </div>
         </div>
+
+
 
 
       </div>

@@ -13,6 +13,38 @@
       <td>Learned</td>
       <td>Trial#</td>
     </tr>
+	<tr>
+      <td>IP Address Tracker</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/ip-address-tracker/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/ip-address-tracker/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 7th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li>Leaflet-Library</li>
+			<li>Geo Ipify</li>
+			<li>nth-of-type()</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
     <tr>
       <td>Fylo Dark Theme Landing Page</td>
       <td>
@@ -41,7 +73,7 @@
           </ul>
         </details>
       </td>
-      <td>#2</td>
+      <td>#1</td>
     </tr>
     <tr>
       <td>Interactive Rating Component</td>

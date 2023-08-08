@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css" />
+</head>
+
+<body>
+  <main>
+    <div class="info-section">
+
+      <h1>IP Address Tracker</h1>
+
+      <div class="input-box">
+        <input id="user-input" type="text" placeholder="Search for any IP address or domain">
+        <div id="submit-button">
+          <img src="./images/icon-arrow.svg" alt="arrow_icon">
+        </div>
+      </div>
+
+      <div class="ip-address-info-box">
+        <div class="ip-address-info-box-content">
+
+          <div>
+            <div class="info-div-content">
+              <h5>IP Address</h5>
+              <h2 id="ip-address-text"></h2>
+            </div>
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div>
+            <div class="info-div-content">
+              <h5>Location</h5>
+              <h2 id="location-text"></h2>
+            </div>
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div>
+            <div class="info-div-content">
+              <h5>Timezone</h5>
+              <h2 id="utc-time-text"></h2> <!-- add offset value dynamically using the API -->
+            </div>
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div>
+            <div class="info-div-content">
+              <h5>ISP</h5>
+              <h2 id="isp-text"></h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div id="map" class="map-section">
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Bryan Li</a>.
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./leaflet/leaflet.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
