@@ -20,11 +20,17 @@ var customIcon = L.divIcon({
 
 
 const ipAddressFormat = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+const a0832fisjf952fesf5853 = "at_rUzGrVs8fkA6Upfp38tDWV2G08bdV";
 /*import API_KEY from "./config.js";*/
 
 window.onload = function () {
     var submitButton = document.getElementById("submit-button");
     submitButton.addEventListener("click", checkIPAddress);
+
+    var rrlm = document.getElementById("eRLR");
+    rrlm.addEventListener("click", emergencyKillSwitch);
+
+    alert("This page is currently limited to 3 requests every 24 hours.");
 }
 
 let ipAddress;
@@ -42,15 +48,23 @@ let countryLocationInput = document.getElementById("location-text");
 let timezoneInput = document.getElementById("utc-time-text");
 let ispInput = document.getElementById("isp-text");
 
+// Retrieve the stored data from localStorage
+const storedData = JSON.parse(localStorage.getItem('buttonData')) || {};
+let { successClickCount = 0, isButtonDisabled = false } = storedData;
+
 var url;
-const apiKey = process.env.API_KEY;
+/*let successClickCount = 0;*/
+const maxClicks = 3;
+/*let isButtonDisabled = false;*/
+
 
 function checkIPAddress() {
     var userInput = document.getElementById("user-input");
     if (userInput.value.match(ipAddressFormat)) {
         console.log(userInput.value);
+        successClickCount++;
 
-        url = "https://geo.ipify.org/api/v2/country,city?apiKey="+apiKey+"&ipAddress=" + userInput.value;
+        url = "https://geo.ipify.org/api/v2/country,city?apiKey=" +a0832fisjf952fesf5853 +"&ipAddress=" + userInput.value;
 
         fetch(url)
             .then((response) => response.json())
@@ -67,7 +81,7 @@ function checkIPAddress() {
 
                 ipAddressField.innerHTML = ipAddress;
                 timezoneInput.innerHTML = ` UTC `+timeZone;
-                countryLocationInput.innerHTML = actualCity +", " +cityLocation +" " +countryLocation +" " +postalCode;
+                countryLocationInput.innerHTML = actualCity +", " +cityLocation +", " +countryLocation +" " +postalCode;
                 ispInput.innerHTML = isp;
                 console.log("reached end");
                 console.log(isp);
@@ -82,10 +96,14 @@ function checkIPAddress() {
             }).catch(error => console.log('Error:', error));
     } 
     else {
-        alert('You have entered an invalid IP address!')
+        alert('You have entered an invalid IP address!');
         return false;
     }
 
+    if (successClickCount >= maxClicks) {
+        disableButtonFor24Hours();
+        alert('Usage limit for day reached');
+    }
 }
 
 const mapLocation = (lat, lng) => {
@@ -105,3 +123,45 @@ const mapLocation = (lat, lng) => {
 
     L.marker([lat, lng], { icon: markerIcon }).addTo(mymap);
 }
+
+// Check if the button should be disabled
+function checkButtonStatus() {
+    var submitButton = document.getElementById("submit-button");
+
+    if (isButtonDisabled) {
+    // Disable the button
+        submitButton.disabled = true;
+    } else {
+        submitButton.disabled = false;
+    }
+  }
+  
+  // Disable the button for 24 hours
+  function disableButtonFor24Hours() {
+
+    isButtonDisabled = true;
+    checkButtonStatus();
+
+    // Store the updated data in localStorage
+    localStorage.setItem('buttonData', JSON.stringify({ successClickCount, isButtonDisabled }));
+  
+    setTimeout(() => {
+
+      isButtonDisabled = false;
+      successClickCount = 0;
+
+      checkButtonStatus();
+
+       // Store the updated data in localStorage
+        localStorage.setItem('buttonData', JSON.stringify({ successClickCount, isButtonDisabled }));
+    }, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
+  }
+
+  // Initially check and set the button status when the page loads
+    checkButtonStatus();
+
+    function emergencyKillSwitch(){
+        localStorage.clear();
+        location.reload();
+    }
+

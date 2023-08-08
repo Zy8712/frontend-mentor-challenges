@@ -71,7 +71,7 @@ main {
             }
         }
 
-        >div {
+        >#submit-button {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -86,6 +86,10 @@ main {
             &:hover {
                 cursor: pointer;
                 opacity: 0.85;
+            }
+
+            &:disabled{
+                cursor: not-allowed;
             }
         }
     }
@@ -117,7 +121,7 @@ main {
             height: 130px;
 
             >.info-div-content {
-                margin: 20px 20px 20px 25px;
+                margin: 8px 20px 20px 25px;
             }
         }
 
@@ -145,8 +149,6 @@ main {
     }
 }
 
-
-
 footer {
     position: absolute;
     bottom: 15px;
@@ -157,6 +159,7 @@ footer {
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: relative;
 
     >a {
         color: hsl(228, 45%, 44%);

@@ -59,7 +59,7 @@ main > .map-section {
 .info-section > .input-box > input[type=text]:focus {
   outline-style: none;
 }
-.info-section > .input-box > div {
+.info-section > .input-box > #submit-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,9 +69,12 @@ main > .map-section {
   border-style: none;
   border-radius: 0px 14px 14px 0px;
 }
-.info-section > .input-box > div:hover {
+.info-section > .input-box > #submit-button:hover {
   cursor: pointer;
   opacity: 0.85;
+}
+.info-section > .input-box > #submit-button:disabled {
+  cursor: not-allowed;
 }
 .info-section > .ip-address-info-box {
   width: 1140px;
@@ -95,7 +98,7 @@ main > .map-section {
   height: 130px;
 }
 .ip-address-info-box > .ip-address-info-box-content > div:not(.vertical-line) > .info-div-content {
-  margin: 20px 20px 20px 25px;
+  margin: 8px 20px 20px 25px;
 }
 .ip-address-info-box > .ip-address-info-box-content > .vertical-line {
   height: 75px;
@@ -126,6 +129,7 @@ footer {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: relative;
 }
 .attribution > a {
   color: hsl(228, 45%, 44%);
