@@ -1,16 +1,25 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap');
 
 :root{
-    --color-body: #ffffff; /* white */
-    --color-heading: #eef3db; /* baige */                           /* og */
-    --color-base: #2596be; /* cool blue */
-    --color-base2: #000000;  /* black */
-    --color-brand: #e0f780; /* slightly less bright yellow green */ /* og */
-    --color-brand2: #deff58; /* bright yellow green */              /* og */
-    --color-body-bright: white;
-    --sidebar-width: 220px;
-    --font-base: "Bai Jamjuree";
+  /* Default Iceberg Theme */
+  --color-body: #ffffff; /* white */
+  --color-heading: #eef3db; /* baige */                           /* og */
+  --color-base: #2596be; /* cool blue */
+  --color-base2: #000000;  /* black */
+  --color-brand: #e0f780; /* slightly less bright yellow green */ /* og */
+  --color-brand2: #deff58; /* bright yellow green */              /* og */
+  --color-body-bright: white;
+  --sidebar-width: 220px;
+
+  --font-theme-abel: "Abel";
+  --font-theme-jamjuree: "Bai Jamjuree";
+  --font-theme-kumbh: "Kumbh Sans";
+
+  /* Featured projects icon */
+  --theme-featured-projects-soft-violet: hsl(273, 75%, 66%);
+  --theme-featured-projects-soft-blue: hsl(240, 73%, 65%);
 }
 
 *{
@@ -22,32 +31,32 @@
 /* https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll */
 /* !!! This code causes scrollspy to break new code was added to replace this */
 /* html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+max-width: 100%;
+overflow-x: hidden;
 } */
 
 body{
   background-color: var(--color-base2);
   color: var(--color-body);
-  font-family: var(--font-base), sans-serif;
+  font-family: var(--font-theme-jamjuree), sans-serif;
 }
 
 /* Custom scrollbar */
 /* https://css-tricks.com/classy-and-cool-custom-css-scrollbars-a-showcase/ */
 html::-webkit-scrollbar {
-    background-color: #000;
-    width: 12px;
-    border-radius: 10px;
+  background-color: #000;
+  width: 12px;
+  border-radius: 10px;
 }
 
 html::-webkit-scrollbar-track {
-    border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
 }
 
 html::-webkit-scrollbar-thumb {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #a520ca), color-stop(1, #2681cc));
-    border-radius: 10px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #a520ca), color-stop(1, #2681cc));
+  border-radius: 10px;
 }
 /* end of code for custom scrollbar */
 
@@ -101,17 +110,17 @@ img{
   overflow-x: hidden;
 }
 
-#newbie, #junior, #intermediate, #advanced, #guru{
+#featured, #newbie, #junior, #intermediate, #advanced, #guru{
   overflow: hidden;
 }
 
-#newbie, #intermediate, #guru, #contact{
+#featured, #junior, #advanced, #links, footer{
   background-image: url("../images/peakpx-iceberg_cleanup_enhanced_cropped_copy.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-#junior, #advanced, #links, footer{
+#newbie, #intermediate, #guru, #contact{
   background-image: url("../images/peakpx-iceberg_cleanup_enhanced_cropped.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -191,7 +200,7 @@ img{
 /* changes color of text/link in navbar to active page, e.g. services text highlighted when in services section */
 /* works together with scrollspy in body tag */
 .navbar .nav-link.active {
-    color: var(--color-brand);
+  color: var(--color-brand);
 }
 
 @media (min-width: 992px){ /* if browser window is equal to this or greater than, the following occurs */
@@ -422,165 +431,212 @@ img{
 /***************************/
 
 .Text__Wrapper-sc-zbm6r7-0 {
-    padding: 0rem 0.75rem;
+  padding: 0rem 0.75rem;
 }
 
+.featured-projects-box {
+  border-top: var(--theme-featured-projects-soft-blue);
+  border-left: var(--theme-featured-projects-soft-violet);
+  border-right: var(--theme-featured-projects-soft-violet);
+  border-bottom: var(--theme-featured-projects-soft-violet);
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.featured-projects-box > .featured-projects-icon {
+  background-image: linear-gradient(var(--theme-featured-projects-soft-blue), var(--theme-featured-projects-soft-violet));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.featured-projects-icon > img{
+  width: 25px;
+  height: 25px;
+}
+
+.featured-projects-box > .featured-projects-text {
+  background-color: transparent;
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+  text-transform: uppercase;
+
+  /* gradient text */
+  background: -webkit-linear-gradient(var(--theme-featured-projects-soft-blue), var(--theme-featured-projects-soft-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/**************************/
+
 .newbie-difficulty-box {
-    border: 1px solid rgb(106, 190, 205);
-    border-radius: 0.5rem;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    overflow: hidden;
+  border: 1px solid rgb(106, 190, 205);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .newbie-difficulty-box > .newbie-difficulty-number {
-    background-color: rgb(106, 190, 205);
-    color: rgb(255, 255, 255);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
+  background-color: rgb(106, 190, 205);
+  color: rgb(255, 255, 255);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 .newbie-difficulty-box > .newbie-difficulty-text {
-    background-color: transparent;
-    color: rgb(106, 190, 205);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
-    text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(106, 190, 205);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
 /**************************/
 
 .junior-difficulty-box {
-    border: 1px solid rgb(170, 215, 66);
-    border-radius: 0.5rem;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    overflow: hidden;
+  border: 1px solid rgb(170, 215, 66);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .junior-difficulty-box > .junior-difficulty-number {
-    background-color: rgb(170, 215, 66);
-    color: rgb(255, 255, 255);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
+  background-color: rgb(170, 215, 66);
+  color: rgb(255, 255, 255);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 .junior-difficulty-box > .junior-difficulty-text {
-    background-color: transparent;
-    color: rgb(170, 215, 66);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
-    text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(170, 215, 66);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
 /***************************************/
 
 .intermediate-difficulty-box {
-    border: 1px solid rgb(241, 182, 4);
-    border-radius: 0.5rem;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    overflow: hidden;
+  border: 1px solid rgb(241, 182, 4);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .intermediate-difficulty-box > .intermediate-difficulty-number {
-    background-color: rgb(241, 182, 4);
-    color: rgb(255, 255, 255);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
+  background-color: rgb(241, 182, 4);
+  color: rgb(255, 255, 255);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 .intermediate-difficulty-box > .intermediate-difficulty-text {
-    background-color: transparent;
-    color: rgb(241, 182, 4);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
-    text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(241, 182, 4);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
 /***************************************/
 
 .advanced-difficulty-box {
-    border: 1px solid rgb(244, 137, 37);
-    border-radius: 0.5rem;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    overflow: hidden;
+  border: 1px solid rgb(244, 137, 37);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .advanced-difficulty-box > .advanced-difficulty-number {
-    background-color: rgb(244, 137, 37);
-    color: rgb(255, 255, 255);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
+  background-color: rgb(244, 137, 37);
+  color: rgb(255, 255, 255);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 .advanced-difficulty-box > .advanced-difficulty-text {
-    background-color: transparent;
-    color: rgb(244, 137, 37);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
-    text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(244, 137, 37);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
 /**************************************/
 
 .guru-difficulty-box {
-    border: 1px solid rgb(237, 44, 73);
-    border-radius: 0.5rem;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    overflow: hidden;
+  border: 1px solid rgb(237, 44, 73);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .guru-difficulty-box > .guru-difficulty-number{
-    background-color: rgb(237, 44, 73);
-    color: rgb(255, 255, 255);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
+  background-color: rgb(237, 44, 73);
+  color: rgb(255, 255, 255);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 .guru-difficulty-box > .guru-difficulty-text {
-    background-color: transparent;
-    color: rgb(237, 44, 73);
-    font-family: Barlow, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0px;
-    text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(237, 44, 73);
+  font-family: Barlow, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
 /*************************************/
@@ -595,7 +651,7 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-   /* forces div to remain at width its set to cannot be pressured to reduce size */
+  /* forces div to remain at width its set to cannot be pressured to reduce size */
   flex-shrink: 0;
 }
 
@@ -609,6 +665,10 @@ img{
 
 .icon-4{
   width: 160px;
+}
+
+.icon-5{
+  width: 200px;
 }
 
 .prog-lang-icon > img{
