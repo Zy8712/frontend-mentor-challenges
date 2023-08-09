@@ -75,6 +75,7 @@ window.onscroll = function(){
 function changeNavBar(){
   if (navbar_minimized == false){
     $("nav-option0").innerHTML = "[H]";
+    $("nav-option0.5").innerHTML = "[F]";
     $("nav-option1").innerHTML = "[1]";
     $("nav-option2").innerHTML = "[2]";
     $("nav-option3").innerHTML = "[3]";
@@ -85,6 +86,7 @@ function changeNavBar(){
 
 
     $("nav-option0").title = "Home";
+    $("nav-option0.5").title = "Featured";
     $("nav-option1").title = "Newbie";
     $("nav-option2").title = "Junior";
     $("nav-option3").title = "Intermediate";
@@ -100,6 +102,7 @@ function changeNavBar(){
   }
   else{
     $("nav-option0").innerHTML = "Home";
+    $("nav-option0.5").innerHTML = "Featured";
     $("nav-option1").innerHTML = "Newbie";
     $("nav-option2").innerHTML = "Junior";
     $("nav-option3").innerHTML = "Intermediate";
@@ -109,6 +112,7 @@ function changeNavBar(){
     $("nav-option7").innerHTML = "Contact";
 
     $("nav-option0").title = "";
+    $("nav-option0.5").title = "";
     $("nav-option1").title = "";
     $("nav-option2").title = "";
     $("nav-option3").title = "";
@@ -130,6 +134,7 @@ function checkNavBarText(){
 
   if(w < 992 && navbar_minimized == true){
     $("nav-option0").innerHTML = "Home";
+    $("nav-option0.5").innerHTML = "Featured";
     $("nav-option1").innerHTML = "Newbie";
     $("nav-option2").innerHTML = "Junior";
     $("nav-option3").innerHTML = "Intermediate";
@@ -139,6 +144,7 @@ function checkNavBarText(){
     $("nav-option7").innerHTML = "Contact";
 
     $("nav-option0").title = "";
+    $("nav-option0.5").title = "";
     $("nav-option1").title = "";
     $("nav-option2").title = "";
     $("nav-option3").title = "";
@@ -149,6 +155,7 @@ function checkNavBarText(){
   }
   else if (w >= 992 && navbar_minimized == true){
     $("nav-option0").innerHTML = "[H]";
+    $("nav-option0.5").innerHTML = "[F]";
     $("nav-option1").innerHTML = "[1]";
     $("nav-option2").innerHTML = "[2]";
     $("nav-option3").innerHTML = "[3]";
@@ -158,6 +165,7 @@ function checkNavBarText(){
     $("nav-option7").innerHTML = "[C]";
 
     $("nav-option0").title = "Home";
+    $("nav-option0.5").title = "Featured";
     $("nav-option1").title = "Newbie";
     $("nav-option2").title = "Junior";
     $("nav-option3").title = "Intermediate";
@@ -214,7 +222,6 @@ function switchDarkLight(){
 
   const h2Elements = popupBox.querySelectorAll('h2');
   h2Elements.forEach(h2 => h2.style.color = newTextColor);
-
 }
 
 function scrollFunction() {
