@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+    --theme-soft-red: hsl(10, 79%, 65%);
+    --theme-cyan: hsl(186, 34%, 60%);
+
+    /* Neutral */
+    --theme-dark-brown: hsl(25, 47%, 15%);
+    --theme-medium-brown: hsl(28, 10%, 53%);
+    --theme-cream: hsl(27, 66%, 92%);
+    --theme-very-pale-orange: hsl(33, 100%, 98%);
+
+    --font-theme-dm-sans: "DM Sans";
+}
+
+body{
+    background-color: var(--theme-cream);
+    margin: 0px;
+    border: red solid 2px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    font-family: var(--font-theme-dm-sans);
+}
+
+main{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 480px;
+    height: 580px;
+}
+
+.balance-box{
+    background-color: var(--theme-soft-red);
+    border-style: none;
+    border-radius: 17px;
+    width: 100%;
+    height: 116px;
+
+    .balance-box-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 25px 35px 25px 35px;
+    }
+}
+
+.balance-box-values{
+    color: var(--theme-very-pale-orange);
+
+    h5{
+        margin: 0px 0px 5px 0px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    span{
+        margin: 0px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+.primary-box{
+    width: 100%;
+    height: 440px;
+
+    background-color: var(--theme-very-pale-orange);
+    border-style: none;
+    border-radius: 17px;
+
+    .primary-box-content{
+        margin: 25px 28px 25px 28px;
+
+        h1{
+            font-size: 29px;
+            margin: 0px;
+            color: var(--theme-dark-brown);
+        }
+    }
+}
+
+.chart-box{
+    margin-top: 30px;
+    border-bottom: 2px solid var(--theme-cream);
+    padding-bottom: 20px;
+}
+
+#myChart{
+    width: 100%;
+    height: 200px;
+}
+
+.month-stats-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-top: 30px;
+
+    .month-total{
+        h5{
+            font-weight: 400;
+            color: var(--theme-medium-brown);
+            margin: 0px;
+        }
+        span{
+            font-size: 35px;
+            font-weight: 700;
+            color: var(--theme-dark-brown);
+        }
+    }
+
+    .month-change{
+        text-align: right;
+        h5{
+            margin: 0px;
+            color: var(--theme-dark-brown);
+        }
+        span{
+            color: var(--theme-medium-brown);
+            font-size: 14px;
+        }
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    >a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+
+@media (max-width: 420px){
+    .container{
+        width: 360px;
+    }
+}

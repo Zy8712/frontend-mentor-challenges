@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+  </script>
+
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="balance-box">
+        <div class="balance-box-content">
+          <div class="balance-box-values">
+            <h5>My balance</h5>
+            <span>$921.48</span>
+          </div>
+          <div class="logo-box">
+            <img src="./images/logo.svg" alt="logo_image">
+          </div>
+        </div>
+      </div>
+
+      <div class="primary-box">
+        <div class="primary-box-content">
+          <h1>Spending - Last 7 days</h1>
+          <div class="chart-box">
+            <canvas id="myChart">
+            </canvas>
+          </div>
+
+          <div class="month-stats-box">
+            <div class="month-total">
+              <h5>Total this month</h5>
+              <span>$478.33</span>
+            </div>
+
+            <div class="month-change">
+              <h5>+2.4%</h5>
+              <span>from last month</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Bryan Li</a>.
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
