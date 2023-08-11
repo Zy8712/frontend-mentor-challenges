@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <div id="score-box">
+      <div class="score-box-contents">
+        <div class="options-label">
+          <h1>ROCK</h1>
+          <h1>PAPER</h1>
+          <h1>SCISSORS</h1>
+          <h1 class="displayNone">LIZARD</h1>
+          <h1 class="displayNone">SPOCK</h1>
+        </div>
+        <div class="score-count-box">
+          <h5>SCORE</h5>
+          <span id="score-counter">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="game-options-screen" class="game-options-screen-layout">
+
+      <div id="paper-button" class="player-move-option-standard paper-button-standard">
+        <div class="button-inner">
+          <div>
+            <img src="./images/icon-paper.svg" alt="paper_icon">
+          </div>
+        </div>
+      </div>
+
+      <div id="scissors-button" class="player-move-option-standard scissors-button-standard">
+        <div class="button-inner">
+          <div>
+            <img src="./images/icon-scissors.svg" alt="scissors_icon">
+          </div>
+        </div>
+      </div>
+
+      <div id="rock-button" class="player-move-option-standard rock-button-standard">
+        <div class="button-inner">
+          <div>
+            <img src="./images/icon-rock.svg" alt="rock_icon">
+          </div>
+        </div>
+      </div>
+
+      <div id="lizard-button"
+        class="player-move-option-standard lizard-button-bonus bonus-mode-button-modification displayNone">
+        <div class="button-inner">
+          <div>
+            <img src="./images/icon-lizard.svg" alt="lizard_icon">
+          </div>
+        </div>
+      </div>
+
+      <div id="spock-button"
+        class="player-move-option-standard spock-button-bonus bonus-mode-button-modification displayNone">
+        <div class="button-inner">
+          <div>
+            <img src="./images/icon-spock.svg" alt="spock_icon">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="results-screen" class="displayNone">
+      <div id="results-screen-content" class="selection-process-content">
+
+        <div class="choice-box">
+          <h2>You picked</h2>
+          <div id="player-section"  class="player-move-option-standard-results">
+            <div class="button-inner">
+              <div>
+                <img src="" alt="player_selection">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="choice-box">
+          <h2>The house picked</h2>
+          <div id="placeholder" class="placeholder-circle">
+          </div>
+          <div id="computer-section" class="displayNone">
+            <div class="button-inner">
+              <div>
+                <img src="" alt="computer_selection">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="results-text" class="displayNone">
+          <span id="results-text-outcome">You Win</span>
+          <button id="play-again-button">Play again</button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+  <button id="rules-button">RULES</button>
+
+  <div id="rules-panel" class="rulesPanel displayNone">
+    <div class="rules-box">
+      <div class="rules-box-content">
+        <div class="rules-heading">
+          <h1>RULES</h1>
+          <img id="close-rules" src="./images/icon-close.svg" alt="close_icon">
+        </div>
+        <div id="rules" class="displayNone">
+          <img src="./images/image-rules.svg">
+        </div>
+        <div id="rules-bonus" class="displayNone">
+          <img src="./images/image-rules-bonus.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bonus-toggle" class="bonus-mode-toggle-box">
+    <div class="bonus-mode-toggle-box-content">
+      <img id="activate-bonus" class="" src="./custom/plus-circle-svgrepo-com.svg" alt="plus_icon">
+      <img id="deactivate-bonus" class="displayNone" src="./custom/minus-circle-svgrepo-com.svg" alt="minus_icon">
+      <span id="mode-text-indicater">Standard Mode</span>
+    </div>
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Bryan Li</a>.
+    </div>
+  </footer>
+
+  <div class="watermark"><img src="./custom/imageedit_20_5378331033.png"></div>
+
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
