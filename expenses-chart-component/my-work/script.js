@@ -1,7 +1,19 @@
 var xValues = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 var yValues = [];
-var barColors = "hsl(10, 79%, 65%)";
-var hoverBarColors = "hsla(10, 79%, 65%, 0.7)";
+var barColors = ["hsl(10, 79%, 65%)", "hsl(10, 79%, 65%)", "hsl(10, 79%, 65%)", "hsl(10, 79%, 65%)", "hsl(10, 79%, 65%)", "hsl(10, 79%, 65%)", "hsl(10, 79%, 65%)",];
+var hoverBarColors = ["hsla(10, 79%, 65%, 0.7)", "hsla(10, 79%, 65%, 0.7)", "hsla(10, 79%, 65%, 0.7)", "hsla(10, 79%, 65%, 0.7)", "hsla(10, 79%, 65%, 0.7)", "hsla(10, 79%, 65%, 0.7)", "hsla(10, 79%, 65%, 0.7)"];
+
+var dateObj = new Date();
+var day = dateObj.getDay(); // day of the week
+if (day == 0){
+  barColors[6] = "hsl(186, 34%, 60%)";
+  hoverBarColors[6] = "hsla(186, 34%, 60%, 0.7)";
+}
+else{
+  barColors[day-1] = "hsl(186, 34%, 60%)";
+  hoverBarColors[day-1] = "hsla(186, 34%, 60%, 0.7)";
+}
+
 
 // Make an asynchronous HTTP request to load the JSON data
 fetch("./data.json")
