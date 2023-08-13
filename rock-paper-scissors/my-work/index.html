@@ -11,11 +11,21 @@
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./css/global.css">
+  <link rel="stylesheet" type="text/css" href="./css/rules.css">
+  <link rel="stylesheet" type="text/css" href="./css/bonus-mode-toggle.css">
+  <link rel="stylesheet" type="text/css" href="./css/score-box.css">
+  <link rel="stylesheet" type="text/css" href="./css/game-options-layout.css">
+  <link rel="stylesheet" type="text/css" href="./css/player-move-option-standard.css">
+  <link rel="stylesheet" type="text/css" href="./css/player-move-option-bonus-addon.css">
+  <link rel="stylesheet" type="text/css" href="./css/round-outcome.css">
 </head>
 
 <body>
   <main>
+    <!-- =============================================== -->
+    <!-- ======== SCORE BOX + MOVE OPTIONS TEXT ======== -->
+    <!-- =============================================== -->
     <div id="score-box">
       <div class="score-box-contents">
         <div class="options-label">
@@ -32,8 +42,13 @@
       </div>
     </div>
 
+
+    <!-- =============================================== -->
+    <!-- ============= PLAYER MOVE OPTIONS ============= -->
+    <!-- =============================================== -->
     <div id="game-options-screen" class="game-options-screen-layout">
 
+      <!-- MOVE OPTION: PAPER -->
       <div id="paper-button" class="player-move-option-standard paper-button-standard">
         <div class="button-inner">
           <div>
@@ -42,6 +57,7 @@
         </div>
       </div>
 
+      <!-- MOVE OPTION: SCISSORS -->
       <div id="scissors-button" class="player-move-option-standard scissors-button-standard">
         <div class="button-inner">
           <div>
@@ -50,6 +66,7 @@
         </div>
       </div>
 
+      <!-- MOVE OPTION: ROCK -->
       <div id="rock-button" class="player-move-option-standard rock-button-standard">
         <div class="button-inner">
           <div>
@@ -58,8 +75,8 @@
         </div>
       </div>
 
-      <div id="lizard-button"
-        class="player-move-option-standard lizard-button-bonus bonus-mode-button-modification displayNone">
+      <!-- MOVE OPTION: LIZARD (BONUS MODE ONLY) -->
+      <div id="lizard-button" class="displayNone">
         <div class="button-inner">
           <div>
             <img src="./images/icon-lizard.svg" alt="lizard_icon">
@@ -67,8 +84,8 @@
         </div>
       </div>
 
-      <div id="spock-button"
-        class="player-move-option-standard spock-button-bonus bonus-mode-button-modification displayNone">
+      <!-- MOVE OPTION: SPOCK (BONUS MODE ONLY) -->
+      <div id="spock-button" class="displayNone">
         <div class="button-inner">
           <div>
             <img src="./images/icon-spock.svg" alt="spock_icon">
@@ -78,12 +95,18 @@
 
     </div>
 
+
+
+    <!-- ================================================ -->
+    <!-- ============= ROUND RESULTS SCREEN ============= -->
+    <!-- ================================================ -->
     <div id="results-screen" class="displayNone">
       <div id="results-screen-content" class="selection-process-content">
 
+        <!-- PLAYER'S SELECTED MOVE OPTION -->
         <div class="choice-box">
           <h2>You picked</h2>
-          <div id="player-section"  class="player-move-option-standard-results">
+          <div id="player-section" class="player-move-option-standard-results">
             <div class="button-inner">
               <div>
                 <img src="" alt="player_selection">
@@ -92,6 +115,7 @@
           </div>
         </div>
 
+        <!-- COMPUTER'S SELECTED MOVE OPTION -->
         <div class="choice-box">
           <h2>The house picked</h2>
           <div id="placeholder" class="placeholder-circle">
@@ -105,37 +129,20 @@
           </div>
         </div>
 
+        <!-- END OF ROUND FINAL RESULTS: WIN, LOSE, TIE -->
         <div id="results-text" class="displayNone">
           <span id="results-text-outcome">You Win</span>
           <button id="play-again-button">Play again</button>
         </div>
 
       </div>
-
     </div>
-
 
   </main>
 
-  <button id="rules-button">RULES</button>
-
-  <div id="rules-panel" class="rulesPanel displayNone">
-    <div class="rules-box">
-      <div class="rules-box-content">
-        <div class="rules-heading">
-          <h1>RULES</h1>
-          <img id="close-rules" src="./images/icon-close.svg" alt="close_icon">
-        </div>
-        <div id="rules" class="displayNone">
-          <img src="./images/image-rules.svg">
-        </div>
-        <div id="rules-bonus" class="displayNone">
-          <img src="./images/image-rules-bonus.svg">
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <!-- ================================================ -->
+  <!-- === STANDARD MODE / BONUS MODE TOGGLE BUTTON === -->
+  <!-- ================================================ -->
   <div id="bonus-toggle" class="bonus-mode-toggle-box">
     <div class="bonus-mode-toggle-box-content">
       <img id="activate-bonus" class="" src="./custom/plus-circle-svgrepo-com.svg" alt="plus_icon">
@@ -143,6 +150,38 @@
       <span id="mode-text-indicater">Standard Mode</span>
     </div>
   </div>
+
+  <!-- =============================================== -->
+  <!-- =========== RULES MENU POPUP BUTTON =========== -->
+  <!-- =============================================== -->
+  <button id="rules-button">RULES</button>
+
+  <!-- ================================================ -->
+  <!-- ============ RULES MENU POPUP PANEL ============ -->
+  <!-- ================================================ -->
+  <div id="rules-panel" class="rulesPanel displayNone">
+    <div class="rules-box">
+      <div class="rules-box-content">
+
+        <div class="rules-heading">
+          <h1>RULES</h1>
+        </div>
+
+        <img id="close-rules" src="./images/icon-close.svg" alt="close_icon">
+
+        <!-- STANDARD RULES -->
+        <div id="rules" class="displayNone">
+          <img src="./images/image-rules.svg">
+        </div>
+
+        <!-- BONUS MODE RULES -->
+        <div id="rules-bonus" class="displayNone">
+          <img src="./images/image-rules-bonus.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <footer>
     <div class="attribution">

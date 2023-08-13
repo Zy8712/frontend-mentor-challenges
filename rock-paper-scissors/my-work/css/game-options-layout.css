@@ -1,0 +1,26 @@
+@import url("./global.css");
+.game-options-screen-layout {
+  width: 600px;
+  height: 600px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-image: url("../images/bg-triangle.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.game-options-screen-bonus-layout {
+  background-image: url("../images/bg-pentagon.svg");
+}
+
+@media (max-width: 499px) {
+  #game-space {
+    height: 360px;
+  }
+  .game-options-screen-layout {
+    width: 360px;
+    height: 360px;
+    background-size: 60%;
+  }
+}/*# sourceMappingURL=game-options-layout.css.map */

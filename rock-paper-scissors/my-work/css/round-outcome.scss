@@ -1,0 +1,374 @@
+@import url("./global.css");
+
+.selection-process {
+    width: 800px;
+    transition: width 2s;
+    flex-grow: 3;
+    flex-shrink: 0;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.selection-process-content {
+    width: 800px;
+    height: 500px;
+    transition: width 2s;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    .choice-box {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+
+        h2 {
+            margin-bottom: 60px;
+            text-transform: uppercase;
+            color: white;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+
+.player-move-option-standard-results {
+    border-radius: 250px;
+    border-width: 30px;
+    border-style: solid;
+
+    width: 230px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >.button-inner {
+        width: 230px;
+        height: 230px;
+
+        background-color: white;
+        border-radius: 250px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >div {
+            width: 227px;
+            height: 205px;
+
+            border-style: none;
+            box-shadow: 0px -3px 10px 0px rgba(133, 126, 126, 0.3);
+            border-radius: 50%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.paper-button-selected {
+    border-color: var(--theme-paper-gradient-colour2);
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.4), 0px 10px 0px 0px var(--theme-paper-gradient-colour1);
+
+    img {
+        /* 49 * 2 */
+        width: 98px;
+        /* 59 * 2 */
+        height: 118px;
+        content: url("../images/icon-paper.svg");
+    }
+}
+
+.scissors-button-selected {
+    border-color: var(--theme-scissors-gradient-colour2);
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.4), 0px 10px 0px 0px var(--theme-scissors-gradient-colour1);
+
+    img {
+        /* 51 * 2 */
+        width: 102px;
+        /* 58 * 2 */
+        height: 106px;
+        content: url("../images/icon-scissors.svg");
+    }
+}
+
+.rock-button-selected {
+    border-color: var(--theme-rock-gradient-colour2);
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.4), 0px 10px 0px 0px var(--theme-rock-gradient-colour1);
+
+    img {
+        /* 48px * 2 */
+        width: 96px;
+        /* 46px * 2 */
+        height: 92px;
+        content: url("../images/icon-rock.svg");
+    }
+}
+
+.spock-button-selected {
+    border-color: var(--theme-spock-gradient-colour2);
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.4), 0px 10px 0px 0px var(--theme-spock-gradient-colour1);
+
+    img {
+        /* 45px * 2 */
+        width: 90px;
+        /* 59px * 2 */
+        height: 108px;
+        content: url("../images/icon-spock.svg");
+    }
+}
+
+.lizard-button-selected {
+    border-color: var(--theme-lizard-gradient-colour2);
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.4), 0px 10px 0px 0px var(--theme-lizard-gradient-colour1);
+
+    img {
+        /* 60 * 2 */
+        width: 120px;
+        /* 63 * 2 */
+        height: 126px;
+        content: url("../images/icon-lizard.svg");
+    }
+}
+
+.expanded-state {
+    width: 1000px;
+}
+
+.selection-process-content {
+    .shrunken-width {
+        width: 350px;
+    }
+}
+
+.results-text-display {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 300px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: opacity 1s ease;
+
+    >span {
+        color: white;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        margin-top: 65px;
+    }
+
+    button {
+        border: 1px white solid;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-family: var(--font-theme-barlow);
+
+
+        padding: 12px 50px 12px 50px;
+
+        &:hover {
+            background-color: white;
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease forwards;
+    /* Use a CSS animation for the fade-in effect */
+}
+
+/* Define the keyframes for the fade-in animation */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.placeholder-circle {
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    border-radius: 50%;
+    background-color: var(--theme-radial-gradient-colour2);
+    margin-top: 42.5px;
+    margin-bottom: 48px;
+
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1.5);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+@media (max-width: 499px) {
+    .selection-process {
+        width: 360px;
+    }
+
+    .selection-process-content {
+        width: 360px;
+        height: 280px;
+
+        .choice-box {
+            width: 180px;
+            height: 100%;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+
+            h2 {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .player-move-option-standard-results {
+        border-width: 18px;
+
+        width: 120px;
+        height: 120px;
+
+        margin-top: 28px;
+
+        >.button-inner {
+            width: 120px;
+            height: 120px;
+
+            >div {
+                width: 117px;
+                height: 105px;
+
+                box-shadow: 0px -7px 7px 0px rgba(133, 126, 126, 0.3);
+            }
+        }
+    }
+
+    .paper-button-selected {
+        box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.4), 0px 6px 0px 0px var(--theme-paper-gradient-colour1);
+
+        img {
+            /* 49 * 1.2 */
+            width: 58.8px;
+            /* 59 * 1.2 */
+            height: 70.8px;
+        }
+    }
+
+    .scissors-button-selected {
+        box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.4), 0px 6px 0px 0px var(--theme-scissors-gradient-colour1);
+
+        img {
+            /* 51 * 1.2 */
+            width: 61.2px;
+            /* 58 * 1.2 */
+            height: 69.6px;
+        }
+    }
+
+    .rock-button-selected {
+        box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.4), 0px 6px 0px 0px var(--theme-rock-gradient-colour1);
+
+        img {
+            /* 48px * 1.2 */
+            width: 57.6px;
+            /* 46px * 1.2 */
+            height: 55.2px;
+        }
+    }
+
+    .spock-button-selected {
+        box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.4), 0px 6px 0px 0px var(--theme-spock-gradient-colour1);
+
+        img {
+            /* 45px * 1.2 */
+            width: 54px;
+            /* 59px * 1.2 */
+            height: 70.8px;
+        }
+    }
+
+    .lizard-button-selected {
+        box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.4), 0px 6px 0px 0px var(--theme-lizard-gradient-colour1);
+
+        img {
+            /* 60 * 1.2 */
+            width: 72px;
+            /* 63 * 1.2 */
+            height: 75.6px;
+        }
+    }
+
+    .expanded-state {
+        width: 360px;
+    }
+
+    .selection-process-content {
+        .shrunken-width {
+            width: 180px;
+        }
+    }
+
+    .results-text-display {
+        bottom: -100px;
+
+        width: 300px;
+        height: 200px;
+    }
+
+    .placeholder-circle {
+        width: 120px;
+        height: 120px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+}

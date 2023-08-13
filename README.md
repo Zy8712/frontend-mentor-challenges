@@ -14,7 +14,99 @@
       <td>Trial#</td>
     </tr>
 	<tr>
-      <td>IP Address Tracker</td>
+      <td>Rock, Paper, Scissors Game</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		<img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/rock-paper-scissors/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/rock-paper-scissors/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 11th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>animations</li>
+			<li>transition</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+	<tr>
+    <td>Expenses Chart Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		    <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+		    <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/expenses-chart-component-7HFSNcqBMS">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/expenses-chart-component/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/expenses-chart-component/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 11th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>ChartJS</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+	<tr>
+    <td>3 Column Preview Card Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+		<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work-v2-tailwindcss">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work-v2-tailwindcss/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 8th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>tailwindcss</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+	<tr>
+    <td>IP Address Tracker</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
         <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
@@ -26,7 +118,7 @@
           <summary>🔗</summary>
           <br>
           <p><a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">💾 Challenge</a></p>
-          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/ip-address-tracker-RkmcuoFlxl">📨 Submission</a></p>
           <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/ip-address-tracker/my-work">👨‍💻 My_Code</a></p>
           <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/ip-address-tracker/my-work/index.html">🖥️ Preview</a></p>
         </details>

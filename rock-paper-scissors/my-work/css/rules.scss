@@ -1,0 +1,158 @@
+@import url("./global.css");
+
+#rules-button {
+    position: absolute;
+    z-index: 3;
+    bottom: 30px;
+    right: 30px;
+
+    border: 1.5px white solid;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px;
+
+    font-family: var(--font-theme-barlow);
+    letter-spacing: 2px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: var(--dark-text);
+    }
+}
+
+.rulesPanel {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >.rules-box {
+        width: 420px;
+        background-color: white;
+        border-style: none;
+        border-radius: 15px;
+    }
+}
+
+.rules-box {
+    >.rules-box-content {
+        margin: 30px;
+        width: 360px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        >.rules-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+.rules-heading {
+    >h1 {
+        margin: 0px;
+    }
+}
+
+#close-rules {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+
+    position: absolute;
+    top: 10px;
+    right: 0px;
+
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.displayRules {
+    width: 100%;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.bonusRules {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 499px) {
+    #rules-button{
+        right: 50%;
+
+        transform: translate(50%, -50%);
+    }
+
+    .rulesPanel {
+        >.rules-box {
+            width: 100vw;
+            height: 100vh;
+            border-radius: 0px;
+        }
+    }
+
+    .rules-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            
+        >.rules-box-content {
+            margin: 0px;
+            margin-top: 75px;
+            width: 360px;
+
+            position: relative;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+    
+            >.rules-heading {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    #close-rules {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    
+        position: absolute;
+        top: 130%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    
+    
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
