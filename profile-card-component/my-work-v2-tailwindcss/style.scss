@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    /* Primary */
+    --theme-dark-cyan: hsl(185, 75%, 39%);
+    --theme-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --theme-dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* Neutral */
+    --theme-dark-gray: hsl(0, 0%, 59%);
+
+    --font-size-name-stats: 18px;
+    --font-theme-kumbh: "Kumbh Sans";
+}
+
+body{
+    background-color: var(--theme-dark-cyan);
+    font-family: var(--font-theme-kumbh);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+}
+
+.custom-desat-blue{
+    color: var(--theme-very-dark-desaturated-blue);
+}
+
+.custom-gray-blue{
+    color: var(--theme-dark-grayish-blue);
+}
+
+.custom-dark-gray{
+    color: var(--theme-dark-gray);
+}
+
+.custom-card-width{
+    width: 365px;
+}
+
+.custom-card-background{
+    background-image: url("./images/bg-pattern-card.svg");
+}
+
+.custom-bottom{
+    bottom: -50px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+    > a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
