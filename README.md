@@ -13,6 +13,98 @@
       <td>Learned</td>
       <td>Trial#</td>
     </tr>
+    <tr>
+      <td>Advice Generator App</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 14th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>ReactJS</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+    <tr>
+      <td>QR Code Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		<img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/qr-code-component/my-react-work-v1">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 14th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li>ReactJs</li>
+          </ul>
+        </details>
+      </td>
+      <td>#3</td>
+    </tr>
+    <tr>
+      <td>Profile Card Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+		<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/profile-card-component/my-work-v2-tailwindcss">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/profile-card-component/my-work-v2-tailwindcss/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 13th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li></li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
 	<tr>
       <td>Rock, Paper, Scissors Game</td>
       <td>
@@ -45,13 +137,13 @@
       <td>#1</td>
     </tr>
 	<tr>
-    <td>Expenses Chart Component</td>
+      <td>Expenses Chart Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
         <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-		    <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
-		    <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="scss_icon">
+		<img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+		<img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="scss_icon">
       </td>
       <td>
         <details>
@@ -76,7 +168,7 @@
       <td>#1</td>
     </tr>
 	<tr>
-    <td>3 Column Preview Card Component</td>
+      <td>3 Column Preview Card Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
         <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
@@ -106,7 +198,7 @@
       <td>#2</td>
     </tr>
 	<tr>
-    <td>IP Address Tracker</td>
+      <td>IP Address Tracker</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
         <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
@@ -771,7 +863,7 @@
       </td>
       <td>#1</td>
     </tr>
-      <tr>
+    <tr>
       <td>Profile Card Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -923,6 +1015,36 @@
 
 # challenge preview screenshots provided
 
+<details>
+    <summary>Rock, Paper, Scissors Game</summary>
+    <br>
+    <img src="./rock-paper-scissors/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Expenses Chart Component</summary>
+    <br>
+    <img src="./expenses-chart-component/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>IP Address Tracker</summary>
+    <br>
+    <img src="./ip-address-tracker/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Fylo Dark Theme Landing Page</summary>
+    <br>
+    <img src="./fylo-dark-theme-landing-page/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Tip Calculator App</summary>
+    <br>
+    <img src="./tip-calculator-app/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Advice Generator App</summary>
+    <br>
+    <img src="./advice-generator-app/my-work/design/desktop-preview.jpg">
+</details>
 <details>
     <summary>Age Calculator App</summary>
     <br>
