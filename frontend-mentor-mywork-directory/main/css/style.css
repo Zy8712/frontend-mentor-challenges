@@ -3,21 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap');
 
 :root{
-  /* Default Iceberg Theme */
-  --color-body: #ffffff; /* white */
-  --color-heading: #eef3db; /* baige */                           /* og */
-  --color-base: #2596be; /* cool blue */
-  --color-base2: #000000;  /* black */
-  --color-brand: #e0f780; /* slightly less bright yellow green */ /* og */
-  --color-brand2: #deff58; /* bright yellow green */              /* og */
-  --color-body-bright: white;
+  --theme-black: #000000;
   --sidebar-width: 220px;
+
+  /* Default Iceberg Theme */
+  --iceberg-theme-white: #ffffff;
+  --iceberg-theme-beige: #eef3db; /* baige */                           /* og */
+  --iceberg-theme-cool-blue: #2596be; /* cool blue */
+  --iceberg-theme-light-bright-yellow-green: #e0f780; /* slightly less bright yellow green */ /* og */
+  --iceberg-theme-bright-yellow-green: #deff58; /* bright yellow green */              /* og */
 
   --font-theme-abel: "Abel";
   --font-theme-jamjuree: "Bai Jamjuree";
   --font-theme-kumbh: "Kumbh Sans";
 
-  /* Featured projects icon */
+  /* Featured Projects Icon */
   --theme-featured-projects-soft-violet: hsl(273, 75%, 66%);
   --theme-featured-projects-soft-blue: hsl(240, 73%, 65%);
 }
@@ -35,9 +35,13 @@ max-width: 100%;
 overflow-x: hidden;
 } */
 
+body.iceberg-theme{
+
+}
+
 body{
-  background-color: var(--color-base2);
-  color: var(--color-body);
+  background-color: var(--theme-black);
+  color: var(--iceberg-theme-white);
   font-family: var(--font-theme-jamjuree), sans-serif;
 }
 
@@ -61,18 +65,18 @@ html::-webkit-scrollbar-thumb {
 /* end of code for custom scrollbar */
 
 h1, h2, h3, h4, h5, h6{
-  color: var(--color-heading);
+  color: var(--iceberg-theme-beige);
   font-weight: 700;
 }
 
 a{
   text-decoration: none;
-  color: var(--color-body);
+  color: var(--iceberg-theme-white);
   transition: all 0.4s ease;
 }
 
 a:hover{
-  color: var(--color-brand);
+  color: var(--iceberg-theme-light-bright-yellow-green);
 }
 
 img{
@@ -80,11 +84,11 @@ img{
 }
 
 .text-brand{
-  color: var(--color-brand);
+  color: var(--iceberg-theme-light-bright-yellow-green);
 }
 
 .bg-base{
-  background: var(--color-base);
+  background: var(--iceberg-theme-cool-blue);
   /* color base: #033f47 is the same as (3, 63, 71)*/
   /*background: rgba(3, 63, 71, 0.5);*/
 }
@@ -161,21 +165,8 @@ img{
 
 .shadow-effect:hover{
   /*background: rgba(3, 63, 71, 1);*/
-  box-shadow: -6px 6px 0 0 var(--color-brand); /* from the x-axis -6 pixel, from the y-axis*/
+  box-shadow: -6px 6px 0 0 var(--iceberg-theme-light-bright-yellow-green); /* from the x-axis -6 pixel, from the y-axis*/
   opacity: 1;
-}
-
-.iconbox{
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  background-color: rgba(39, 49, 56, 0.7);
-  /* background-color: rgb(7, 152, 171); */
-  /* background-color: var(--color-brand); */
-  color: var(--color-base);
 }
 
 /* NAVBAR */
@@ -194,13 +185,13 @@ img{
 }
 
 .navbar .nav-link:hover{
-  color: var(--color-brand);
+  color: var(--iceberg-theme-light-bright-yellow-green);
 }
 
 /* changes color of text/link in navbar to active page, e.g. services text highlighted when in services section */
 /* works together with scrollspy in body tag */
 .navbar .nav-link.active {
-  color: var(--color-brand);
+  color: var(--iceberg-theme-light-bright-yellow-green);
 }
 
 @media (min-width: 992px){ /* if browser window is equal to this or greater than, the following occurs */
@@ -212,6 +203,7 @@ img{
     background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(../images/peakpx-iceberg.jpg); /* rgba = rgb + opacity */
     background-size: cover;
     background-position: left;
+    transition:  width 0.5s ease-out;
   }
 
   .navbar2{
@@ -227,6 +219,7 @@ img{
 
   .full-wrapper{
     padding-left: var(--sidebar-width);
+    transition: padding-left 0.5s ease-out;
   }
 
   .content-change-wrapper{
@@ -240,16 +233,16 @@ img{
 }
 
 .btn-brand{
-  background-color: var(--color-brand);
-  border-color: var(--color-brand);
-  color: var(--color-base);
+  background-color: var(--iceberg-theme-light-bright-yellow-green);
+  border-color: var(--iceberg-theme-light-bright-yellow-green);
+  color: var(--iceberg-theme-cool-blue);
 }
 
 .btn-brand:hover,
 .btn-brand:focus{
-  background-color: var(--color-brand2);
-  color: var(--color-base);
-  border-color: var(--color-brand2);
+  background-color: var(--iceberg-theme-bright-yellow-green);
+  color: var(--iceberg-theme-cool-blue);
+  border-color: var(--iceberg-theme-bright-yellow-green);
 }
 
 
@@ -262,7 +255,7 @@ img{
   content: "";
   width: 0%; /* animate the underline */
   height: 2px;
-  background-color: var(--color-brand);
+  background-color: var(--iceberg-theme-light-bright-yellow-green);
   position: absolute;
   left: 0;
   top: 110%;
@@ -294,19 +287,19 @@ img{
 
 /* CONTACT */
 #contact .form-control {
-  background-color: var(--color-base);
+  background-color: var(--iceberg-theme-cool-blue);
   opacity: 0.5;
-  border-color: var(--color-base);
-  color: var(--color-body);
+  border-color: var(--iceberg-theme-cool-blue);
+  color: var(--iceberg-theme-white);
 }
 
 #contact .form-control:focus {
-  border-color: var(--color-brand);
+  border-color: var(--iceberg-theme-light-bright-yellow-green);
   box-shadow: none;
 }
 
 #contact .form-control::placeholder {
-  color: var(--color-body);
+  color: var(--iceberg-theme-white);
 }
 
 #contact input.form-control {
@@ -326,7 +319,7 @@ img{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-base);
+  background-color: var(--iceberg-theme-cool-blue);
   border-radius: 100px;
   font-size: 24px;
 }
@@ -337,7 +330,7 @@ img{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-base);
+  background-color: var(--iceberg-theme-cool-blue);
   border-radius: 100px;
   font-size: 24px;
 }
@@ -375,7 +368,7 @@ img{
 #site-appearance-settings-button{
   width: 50px;                 /* width of button attribute is set to 50px */
   height: 50px;               /* height of button attribute is set to 50px */
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;    /* background of button is transparent so it matches thae current navbar background */
@@ -671,6 +664,10 @@ img{
   width: 200px;
 }
 
+.icon-6{
+  width: 240px;
+}
+
 .prog-lang-icon > img{
   width: 30px;
 
@@ -765,7 +762,7 @@ img{
 }
 
 #dark-light-toggle-box > h2{
-  color: var(--color-base2);
+  color: var(--theme-black);
   margin-right: 25px;
 }
 
