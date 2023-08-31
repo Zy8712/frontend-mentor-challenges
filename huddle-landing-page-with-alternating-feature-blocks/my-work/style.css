@@ -12,6 +12,12 @@
   --font-theme-open-sans: "Open Sans";
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html::-webkit-scrollbar {
   width: 8px;
   border-radius: 10px;
@@ -24,8 +30,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
   overflow-x: hidden;
   font-family: var(--font-theme-open-sans);
   position: relative;
