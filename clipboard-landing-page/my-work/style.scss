@@ -34,6 +34,10 @@ body {
         height: 100%;
         margin: 0px;
         padding: 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -89,6 +93,8 @@ h2 {
     justify-content: space-around;
     align-items: center;
     margin: 0px;
+
+    text-align: center;
 }
 
 .primary-description {
@@ -101,7 +107,6 @@ h2 {
         color: var(--theme-grayish-blue);
         width: 650px;
         font-size: var(--font-size);
-        text-align: center;
     }
 }
 
@@ -115,8 +120,8 @@ h2 {
         margin: 0px;
         width: 690px;
         color: var(--theme-grayish-blue);
-        text-align: center;
         font-size: var(--font-size);
+        text-align: center;
     }
 }
 
@@ -128,9 +133,9 @@ h2 {
 
     >.features-section-1-image-box {
         position: relative;
-        width: 50%;
+        width: 56%;
 
-        > img{
+        >img {
             position: absolute;
             left: -15px;
         }
@@ -142,21 +147,22 @@ h2 {
         justify-content: center;
         align-items: center;
 
-        width: 50%;
+        width: 44%;
 
         >div {
-            width: 500px;
+            width: 400px;
             height: 80%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            margin-right: 50px;
 
-            h3{
+            h3 {
                 color: var(--theme-dark-grayish-blue);
                 font-size: 22px;
             }
 
-            p{
+            p {
                 color: var(--theme-grayish-blue);
                 width: 350px;
             }
@@ -252,13 +258,13 @@ h2 {
     display: flex;
     justify-content: space-between;
 
-    div{
+    div {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
-    div:nth-of-type(3){
+    div:nth-of-type(3) {
         margin-right: 200px;
     }
 
@@ -293,7 +299,6 @@ h2 {
             }
         }
     }
-
 }
 
 
@@ -313,6 +318,212 @@ footer {
     }
 }
 
-@media (max-width){
+@media (min-width: 1220px) and (max-width: 1300px) {
+
+    .features-section-1-description-box {
+
+        >div {
+            margin-right: 0px !important;
+        }
+    }
+}
+
+@media (max-width: 1219px) {
+    .features-section-1 {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        text-align: center;
+
+        >.features-section-1-image-box {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            >img {
+                position: relative;
+                width: 90%;
+                left: 0px;
+                right: 0px;
+            }
+        }
+    
+        >.features-section-1-description-box {
+            width: 100%;
+            text-align: center;
+            margin-top: 40px;
+    
+            >div {
+                width: 100%;
+                height: 95%;
+
+                margin-right: 0px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    color: var(--theme-grayish-blue);
+                    width: 360px;
+                }
+            }
+        }
+    }
+
+    .devices-image-box {
+        width: 100%;
+        margin-bottom: 40px;
+
+        img{
+            width: 90%;
+        }
+    }
+    
+}
+
+@media (max-width: 690px) {
+    body {
+        background-image: url("./images/bg-header-mobile.png");
+        background-size: contain;
+        overflow-x: hidden;
+    }
+
+    .download-button {
+        padding: 15px 80px 15px 80px;
+    }
+    
+    .mac-download {
+        margin-left: 0px;
+    }
+
+    .primary-description {
+    
+        >p:nth-of-type(1) {
+            width: 95%;
+        }
+
+        >p:nth-of-type(2){
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    .secondary-description {
+    
+        >p {
+            width: 90%;
+        }
+    }
+
+    .features-with-images {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    
+        >div {
+            width: 360px;
+            text-align: center;
+        }
+    
+        >div:nth-of-type(1) {
+            margin-left: 0px;
+            margin-bottom: 40px;
+        }
+    
+        >div:nth-of-type(3) {
+            margin-top: 40px;
+            margin-right: 0px;
+        }
+    }
+
+    .companies-list {
+        flex-direction: column;
+        height: auto;
+    
+        >div {
+            width: 90%;
+            height: 100%;
+            flex-direction: column;
+
+            img{
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    .bottom-download-box {
+        >p:nth-of-type(2) {
+            .mac-download{
+                margin-top: 30px;
+            }
+        }
+
+    }
+    
+    .links-section {
+        width: 100%;
+        height: 540px;
+    
+        margin-top: 160px;
+    
+        display: flex;
+        justify-content: center;
+    
+        >div {
+            width: 80%;
+            height: 420px;
+            margin-top: 60px;
+
+            flex-direction: column;
+    
+        }
+    
+    }
+    
+    .links-section-logo {
+        img {
+            width: 50px;
+        }
+    }
+    
+    .links-section-directory {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 200px;
+
+        }
+    
+        div:nth-of-type(3) {
+            margin-right: 0px;
+        }
+
+        a{
+            margin-bottom: 30px;
+        }
+    }
+    
+    .links-section-socials {
+        width: 180px;
+    }
+
+    
     
 }
