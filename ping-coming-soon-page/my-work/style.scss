@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    /* Primary */
+    --theme-blue: hsl(223, 87%, 63%);
+
+    /* Secondary */
+    --theme-pale-blue: hsl(223, 100%, 88%);
+    --theme-light-red: hsl(354, 100%, 66%);
+
+    /* Neutral */
+    --theme-gray: hsl(0, 0%, 59%);
+    --theme-very-dark-blue: hsl(209, 33%, 12%);
+
+    --font-size: 20px;
+    --font-theme-libre: "Libre Franklin";
+}
+
+@mixin full-width-center-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body,
+main {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-theme-libre);
+}
+
+.logo-div {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.introduction-div {
+    @include full-width-center-content;
+    flex-direction: column;
+    text-align: center;
+
+    >h1 {
+        font-size: 50px;
+        font-weight: 300;
+        color: var(--theme-gray);
+        margin: 0px;
+
+        >span {
+            font-weight: 700;
+            color: var(--theme-very-dark-blue);
+        }
+    }
+
+    >h2 {
+        font-size: var(--font-size);
+        font-weight: 300;
+        color: var(--theme-very-dark-blue);
+        margin: 20px 0px 30px 0px;
+    }
+}
+
+.sign-up-div {
+    margin-top: 20px;
+
+    div {
+        @include full-width-center-content;
+
+        >input[type="email"] {
+            width: 400px;
+            border-radius: 50px;
+            padding: 18px 0px 18px 30px;
+            border: 1px solid var(--theme-gray);
+            color: var(--theme-very-dark-blue);
+            font-family: var(--font-theme-libre);
+            font-size: 16px;
+        }
+
+        >input::placeholder {
+            color: var(--theme-gray);
+            font-family: var(--font-theme-libre);
+            opacity: 0.5;
+        }
+
+        >button {
+            background-color: var(--theme-blue);
+            border-style: none;
+            border-radius: 50px;
+            padding: 18px 62px 18px 62px;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            margin-left: 15px;
+            font-family: var(--font-theme-libre);
+
+            &:hover {
+                background-color: var(--theme-pale-blue);
+                cursor: pointer;
+            }
+        }
+    }
+
+    div:nth-of-type(2) {
+        justify-content: flex-start;
+
+        p {
+            display: none;
+            color: var(--theme-light-red);
+            font-size: 12px;
+            font-style: italic;
+            margin: 10px 0px 0px 30px;
+        }
+    }
+}
+
+.hero-img-div {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    @include full-width-center-content;
+
+    img {
+        width: 650px;
+    }
+}
+
+.socials-div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    >button {
+        background-color: white;
+        border: 1px solid var(--theme-gray);
+        color: var(--theme-blue);
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        cursor: pointer;
+
+        >i {
+            font-size: 20px;
+        }
+
+        &:hover {
+            color: white;
+            background-color: var(--theme-blue);
+        }
+    }
+
+}
+
+.copyright-div {
+    margin-top: 15px;
+    font-size: 14px;
+    color: var(--theme-gray);
+    opacity: 0.5;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 722px) {
+    .hero-img-div {
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .sign-up-div {
+        div {
+            @include full-width-center-content;
+            flex-direction: column;
+
+            >input[type="email"] {
+                width: 360px;
+                padding: 18px 0px 18px 30px;
+            }
+
+            >button {
+                padding: 18px 0px 18px 0px;
+                width: 390px;
+                margin-top: 35px;
+                margin-left: 0px;
+            }
+        }
+
+        div:nth-of-type(2) {
+            justify-content: center;
+            position: relative;
+
+            p {
+                position: absolute;
+                margin: 10px 0px 0px 0px;
+                top: -90px;
+            }
+        }
+    }
+
+}
