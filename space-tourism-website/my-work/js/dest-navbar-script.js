@@ -299,7 +299,7 @@ function changeDestUnderline(destNavOption) {
         allUnderlines[destNavOption-1].style.borderBottom = "var(--theme-white) solid 3px";
         allUnderlines[destNavOption-1].style.display = "block";
 
-        allNavs[currentDestSelection].style.color = "var(--theme-light-blue)";
+        allNavs[currentDestSelection-1].style.color = "var(--theme-light-blue)";
         allUnderlines[currentDestSelection - 1].style.borderBottom = "";
         allUnderlines[currentDestSelection - 1].style.display = "none";
 
