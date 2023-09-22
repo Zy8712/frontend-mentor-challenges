@@ -1,0 +1,89 @@
+@import url("./global.css");
+
+nav{
+    width: 100%;
+    height: 96px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.navbar-left{
+    width: 42.5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    > img{
+        margin-left: 55px;
+        width: 48px;
+        height: 48px;
+    }
+
+    > div{
+        height: 2px;
+        width: 80%;
+        border-bottom: var(--custom-nav-grey) 1px solid;
+        position: absolute;
+        z-index: 99;
+        right: -30px;
+        opacity: 25.5%;
+    }
+}
+
+.navbar-right{
+    width: 57.5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--custom-transparent-white);
+    backdrop-filter: blur(35px);
+
+    >a{
+        height: 97%;
+        font-family: var(--font-theme-barlow-condensed);
+        color: var(--theme-white);
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        text-decoration: none;
+        position: relative;
+        padding: 0px;
+        border-style: none;
+
+        >span{
+            font-weight: 700;
+            margin-right: 12px;
+        }
+    }
+
+    a:nth-of-type(1){
+        margin-left: 100px;
+    }
+
+    a:nth-of-type(4){
+        margin-right: 140px;
+    }   
+}
+
+#nav-home-underline, #nav-dest-underline, #nav-crew-underline, #nav-tech-underline{
+    display: none;
+
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+
+    position: absolute;
+    bottom: -1.5px;
+    width: 100%;
+    margin: 0px;
+}
