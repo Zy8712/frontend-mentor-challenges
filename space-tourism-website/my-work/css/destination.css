@@ -81,7 +81,7 @@ body {
   color: var(--theme-light-blue);
   font-family: var(--font-theme-barlow-condensed);
   line-height: 32px;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1.3px;
   margin-bottom: 54px;
 }
