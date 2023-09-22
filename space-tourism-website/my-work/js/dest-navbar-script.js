@@ -22,6 +22,8 @@ fetch("../data.json")
   .then(response => response.json())
   .then(data => {
     jsonData = data; // Store the data in the global variable
+
+    loadDestData(currentDestSelection);
   })
   .catch(error => {
     console.error('Error loading JSON:', error);
@@ -47,22 +49,18 @@ window.onload = function () {
     if (currentDestSelection == 1) {
         moonNav.style.color = "var(--theme-white)";
         moonUnderline.style.display = "block";
-        loadDestData(currentDestSelection);
     }
     else if (currentDestSelection == 2) {
         marsNav.style.color = "var(--theme-white)";
         marsUnderline.style.display = "block";
-        loadDestData(currentDestSelection);
     }
     else if (currentDestSelection == 3) {
         euroNav.style.color = "var(--theme-white)";
         euroUnderline.style.display = "block";
-        loadDestData(currentDestSelection);
     }
     else {
         titaNav.style.color = "var(--theme-white)";
         titaUnderline.style.display = "block";
-        loadDestData(currentDestSelection);
     }
 
     /* Activate Navigation Hover Effect */
