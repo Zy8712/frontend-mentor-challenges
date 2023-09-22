@@ -239,8 +239,8 @@ var marsUnderline = document.getElementById("mars-underline");
 var euroUnderline = document.getElementById("euro-underline");
 var titaUnderline = document.getElementById("tita-underline");
 
-var allNavs = ["moonNav", "marsNav", "euroNav", "titaNav"];
-var allUnderlines = ["moonUnderline", "marsUnderline", "euroUnderline", "titaUnderline"];
+var allNavs = [moonNav, marsNav, euroNav, titaNav];
+var allUnderlines = [moonUnderline, marsUnderline, euroUnderline, titaUnderline];
 
 var destImg = document.getElementById("destination-image");
 var destName = document.getElementById("destination-name");
@@ -278,6 +278,7 @@ window.addEventListener("load", function () {
 
 
 function addDestNavHover(destNavOption) {
+
     if (destNavOption != currentDestSelection) {
         allUnderlines[destNavOption - 1].style.borderBottom = "var(--custom-nav-grey) 3px solid";
         allUnderlines[destNavOption - 1].style.display = "block";
@@ -285,6 +286,7 @@ function addDestNavHover(destNavOption) {
 }
 
 function removeDestNavHover(destNavOption) {
+
     if (destNavOption != currentDestSelection) {
         allUnderlines[destNavOption - 1].style.borderBottom = "";
         allUnderlines[destNavOption - 1].style.display = "none";
