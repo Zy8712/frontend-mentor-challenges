@@ -32,7 +32,7 @@ fetch("../data.json")
     .then(data => {
         jsonData = data; // Store the data in the global variable
 
-        loadDestData(currentTechSelection);
+        loadTechData(currentTechSelection);
     })
     .catch(error => {
         console.error('Error loading JSON:', error);
@@ -203,13 +203,13 @@ function changeTechHighlight(techNavOption) {
         techButtons[currentTechSelection - 1].style.color = "var(--theme-white)";
         techButtons[currentTechSelection - 1].style.borderColor = "var(--custom-tech-button-border)";
 
-        loadDestData(techNavOption);
+        loadTechData(techNavOption);
         currentTechSelection = techNavOption;
     }
 }
 
 
-function loadDestData(techNavOption) {
+function loadTechData(techNavOption) {
     let tech = jsonData.technology;
 
     let nameTech = tech[techNavOption - 1].name;

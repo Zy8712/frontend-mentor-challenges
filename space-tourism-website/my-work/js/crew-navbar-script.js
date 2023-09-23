@@ -34,7 +34,7 @@ fetch("../data.json")
     .then(data => {
         jsonData = data; // Store the data in the global variable
 
-        loadDestData(currentCrewSelection);
+        loadCrewData(currentCrewSelection);
     })
     .catch(error => {
         console.error('Error loading JSON:', error);
@@ -210,13 +210,13 @@ function changeCrewView(crewNavOption) {
         dotNavigation[crewNavOption - 1].style.opacity = "100%";
         dotNavigation[currentCrewSelection - 1].style.opacity = "17.44%";
 
-        loadDestData(crewNavOption);
+        loadCrewData(crewNavOption);
         currentCrewSelection = crewNavOption;
     }
 }
 
 
-function loadDestData(crewNavOption) {
+function loadCrewData(crewNavOption) {
     let crew = jsonData.crew;
 
     let crewName = crew[crewNavOption - 1].name;

@@ -27,6 +27,7 @@ body{
     margin-bottom: 130px;
     position: relative;
     margin-left: 40px;
+    border: white solid 1px;
 
     >h5{
         color: var(--theme-white);
@@ -49,6 +50,8 @@ body{
         color: var(--theme-white);
         margin: 0;
         margin-bottom: 27px;
+        width: 614px;
+        border: white solid 1px;
     }
 
     >p{
