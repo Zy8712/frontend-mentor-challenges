@@ -10,6 +10,7 @@
   --custom-transparent-white: rgba(255, 255, 255, 0.04);
   --custom-explore-white: rgba(255, 255, 255, 0.1);
   --custom-dest-stats-divider: #383B4B;
+  --custom-tech-button-border: rgba(255, 255, 255, 0.25);
 }
 
 body, main {

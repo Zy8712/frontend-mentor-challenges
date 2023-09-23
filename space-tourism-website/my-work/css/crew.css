@@ -1,0 +1,76 @@
+@import url("./global.css");
+body {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
+}
+
+.crew-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.crew-main > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crew-text-block {
+  width: 488px;
+  height: 594px;
+  margin-bottom: 130px;
+  position: relative;
+  margin-left: 40px;
+}
+.crew-text-block > h5 {
+  color: var(--theme-white);
+  margin: 0;
+  margin-bottom: 140px;
+}
+.crew-text-block > h5 > span {
+  opacity: 0.25;
+}
+.crew-text-block > h4 {
+  color: var(--theme-white);
+  opacity: 50.42%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.crew-text-block > h3 {
+  color: var(--theme-white);
+  margin: 0;
+  margin-bottom: 27px;
+}
+.crew-text-block > p {
+  width: 420px;
+  height: 128px;
+  letter-spacing: 1.3px;
+  color: var(--theme-light-blue);
+  font-size: 18px;
+  line-height: 32px;
+  font-family: var(--font-theme-barlow-condensed);
+  font-weight: 400;
+  margin: 0;
+}
+
+.crew-navigation {
+  width: 132px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 15px;
+}
+.crew-navigation > div {
+  width: 15px;
+  height: 15px;
+  background-color: var(--theme-white);
+  opacity: 17.44%;
+  border-style: none;
+  border-radius: 100px;
+}
+.crew-navigation > div:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=crew.css.map */

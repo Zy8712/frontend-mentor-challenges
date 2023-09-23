@@ -28,6 +28,9 @@ body {
   margin: 0px;
   margin-bottom: 97px;
 }
+.destination-hero > h5 > span {
+  opacity: 0.25;
+}
 .destination-hero > div {
   width: 100%;
   display: flex;

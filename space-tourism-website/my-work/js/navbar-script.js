@@ -9,6 +9,9 @@ var navDestUnderline = document.getElementById("nav-dest-underline");
 var navCrewUnderline = document.getElementById("nav-crew-underline");
 var navTechUnderline = document.getElementById("nav-tech-underline");
 
+var mainNav = [homeNav, destinationNav, crewNav, techNav];
+var mainNavUnderline = [navHomeUnderline, navDestUnderline, navCrewUnderline, navTechUnderline];
+
 // Function to store user input in localStorage before the page is refreshed
 window.addEventListener("beforeunload", function() {
     localStorage.setItem("selectedNavOption", currentNavSelection);
@@ -24,18 +27,7 @@ window.addEventListener("load", function() {
 
 window.onload = function() {
 
-    if(currentNavSelection == 1){
-        navHomeUnderline.style.display = "block";
-    }
-    else if(currentNavSelection == 2){
-        navDestUnderline.style.display = "block";
-    }
-    else if(currentNavSelection == 3){
-        navCrewUnderline.style.display = "block";
-    }
-    else{
-        navTechUnderline.style.display = "block";
-    }
+    mainNavUnderline[currentNavSelection - 1].style.display = "block";
 
     /* Activate Navigation Hover Effect */
     homeNav.addEventListener("mouseover", () => {
@@ -91,70 +83,23 @@ window.onload = function() {
 
 function addNavHover(navOption){
     if(navOption != currentNavSelection){
-        if(navOption == 1){
-            navHomeUnderline.style.borderBottom = "var(--custom-nav-grey) 3px solid";
-            navHomeUnderline.style.display = "block";
-        }
-
-        else if(navOption == 2){
-            navDestUnderline.style.borderBottom = "var(--custom-nav-grey) 3px solid";
-            navDestUnderline.style.display = "block";
-        }
-
-        else if(navOption == 3){
-            navCrewUnderline.style.borderBottom = "var(--custom-nav-grey) 3px solid";
-            navCrewUnderline.style.display = "block";
-        }
-        else{
-            navTechUnderline.style.borderBottom = "var(--custom-nav-grey) 3px solid";
-            navTechUnderline.style.display = "block";
-        }
+        mainNavUnderline[navOption - 1].style.borderBottom = "var(--custom-nav-grey) 3px solid";
+        mainNavUnderline[navOption - 1].style.display = "block";
     }
 }
 
 function removeNavHover(navOption){
     if(navOption != currentNavSelection){
-        if(navOption == 1){
-            navHomeUnderline.style.borderBottom = "";
-            navHomeUnderline.style.display = "none";
-        }
-
-        else if(navOption == 2){
-            navDestUnderline.style.borderBottom = "";
-            navDestUnderline.style.display = "none";
-        }
-
-        else if(navOption == 3){
-            navCrewUnderline.style.borderBottom = "";
-            navCrewUnderline.style.display = "none";
-        }
-        else{
-            navTechUnderline.style.borderBottom = "";
-            navTechUnderline.style.display = "none";
-        }
+        mainNavUnderline[navOption - 1].style.borderBottom = "";
+        mainNavUnderline[navOption - 1].style.display = "none";
     }
 }
 
 function changeNavUnderline(navOption){
     if(navOption != currentNavSelection){
-        if(navOption == 1){
-            navHomeUnderline.style.borderBottom = "var(--theme-white) solid 3px";
-            navHomeUnderline.style.display = "block";
-        }
+        mainNavUnderline[navOption - 1].style.borderBottom = "var(--theme-white) solid 3px";
+        mainNavUnderline[navOption - 1].style.display = "block";
 
-        else if(navOption == 2){
-            navDestUnderline.style.borderBottom = "var(--theme-white) solid 3px";
-            navDestUnderline.style.display = "block";
-        }
-
-        else if(navOption == 3){
-            navCrewUnderline.style.borderBottom = "var(--theme-white) solid 3px";
-            navCrewUnderline.style.display = "block";
-        }
-        else{
-            navTechUnderline.style.borderBottom = "var(--theme-white) solid 3px";
-            navTechUnderline.style.display = "block";
-        }
         currentNavSelection = navOption;
     }
 }
