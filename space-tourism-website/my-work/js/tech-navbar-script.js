@@ -215,7 +215,7 @@ function loadDestData(techNavOption) {
     let nameTech = tech[techNavOption - 1].name;
     let descTech = tech[techNavOption - 1].description;
 
-    let imgTech = tech[crewNavOption - 1].images.portrait;
+    let imgTech = tech[techNavOption - 1].images.portrait;
 
     techTitle.innerHTML = nameTech;
     techImg.src = imgTech;
