@@ -1,6 +1,7 @@
 @import url("./global.css");
 body {
   background-image: url("../assets/destination/background-destination-desktop.jpg");
+  overflow: hidden;
 }
 
 .dest-main {
@@ -19,17 +20,8 @@ body {
 }
 
 .destination-hero {
-  width: 530px;
-  height: 578px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   margin-left: 100px;
-}
-.destination-hero > h5 {
-  margin: 0px;
-  margin-bottom: 97px;
-}
-.destination-hero > h5 > span {
-  opacity: 0.25;
 }
 .destination-hero > div {
   width: 100%;
@@ -51,16 +43,25 @@ body {
   justify-content: space-between;
 }
 
-#moon-dest, #mars-dest, #euro-dest, #tita-dest {
+#moon-dest,
+#mars-dest,
+#euro-dest,
+#tita-dest {
   width: auto;
   height: 100%;
   position: relative;
 }
-#moon-dest:hover, #mars-dest:hover, #euro-dest:hover, #tita-dest:hover {
+#moon-dest:hover,
+#mars-dest:hover,
+#euro-dest:hover,
+#tita-dest:hover {
   cursor: pointer;
 }
 
-#moon-underline, #mars-underline, #euro-underline, #tita-underline {
+#moon-underline,
+#mars-underline,
+#euro-underline,
+#tita-underline {
   display: none;
   width: 100%;
   height: 3px;
@@ -102,4 +103,75 @@ body {
 }
 .destination-main-stats > div .subheading-2 {
   color: var(--theme-light-blue);
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+  body {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+    overflow: hidden;
+  }
+  .dest-main {
+    flex-direction: column;
+  }
+  .dest-main > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dest-main > div:nth-of-type(1) {
+    height: 45%;
+  }
+  .dest-main > div:nth-of-type(2) {
+    height: 55%;
+  }
+  .destination-hero {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .destination-hero > div {
+    height: 65%;
+    margin-top: 15%;
+  }
+  .destination-hero > div > img {
+    height: 100%;
+  }
+  .destination-data-box {
+    width: 573px;
+    height: 472px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .destination-navigation-box {
+    margin-top: 23px;
+  }
+  .destination-main-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .destination-main-text > h2 {
+    margin-top: 32px;
+    font-size: 80px;
+  }
+  .destination-main-text > p {
+    width: 100%;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .destination-main-stats {
+    display: flex;
+    width: 90%;
+  }
 }/*# sourceMappingURL=destination.css.map */
