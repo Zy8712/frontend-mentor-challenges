@@ -63,7 +63,7 @@ window.addEventListener("load", function () {
 
 window.addEventListener("resize", function (){
     windowWidth = document.documentElement.clientWidth;
-    window.Height = document.documentElement.clientHeight;
+    windowHeight = document.documentElement.clientHeight;
 });
 
 window.onload = function () {
