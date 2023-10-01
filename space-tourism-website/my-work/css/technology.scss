@@ -1,58 +1,69 @@
 @import url("./global.css");
 
-body {
+body{
     background-image: url("../assets/technology/background-technology-desktop.jpg");
 }
 
-.tech-main {
+.tech-main{
     width: 100%;
     height: 100%;
-
+    
     display: flex;
 
-    >div {
+    >div{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    >div:nth-of-type(1) {
+    > div:nth-of-type(1) {
         width: 60%;
         height: 100%;
     }
 
-    >div:nth-of-type(2) {
+    > div:nth-of-type(2){
         width: 40%;
         height: 100%;
 
         align-items: flex-end;
 
-        >img {
+        >img{
             margin-bottom: 100px;
         }
     }
 }
 
-.tech-text-box {
+.tech-text-box{
     width: 630px;
     height: 474px;
-    margin-bottom: 0px;
+    margin-bottom: 257.5px;
+    margin-left: 50px;
+
+    >h5{
+        color: var(--theme-white);
+        margin: 0;
+        margin-bottom: 137px;
+
+        >span{
+            opacity: 0.25;
+        }
+    }
 }
 
-.tech-text-box-main-chunk {
+.tech-text-box-main-chunk{
     display: flex;
     justify-content: space-between;
 }
 
-.tech-navigation {
+.tech-navigation{
     width: 80px;
     height: 304px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    >div {
+    >div{
         width: 80px;
         height: 80px;
 
@@ -66,25 +77,25 @@ body {
 
         color: var(--theme-white);
 
-        &:hover {
+        &:hover{
             cursor: pointer;
         }
     }
 }
 
-.tech-description {
-    >span {
+.tech-description{
+    >span{
         color: var(--theme-light-blue);
         margin-bottom: 20px;
     }
 
-    >h3 {
+    >h3{
         color: var(--theme-white);
         margin: 0;
         margin-bottom: 17px;
     }
 
-    >p {
+    >p{
         width: 444px;
         height: 192px;
         color: var(--theme-light-blue);
@@ -95,70 +106,4 @@ body {
         font-weight: 400;
         margin: 0;
     }
-}
-
-@media (min-width: 376px) and (max-width: 769px) {
-
-    body {
-        background-image: url("../assets/technology/background-technology-tablet.jpg");
-    }
-
-
-    .tech-main {
-        flex-direction: column-reverse;
-
-        >div:nth-of-type(1) {
-            width: 100%;
-            height: 58%;
-        }
-
-        >div:nth-of-type(2) {
-            width: 100%;
-            height: 42%;
-
-            justify-content: flex-end;
-            align-items: center;
-
-            >img {
-                margin-bottom: 0px;
-            }
-        }
-    }
-
-    .tech-text-box-main-chunk{
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .tech-navigation{
-        width: 210px;
-        height: 60px;
-        flex-direction: row;
-        margin-bottom: 50px;
-    
-        >div{
-            width: 60px;
-            height: 60px;
-        }
-    }
-
-    .tech-description {
-        text-align: center;
-
-        >span{
-            margin-bottom: 0px;
-        }
-    
-        >h3 {
-            font-size: 40px;
-            margin-top: 20px;
-        }
-    
-        >p {
-            font-size: 16px;
-            line-height: 28px;
-            letter-spacing: 1.3px;
-        }
-    }
-
 }

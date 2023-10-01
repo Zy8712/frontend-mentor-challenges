@@ -24,10 +24,7 @@ body, main{
     height: 100vh;
     margin: 0px;
     padding: 0px;
-}
-
-main{
-    position: relative;
+    overflow: hidden;
 }
 
 h1{
@@ -97,29 +94,3 @@ footer{
     letter-spacing: 2.7px;
     text-transform: uppercase;
 }
-
-.page-header{
-    color: var(--theme-white);
-    position: absolute;
-    z-index: 999;
-    top: 120px;
-    left: 120px;
-
-    >span{
-        opacity: 0.25;
-    }
-}
-
-@media (min-width: 376px) and (max-width: 769px) {
-
-    h5{
-        font-size: 20px;
-        letter-spacing: 3.38px;
-    }
-
-    .page-header{
-
-        left: 45px;
-    }
-}
-
