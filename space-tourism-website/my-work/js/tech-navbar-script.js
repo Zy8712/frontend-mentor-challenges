@@ -22,6 +22,9 @@ var techTitle = document.getElementById("tech-title");
 var techImg = document.getElementById("tech-image");
 var techDesc = document.getElementById("tech-description");
 
+var windowWidth = document.documentElement.clientWidth;
+var windowHeight = document.documentElement.clientHeight;
+
 var techButtons = [techItemOne, techItemTwo, techItemThree];
 
 let jsonData; // Declare a global variable to store the JSON data
@@ -56,6 +59,11 @@ window.addEventListener("load", function () {
     if (currentTechSelection == null) {
         currentTechSelection = 1;
     }
+});
+
+window.addEventListener("resize", function (){
+    windowWidth = document.documentElement.clientWidth;
+    window.Height = document.documentElement.clientHeight;
 });
 
 window.onload = function () {
@@ -215,7 +223,13 @@ function loadTechData(techNavOption) {
     let nameTech = tech[techNavOption - 1].name;
     let descTech = tech[techNavOption - 1].description;
 
-    let imgTech = tech[techNavOption - 1].images.portrait;
+    let imgTech;
+    if(windowWidth > 769){
+        imgTech = tech[techNavOption - 1].images.portrait;
+    }
+    else{
+        imgTech = tech[techNavOption - 1].images.landscape;
+    }
 
     techTitle.innerHTML = nameTech;
     techImg.src = imgTech;

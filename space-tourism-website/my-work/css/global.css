@@ -13,12 +13,17 @@
   --custom-tech-button-border: rgba(255, 255, 255, 0.25);
 }
 
-body, main {
+body,
+main {
   width: 100vw;
   height: 100vh;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
+}
+
+main {
+  position: relative;
 }
 
 h1 {
@@ -52,7 +57,11 @@ h5 {
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-transform: uppercase;
 }
 
@@ -86,4 +95,41 @@ footer a {
   font-size: 16px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
+}
+
+.page-header {
+  color: var(--theme-white);
+  position: absolute;
+  z-index: 999;
+  top: 100px;
+  left: 120px;
+}
+.page-header > span {
+  opacity: 0.25;
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+  body {
+    overflow-y: scroll;
+  }
+  html::-webkit-scrollbar {
+    background-color: #000;
+    width: 12px;
+    border-radius: 10px;
+  }
+  html::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+  }
+  html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, #D0D6F9), color-stop(1, #FFFFFF));
+    border-radius: 10px;
+  }
+  h5 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+  .page-header {
+    left: 45px;
+  }
 }/*# sourceMappingURL=global.css.map */

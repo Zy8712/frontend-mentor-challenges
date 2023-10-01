@@ -76,4 +76,30 @@ nav {
   bottom: -1.5px;
   width: 100%;
   margin: 0px;
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+  nav {
+    margin-top: 0px;
+  }
+  .navbar-left > div {
+    display: none !important;
+  }
+  .navbar-right {
+    width: 61.7%;
+    justify-content: space-between;
+  }
+  .navbar-right > a {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+  .navbar-right > a > span {
+    display: none;
+  }
+  .navbar-right a:nth-of-type(1) {
+    margin-left: 47px;
+  }
+  .navbar-right a:nth-of-type(4) {
+    margin-right: 47px;
+  }
 }/*# sourceMappingURL=navbar.css.map */

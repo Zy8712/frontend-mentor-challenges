@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-:root{
+:root {
     --theme-dark-black: #0B0D17;
     --theme-light-blue: #D0D6F9;
     --theme-white: #FFFFFF;
@@ -19,7 +19,8 @@
     --custom-tech-button-border: rgba(255, 255, 255, 0.25);
 }
 
-body, main{
+body,
+main {
     width: 100vw;
     height: 100vh;
     margin: 0px;
@@ -27,42 +28,50 @@ body, main{
     overflow: hidden;
 }
 
-h1{
+main {
+    position: relative;
+}
+
+h1 {
     font-family: var(--font-theme-bellefair);
     font-size: 150px;
     font-weight: 400;
 }
 
-h2{
+h2 {
     font-family: var(--font-theme-bellefair);
     font-size: 100px;
     font-weight: 400;
 }
 
-h3{
+h3 {
     font-family: var(--font-theme-bellefair);
     font-size: 56px;
     font-weight: 400;
 }
 
-h4{
+h4 {
     font-family: var(--font-theme-bellefair);
     font-size: 32px;
     font-weight: 400;
 }
 
-h5{
+h5 {
     font-family: var(--font-theme-barlow-condensed);
     font-size: 28px;
     letter-spacing: 4.72px;
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     text-transform: uppercase;
 }
 
-footer{
+footer {
     width: 100%;
     position: absolute;
     bottom: 8px;
@@ -70,27 +79,71 @@ footer{
     font-family: var(--font-theme-barlow-condensed);
     color: var(--theme-white);
 
-    a{
+    a {
         color: var(--theme-light-blue);
     }
 }
 
-.subheading-1{
+.subheading-1 {
     font-family: var(--font-theme-bellefair);
     font-size: 28px;
     text-transform: uppercase;
 }
 
-.subheading-2{
+.subheading-2 {
     font-family: var(--font-theme-barlow-condensed);
     font-size: 14px;
     letter-spacing: 2.35px;
     text-transform: uppercase;
 }
 
-.subnav-text{
+.subnav-text {
     font-family: var(--font-theme-barlow-condensed);
     font-size: 16px;
     letter-spacing: 2.7px;
     text-transform: uppercase;
+}
+
+.page-header {
+    color: var(--theme-white);
+    position: absolute;
+    z-index: 999;
+    top: 100px;
+    left: 120px;
+
+    >span {
+        opacity: 0.25;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+
+    body {
+        overflow-y: scroll;
+    }
+
+    html::-webkit-scrollbar {
+        background-color: #000;
+        width: 12px;
+        border-radius: 10px;
+    }
+
+    html::-webkit-scrollbar-track {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #D0D6F9), color-stop(1, #FFFFFF));
+        border-radius: 10px;
+    }
+
+    h5 {
+        font-size: 20px;
+        letter-spacing: 3.38px;
+    }
+
+    .page-header {
+        left: 45px;
+    }
 }
