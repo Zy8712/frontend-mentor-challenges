@@ -13,14 +13,250 @@
       <td>Learned</td>
       <td>Trial#</td>
     </tr>
+	<tr>
+      <td>Space Tourism Website</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		<img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/space-tourism-website/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/space-tourism-website/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Oct 2nd, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+	<tr>
+      <td>Ping Single Column Coming Soon Page</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/ping-coming-soon-page-ZFCtYxVW54">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/ping-coming-soon-page/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/ping-coming-soon-page/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Sept 16th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+	  <tr>
+      <td>Clipboard Landing Page</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/clipboard-landing-page-6wdy5EYFmN">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/clipboard-landing-page/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/clipboard-landing-page/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Sept 14th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+	  <tr>
+      <td>Room Homepage</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/room-homepage-5YzK2BExdF">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/room-homepage/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/room-homepage/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Sept 7th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>Newsletter Sign-up Form With Success Message</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/newsletter-sign-up-with-success-message/my-react-work-v1">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Sept 3rd, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>ReactJS</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+    <tr>
+      <td>Single Price Grid Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/single-price-grid-component/my-react-work-v1">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 31st, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>ReactJS</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </details>
+      </td>
+      <td>#2</td>
+    </tr>
+	  <tr>
+      <td>3 Column Preview Card Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/3-column-preview-card-component/my-react-work-v1">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 29th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>ReactJS</li>
+			      <li>TailwindCSS</li>
+          </ul>
+        </details>
+      </td>
+      <td>#3</td>
+    </tr>
+	  <tr>
+      <td>Huddle Landing Page with Alternating Feature Blocks</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/huddle-landing-page-8QRB5W0hmu">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/huddle-landing-page-with-alternating-feature-blocks/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/huddle-landing-page-with-alternating-feature-blocks/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Aug 26th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
     <tr>
       <td>Advice Generator App</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
         <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
         <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-		<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
-		<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
       </td>
       <td>
         <details>
@@ -69,7 +305,7 @@
           <summary> 📝</summary>
           <ul>
             <br>
-            <li>ReactJs</li>
+            <li>ReactJS</li>
           </ul>
         </details>
       </td>
@@ -1015,6 +1251,26 @@
 
 # challenge preview screenshots provided
 
+<details>
+    <summary>Ping Coming Soon Page</summary>
+    <br>
+    <img src="./ping-coming-soon-page/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Clipboard Landing Page</summary>
+    <br>
+    <img src="./clipboard-landing-page/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Room Homepage</summary>
+    <br>
+    <img src="./room-homepage/my-work/design/desktop-preview.jpg">
+</details>
+<details>
+    <summary>Huddle Landing Page with Alternating Feature Blocks</summary>
+    <br>
+    <img src="./huddle-landing-page-with-alternating-feature-blocks/my-work/design/desktop-preview.jpg">
+</details>
 <details>
     <summary>Rock, Paper, Scissors Game</summary>
     <br>
