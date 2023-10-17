@@ -13,12 +13,99 @@
       <td>Learned</td>
       <td>Trial#</td>
     </tr>
-	<tr>
+    <tr>
+      <td>Pod Request Access Landing Page</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
+		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Oct 9th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+            <li>order (flex-box)</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+    <tr>
+      <td>QR Code Component</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/qr-code-component/my-react-work-v2">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Oct 7th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#4</td>
+    </tr>
+    <tr>
+      <td>Advice Generator App</td>
+      <td>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
+		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
+		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
+      </td>
+      <td>
+        <details>
+          <summary>🔗</summary>
+          <br>
+          <p><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">💾 Challenge</a></p>
+          <p><a href="">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/advice-generator-app/my-react-work-v2">👨‍💻 My_Code</a></p>
+          <p><a href="">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td>Oct 6th, 2023</td>
+      <td>
+        <details>
+          <summary> 📝 </summary>
+          <ul>
+            <br>
+          </ul>
+        </details>
+      </td>
+      <td>#3</td>
+    </tr>
+	  <tr>
       <td>Space Tourism Website</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
         <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-		<img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
+		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
         <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
       </td>
       <td>
@@ -37,12 +124,13 @@
           <summary> 📝 </summary>
           <ul>
             <br>
+            <li>backdrop-filter</li>
           </ul>
         </details>
       </td>
       <td>#1</td>
     </tr>
-	<tr>
+	  <tr>
       <td>Ping Single Column Coming Soon Page</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
