@@ -1,16 +1,18 @@
 @import url("./global.css");
 
-body{
+body {
     background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.crew-main{
+.crew-main {
     width: 100%;
     height: 100%;
 
     display: flex;
 
-    > div{
+    >div {
         width: 50%;
         height: 100%;
 
@@ -21,7 +23,7 @@ body{
     }
 }
 
-.crew-text-block{
+.crew-text-block {
     width: 488px;
     height: 406px;
     margin-bottom: 20px;
@@ -35,14 +37,14 @@ body{
         margin-bottom: 18px;
     }
 
-    >h3{
+    >h3 {
         color: var(--theme-white);
         margin: 0;
         margin-bottom: 27px;
         width: 614px;
     }
 
-    >p{
+    >p {
         width: 420px;
         height: 128px;
         letter-spacing: 1.3px;
@@ -55,7 +57,7 @@ body{
     }
 }
 
-.crew-navigation{
+.crew-navigation {
     width: 132px;
     height: 15px;
     display: flex;
@@ -63,7 +65,7 @@ body{
     position: absolute;
     bottom: 15px;
 
-    > div{
+    >div {
         width: 15px;
         height: 15px;
         background-color: var(--theme-white);
@@ -71,44 +73,45 @@ body{
         border-style: none;
         border-radius: 100px;
 
-        &:hover{
+        &:hover {
             cursor: pointer;
         }
     }
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 421px) and (max-width: 769px) {
 
-    body{
+    body {
         background-image: url("../assets/crew/background-crew-tablet.jpg");
     }
-    
-    .crew-main{
+
+    .crew-main {
         flex-direction: column;
 
-        > div{
+        >div {
             width: 100%;
-    
+
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        >div:nth-of-type(1){
+        >div:nth-of-type(1) {
             height: 35%;
             justify-content: flex-end;
         }
 
-        > div:nth-of-type(2){
+        >div:nth-of-type(2) {
             height: 65%;
-            > img{
+
+            >img {
                 width: 420px;
             }
         }
     }
 
-    .crew-text-block{
+    .crew-text-block {
         width: 458px;
         height: 232px;
         margin-bottom: 0px;
@@ -118,18 +121,18 @@ body{
         flex-direction: column;
         align-items: center;
         text-align: center;
-    
+
         >h4 {
             font-size: 24px;
             margin-bottom: 8px;
         }
-    
-        >h3{
+
+        >h3 {
             font-size: 40px;
             margin-bottom: 12px;
         }
-    
-        >p{
+
+        >p {
             width: 458px;
             height: 84px;
             letter-spacing: 1.3px;
@@ -138,18 +141,105 @@ body{
         }
     }
 
-    .crew-navigation{
+    .crew-navigation {
         width: 88px;
         height: 10px;
         display: flex;
         justify-content: space-between;
         position: absolute;
         bottom: 0px;
-    
-        > div{
+
+        >div {
             width: 10px;
             height: 10px;
         }
     }
+
+}
+
+@media (max-width: 420px) {
+    body{
+        background-image: url("../assets/crew/background-crew-mobile.jpg");
+    }
+
+    .crew-main {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        >div:nth-of-type(1) {
+            width: 100%;
+            height: 57%;
+            justify-content: flex-start;
+        }
+
+        >div:nth-of-type(2) {
+            justify-content: flex-end;
+            border-bottom: 2px rgb(151, 151, 151, 0.1) solid;
+            width: 100%;
+            height: 43%;
+
+            >img {
+                width: 177.12px;
+            }
+        }
+    }
+
+    .crew-text-block {
+        width: 327px;
+        height: 212px;
+        margin-bottom: 0px;
+        position: relative;
+        margin-left: 0px;
+
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 32px;
+
+
+        >h4 {
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 8px;
+            order: 2;
+        }
+
+        >h3 {
+            width: 100%;
+            font-size: 24px;
+            margin-bottom: 16px;
+            order: 3;
+        }
+
+        >p {
+            width: 327px;
+            height: 100px;
+            letter-spacing: 0px;
+            font-size: 15px;
+            line-height: 25px;
+            order: 4;
+        }
+
+        .crew-navigation {
+            width: 88px;
+            height: 10px;
+            display: flex;
+            justify-content: space-between;
+            position: static;
+            order: 1;
+            margin-bottom: 32px;
+
+            >div {
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+
+
+
 
 }

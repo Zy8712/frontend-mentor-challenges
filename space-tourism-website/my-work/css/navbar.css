@@ -16,7 +16,7 @@ nav {
   align-items: center;
   position: relative;
 }
-.navbar-left > img {
+.navbar-left > #site-logo {
   margin-left: 55px;
   width: 48px;
   height: 48px;
@@ -78,9 +78,25 @@ nav {
   margin: 0px;
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+#mobile-menu-icon {
+  display: none;
+  width: 24px;
+  height: 21px;
+}
+
+#mobile-close-menu-icon {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 421px) and (max-width: 769px) {
   nav {
     margin-top: 0px;
+    height: 88px;
+  }
+  .navbar-left {
+    width: 38.3%;
   }
   .navbar-left > div {
     display: none !important;
@@ -101,5 +117,70 @@ nav {
   }
   .navbar-right a:nth-of-type(4) {
     margin-right: 47px;
+  }
+}
+@media (max-width: 420px) {
+  nav {
+    margin-top: 0px;
+  }
+  #nav-home, #nav-destination, #nav-crew, #nav-technology {
+    display: block;
+  }
+  .navbar-left {
+    width: 100%;
+  }
+  .navbar-left > #site-logo {
+    margin-left: 24px;
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-left > div {
+    display: none !important;
+  }
+  .navbar-left > #mobile-menu-icon {
+    display: block;
+    margin-right: 24px;
+  }
+  .navbar-right {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 0px;
+    transition: width 0.5s ease;
+  }
+  .navbar-right > #mobile-close-menu-icon {
+    display: block;
+    width: 19.09px;
+    height: 19.09px;
+    position: absolute;
+    top: 33.95px;
+    right: 33.95px;
+  }
+  .navbar-right > a {
+    height: auto;
+    margin-left: 32px;
+  }
+  .navbar-right > a:nth-of-type(1) {
+    margin-left: 32px;
+    margin-top: 118px;
+  }
+  .navbar-right > a:nth-of-type(2) {
+    margin-top: 32px;
+  }
+  .navbar-right > a:nth-of-type(3) {
+    margin-top: 32px;
+  }
+  .navbar-right > a:nth-of-type(4) {
+    margin-top: 32px;
+    margin-right: 0px;
+  }
+  #nav-home-underline, #nav-dest-underline, #nav-crew-underline, #nav-tech-underline {
+    border-bottom-style: none;
   }
 }/*# sourceMappingURL=navbar.css.map */

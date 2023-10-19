@@ -1,7 +1,10 @@
 @import url("./global.css");
 body {
   background-image: url("../assets/destination/background-destination-desktop.jpg");
-  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
 }
 
 .dest-main {
@@ -105,7 +108,7 @@ body {
   color: var(--theme-light-blue);
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 421px) and (max-width: 769px) {
   body {
     background-image: url("../assets/destination/background-destination-tablet.jpg");
     overflow: hidden;
@@ -173,5 +176,75 @@ body {
   .destination-main-stats {
     display: flex;
     width: 90%;
+  }
+}
+@media (max-width: 420px) {
+  body {
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+    overflow-y: auto;
+    width: 100vw;
+    height: 100vh;
+  }
+  .dest-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .dest-main > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .dest-main .destination-hero {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dest-main .destination-hero > div {
+    height: 100%;
+    margin-top: 64px;
+  }
+  .dest-main .destination-hero > div > img {
+    height: 170px;
+    width: 170px;
+  }
+  .dest-main .destination-data-box {
+    width: 100%;
+    height: 472px;
+    margin-bottom: 0px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .destination-main-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .destination-main-text > h2 {
+    margin-top: 20px;
+    font-size: 56px;
+  }
+  .destination-main-text > p {
+    width: 327px;
+    height: 125px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .destination-main-stats {
+    flex-direction: column;
+  }
+  .destination-main-stats > div {
+    width: 100%;
   }
 }/*# sourceMappingURL=destination.css.map */

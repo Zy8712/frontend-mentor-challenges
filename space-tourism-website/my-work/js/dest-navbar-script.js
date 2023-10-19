@@ -32,6 +32,9 @@ var destDesc = document.getElementById("destination-description");
 var destDist = document.getElementById("destination-distance");
 var destTime = document.getElementById("destination-time");
 
+var openMobileMenuButton = document.getElementById("mobile-menu-icon");
+var closeMobileMenuButton = document.getElementById("mobile-close-menu-icon");
+
 let jsonData; // Declare a global variable to store the JSON data
 
 // Load the JSON data when your script is first loaded
@@ -174,6 +177,9 @@ window.onload = function () {
     titaNav.addEventListener("click", () => {
         changeDestUnderline("4");
     });
+    
+    openMobileMenuButton.addEventListener("click", openMobileMenu);
+    closeMobileMenuButton.addEventListener("click", closeMobileMenu);
 }
 
 function addNavHover(navOption){
@@ -245,4 +251,16 @@ function loadDestData(destNavOption) {
     destDesc.innerHTML = loadingDestinationDescription;
     destDist.innerHTML = loadingDestinationDistance;
     destTime.innerHTML = loadingDestinationTime;
+}
+
+function openMobileMenu(){
+    var menuMobile = document.getElementById("mobile-menu-box");
+    menuMobile.style.width = "254px"; 
+    menuMobile.style.display = "flex";
+}
+
+function closeMobileMenu(){
+    var menuMobile = document.getElementById("mobile-menu-box");
+    menuMobile.style.width = "0px";
+    menuMobile.style.display = "none";
 }

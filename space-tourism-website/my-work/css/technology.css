@@ -1,6 +1,8 @@
 @import url("./global.css");
 body {
   background-image: url("../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tech-main {
@@ -81,7 +83,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 421px) and (max-width: 769px) {
   body {
     background-image: url("../assets/technology/background-technology-tablet.jpg");
   }
@@ -129,5 +131,83 @@ body {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 1.3px;
+  }
+}
+@media (max-width: 420px) {
+  body {
+    background-image: url("../assets/technology/background-technology-mobile.jpg");
+  }
+  .tech-main {
+    flex-direction: column-reverse;
+  }
+  .tech-main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-main > div:nth-of-type(1) {
+    width: 100%;
+    height: 67%;
+    justify-content: flex-start;
+  }
+  .tech-main > div:nth-of-type(2) {
+    width: 100%;
+    height: 33%;
+    justify-content: flex-end;
+  }
+  .tech-main > div:nth-of-type(2) > img {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .tech-text-box {
+    width: 327px;
+    height: 286px;
+    margin-bottom: 0px;
+    margin-top: 34px;
+  }
+  .tech-text-box-main-chunk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tech-navigation {
+    width: 152px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 26px;
+  }
+  .tech-navigation > div {
+    width: 40px;
+    height: 40px;
+  }
+  .tech-navigation > div > h4 {
+    font-size: 16px;
+  }
+  .tech-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tech-description > span {
+    margin-bottom: 9px;
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+  .tech-description > h3 {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  .tech-description > p {
+    width: 327px;
+    height: 175px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: normal;
   }
 }/*# sourceMappingURL=technology.css.map */

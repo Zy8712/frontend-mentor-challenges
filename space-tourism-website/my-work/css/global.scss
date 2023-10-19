@@ -116,7 +116,7 @@ footer {
     }
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 421px) and (max-width: 769px) {
 
     body {
         overflow-y: scroll;
@@ -146,4 +146,18 @@ footer {
     .page-header {
         left: 45px;
     }
+}
+
+@media (max-width: 420px) {
+
+    .page-header {
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        width: 210px;
+        text-align: center;
+        left: 50%;
+        top: 88px;
+        transform: translate(-50%, -50%);
+    }
+    
 }

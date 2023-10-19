@@ -12,6 +12,9 @@ var navTechUnderline = document.getElementById("nav-tech-underline");
 var mainNav = [homeNav, destinationNav, crewNav, techNav];
 var mainNavUnderline = [navHomeUnderline, navDestUnderline, navCrewUnderline, navTechUnderline];
 
+var openMobileMenuButton = document.getElementById("mobile-menu-icon");
+var closeMobileMenuButton = document.getElementById("mobile-close-menu-icon");
+
 // Function to store user input in localStorage before the page is refreshed
 window.addEventListener("beforeunload", function() {
     localStorage.setItem("selectedNavOption", currentNavSelection);
@@ -79,6 +82,9 @@ window.onload = function() {
     techNav.addEventListener("click", () => {
         changeNavUnderline("4");
     });
+
+    openMobileMenuButton.addEventListener("click", openMobileMenu);
+    closeMobileMenuButton.addEventListener("click", closeMobileMenu);
 }
 
 function addNavHover(navOption){
@@ -102,6 +108,18 @@ function changeNavUnderline(navOption){
 
         currentNavSelection = navOption;
     }
+}
+
+function openMobileMenu(){
+    var menuMobile = document.getElementById("mobile-menu-box");
+    menuMobile.style.width = "254px"; 
+    menuMobile.style.display = "flex";
+}
+
+function closeMobileMenu(){
+    var menuMobile = document.getElementById("mobile-menu-box");
+    menuMobile.style.width = "0px";
+    menuMobile.style.display = "none";
 }
 
 

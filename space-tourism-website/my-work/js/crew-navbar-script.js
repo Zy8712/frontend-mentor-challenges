@@ -26,6 +26,9 @@ var fourthCrew = document.getElementById("crew-fourth");
 
 var dotNavigation = [firstCrew, secondCrew, thirdCrew, fourthCrew];
 
+var openMobileMenuButton = document.getElementById("mobile-menu-icon");
+var closeMobileMenuButton = document.getElementById("mobile-close-menu-icon");
+
 let jsonData; // Declare a global variable to store the JSON data
 
 // Load the JSON data when your script is first loaded
@@ -167,7 +170,9 @@ window.onload = function () {
     fourthCrew.addEventListener("click", () => {
         changeCrewView("4");
     });
-
+    
+    openMobileMenuButton.addEventListener("click", openMobileMenu);
+    closeMobileMenuButton.addEventListener("click", closeMobileMenu);
 }
 
 function addNavHover(navOption) {
@@ -229,4 +234,16 @@ function loadCrewData(crewNavOption) {
     personImg.src = crewImg;
     personRole.innerHTML = crewRole;
     personBio.innerHTML = crewBio;
+}
+
+function openMobileMenu(){
+    var menuMobile = document.getElementById("mobile-menu-box");
+    menuMobile.style.width = "254px"; 
+    menuMobile.style.display = "flex";
+}
+
+function closeMobileMenu(){
+    var menuMobile = document.getElementById("mobile-menu-box");
+    menuMobile.style.width = "0px";
+    menuMobile.style.display = "none";
 }
