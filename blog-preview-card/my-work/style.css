@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+:root {
+  /* Primary */
+  --theme-yellow: hsl(47, 88%, 63%);
+  /* Neutral */
+  --theme-white: hsl(0, 0%, 100%);
+  --theme-grey: hsl(0, 0%, 50%);
+  --theme-black: hsl(0, 0%, 7%);
+}
+
+body {
+  height: 100vh;
+  min-width: 100vw;
+  background-color: var(--theme-yellow);
+  overflow: hidden;
+  font-family: "Figtree", sans-serif;
+  margin: 0px;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 376px;
+  height: 500px;
+  transition: width 2s ease;
+  border: black 1.5px solid;
+  border-radius: 18px;
+  background-color: var(--theme-white);
+  box-shadow: 7px 8px;
+  pointer-events: none;
+  /* 
+      pointer-events: auto; on child element
+      pointer-events: none; on parent element 
+      combined together makes hover over child element activate hover status for parent element
+      i.e. hover over child element to trigger hover state of both child and parent
+      https://www.geeksforgeeks.org/how-to-style-parent-element-when-hover-over-a-child-element-in-css/
+  */
+}
+.card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 456px;
+  margin: 22px;
+}
+.card:hover {
+  box-shadow: 15px 15px;
+}
+
+.img-box {
+  min-height: 202.6px;
+  background-image: url("./assets/images/illustration-article.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.info-box {
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+}
+.info-box .tag-box {
+  display: flex;
+  justify-content: flex-start;
+}
+.info-box .tag-box div {
+  display: inline;
+  padding: 7px 12px;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: var(--theme-yellow);
+  border-radius: 4px;
+}
+.info-box h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0px;
+  color: var(--theme-black);
+  pointer-events: auto;
+  /* 
+      pointer-events: auto; on child element
+      pointer-events: none; on parent element 
+      combined together makes hover over child element activate hover status for parent element
+      i.e. hover over child element to trigger hover state of both child and parent
+      https://www.geeksforgeeks.org/how-to-style-parent-element-when-hover-over-a-child-element-in-css/
+  */
+}
+.info-box h1:hover {
+  color: var(--theme-yellow);
+  cursor: pointer;
+}
+.info-box h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: var(--theme-black);
+}
+.info-box p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--theme-grey);
+  margin-top: 12px;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.info-box .profile-box {
+  display: flex;
+  align-items: center;
+}
+.info-box .profile-box img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+.info-box .profile-box span {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--theme-black);
+}
+
+footer {
+  min-width: 100vw;
+  position: absolute;
+  bottom: 8px;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 420px) {
+  .card {
+    width: 345px;
+  }
+  .card > div {
+    margin: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */
