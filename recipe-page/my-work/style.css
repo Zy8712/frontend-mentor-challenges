@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+:root {
+  --theme-nutmeg: hsl(14, 45%, 36%);
+  --theme-dark-raspberry: hsl(332, 51%, 32%);
+  --theme-white: hsl(0, 0%, 100%);
+  --theme-rose-white: hsl(330, 100%, 98%);
+  --theme-eggshell: hsl(30, 54%, 90%);
+  --theme-light-grey: hsl(30, 18%, 87%);
+  --theme-wenge-brown: hsl(30, 10%, 34%);
+  --theme-dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--theme-eggshell);
+  overflow-x: hidden;
+  padding: 125px 0px;
+  position: relative;
+  margin: 0px;
+}
+
+main {
+  width: 736px;
+  background-color: var(--theme-white);
+  border-style: none;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 40px;
+  font-family: "Outfit", sans-serif;
+}
+main > section {
+  margin-top: 40px;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  color: var(--theme-dark-charcoal);
+  margin: 0px;
+}
+h1 + p {
+  margin: 24px 0px 0px 0px;
+  font-size: 16px;
+  color: var(--theme-wenge-brown);
+}
+
+h2 {
+  color: var(--theme-nutmeg);
+  font-size: 28px;
+  margin: 0px;
+}
+
+.line-div {
+  width: 100%;
+  border-bottom: 1px solid var(--theme-light-grey);
+  margin: 32px 0px;
+}
+
+.prep-section {
+  width: 100%;
+  height: 182px;
+  background: var(--theme-rose-white);
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 24px;
+  margin: 32px 0px;
+}
+.prep-section h3 {
+  color: var(--theme-dark-raspberry);
+  margin: 0px;
+  font-size: 20px;
+}
+.prep-section ul {
+  margin: 16px 0px 0px 0px;
+  padding-left: 16px;
+}
+.prep-section li {
+  color: var(--theme-wenge-brown);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 8px 0px;
+  padding-left: 14px;
+}
+.prep-section li span {
+  font-weight: 700;
+}
+
+.ingredient-section ul {
+  margin: 16px 0px 0px 0px;
+  padding-left: 28px;
+}
+.ingredient-section li {
+  color: var(--theme-wenge-brown);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 8px 0px;
+  padding-left: 14px;
+}
+
+.instructions-section ol {
+  margin: 16px 0px 0px 0px;
+  padding-left: 28px;
+}
+.instructions-section li {
+  color: var(--theme-wenge-brown);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 8px 0px;
+  padding-left: 14px;
+}
+.instructions-section li::marker {
+  font-weight: 700;
+}
+.instructions-section li span {
+  font-weight: 700;
+}
+
+.nutrients-section table {
+  width: 100%;
+  margin: 16px 0px 0px 0px;
+  border-collapse: collapse;
+}
+.nutrients-section table caption {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 24px;
+  font-weight: 400;
+  color: var(--theme-wenge-brown);
+}
+.nutrients-section table th {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 12px 0 12px 32px;
+}
+.nutrients-section table td {
+  font-weight: 700;
+  color: var(--theme-nutmeg);
+}
+.nutrients-section table th,
+.nutrients-section table td {
+  text-align: left;
+  width: 50%;
+  border-bottom: 1px solid var(--theme-light-grey);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  translate: -50%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 736px) {
+  body {
+    padding: 0px;
+  }
+  main {
+    width: 100vw;
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  main > section {
+    margin: 40px 32px;
+  }
+  img {
+    border-radius: 0px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+}/*# sourceMappingURL=style.css.map */
