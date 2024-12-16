@@ -1,4 +1,7 @@
-# frontend-mentor-challenges
+> [!IMPORTANT]
+> This repository contains my work on Frontend Mentor projects.
+> This repository is for portfolio reference only.
+> Copying or redistribution is not permitted.
 
 <p>View Custom Directory (Completed Challenges Only): <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/"><ins>HERE</ins></a></p>
 
