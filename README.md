@@ -2,6 +2,30 @@
     <img src="./z-readme-assets/frontend-mentor-logo-transparent.png" width="400px" />
     <h1>Bryan's Frontend Mentor Projects - Vanilla Ver.</h1>
     <img src="https://skillicons.dev/icons?i=html,css,js,sass,bootstrap,tailwind,github,vercel,vscode,svg&theme=dark" />
+    <br>
+    <br>
+    <p>
+        <img align="center" src="https://img.shields.io/badge/Build-Passing-54B848?style=flat&logo=checkmarx&logoColor=white" />
+        <img align="center" src="https://img.shields.io/badge/Coded/Designed_By-Bryan_Li-003648?style=flat&logo=codementor&logoColor=white" />
+        <img align="center" src="https://img.shields.io/badge/Project_Status-Active-green?style=flat&logo=githubsponsors&logoColor=white" />
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/bryan-li712/">
+          <img align="center" src="https://img.shields.io/badge/Linkedin-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
+        </a>
+        <a href="https://github.com/Zy8712">
+          <img align="center" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+        <a href="https://www.credly.com/users/bryan-li712">
+          <img align="center" src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" />
+        </a>
+        <a href="https://www.frontendmentor.io/profile/Zy8712">
+          <img align="center" src="https://img.shields.io/badge/Frontend_Mentor-3F54A3?style=for-the-badge&logo=frontend-mentor&logoColor=white" />
+        </a>
+        <a href="https://leetcode.com/Zy8712/">
+          <img align="center" src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+        </a>
+    </p>
 </div>
 
 > [!IMPORTANT]
@@ -1499,3 +1523,5 @@
     <br>
     <img src="./qr-code-component/my-work/design/desktop-preview.jpg">
 </details>
+
+<!-- This repo belongs to B.L. Copy or redistribution not permitted. -->
