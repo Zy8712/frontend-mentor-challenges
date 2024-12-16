@@ -1,7 +1,14 @@
+<div align="center">
+    <img src="./z-readme-assets/frontend-mentor-logo-transparent.png" width="400px" />
+    <h1>Bryan's Frontend Mentor Projects - Vanilla Ver.</h1>
+    <img src="https://skillicons.dev/icons?i=html,css,js,sass,bootstrap,tailwind,github,vercel,vscode,svg&theme=dark" />
+</div>
+
 > [!IMPORTANT]
 > This repository contains my work on Frontend Mentor projects.
-> This repository is for portfolio reference only.
-> Copying or redistribution is not permitted.
+> Code in this repo is written in HTML, CSS, JavaScript, Sass, Bootstrap and Tailwind.
+> Projects written using frameworks can be found in separate repositories.
+> This repository is for portfolio reference only. Copying or redistribution is not permitted.
 
 <p>View Custom Directory (Completed Challenges Only): <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/"><ins>HERE</ins></a></p>
 
