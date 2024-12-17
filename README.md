@@ -1,3 +1,11 @@
+<a name="top"></a>
+
+> [!IMPORTANT]
+> This repository contains my work on Frontend Mentor projects.
+> Code in this repo is written in HTML, CSS, JavaScript, Sass, Bootstrap and Tailwind.
+> Projects written using frameworks can be found in separate repositories.
+> This repository is for portfolio reference only. Copying or redistribution is not permitted.
+
 <div align="center">
     <img src="./z-readme-assets/frontend-mentor-logo-transparent.png" width="400px" />
     <h1>Bryan's Frontend Mentor Projects - Vanilla Ver.</h1>
@@ -8,35 +16,94 @@
         <img align="center" src="https://img.shields.io/badge/Build-Passing-54B848?style=flat&logo=checkmarx&logoColor=white" />
         <img align="center" src="https://img.shields.io/badge/Coded/Designed_By-Bryan_Li-003648?style=flat&logo=codementor&logoColor=white" />
         <img align="center" src="https://img.shields.io/badge/Project_Status-Active-green?style=flat&logo=githubsponsors&logoColor=white" />
-        <br>
-        <br>
-        <a href="https://www.linkedin.com/in/bryan-li712/">
-          <img align="center" src="https://img.shields.io/badge/Linkedin-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
-        </a>
-        <a href="https://github.com/Zy8712">
-          <img align="center" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-        </a>
-        <a href="https://www.credly.com/users/bryan-li712">
-          <img align="center" src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" />
-        </a>
-        <a href="https://www.frontendmentor.io/profile/Zy8712">
-          <img align="center" src="https://img.shields.io/badge/Frontend_Mentor-3F54A3?style=for-the-badge&logo=frontend-mentor&logoColor=white" />
-        </a>
-        <a href="https://leetcode.com/Zy8712/">
-          <img align="center" src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
-        </a>
     </p>
 </div>
 
-> [!IMPORTANT]
-> This repository contains my work on Frontend Mentor projects.
-> Code in this repo is written in HTML, CSS, JavaScript, Sass, Bootstrap and Tailwind.
-> Projects written using frameworks can be found in separate repositories.
-> This repository is for portfolio reference only. Copying or redistribution is not permitted.
+<div align="center">
+    
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bryan-li712/)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/bryan-li712)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zy8712)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/Zy8712/)
+[![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-3F54A3?style=for-the-badge&logo=frontend-mentor&logoColor=white)](https://www.frontendmentor.io/profile/Zy8712)
+[![Personal Portfolio](https://img.shields.io/badge/Personal_Portfolio_Site-ED1C24?style=for-the-badge&logo=dungeonsanddragons&logoColor=white)](https://bryanli.vercel.app/)
+</div>
+
+## Table of Contents
+- [About](#about)
+- [Projects](#projects)
+- [Project Details](#details)
+- [Usage](#usage)
+- [Feedback](#feedback)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <p>View Custom Directory (Completed Challenges Only): <a href="https://frontend-mentor-challenges-pi-sage.vercel.app/"><ins>HERE</ins></a></p>
 
-<p>My Frontend Mentor Profile: <a href="https://www.frontendmentor.io/profile/Zy8712"><ins>HERE</ins></a></p>
+## 🚀 About
+
+
+
+## Projects
+
+| Project Name | Project Difficulty | Attempt Details | Official Source |
+| :- | :- | :- | :- |
+| 3 Column Preview Card Component | | | |
+| Advice Generator App | | | |
+| Age Calculator App | | | |
+| Article Preview Component | | | |
+| Blog Preview Card | | | |
+| Clipboard Landing Page | | | |
+| Expenses Chart Component | | | |
+| FAQ Accordion Card | | | |
+| Four Card Feature Section | | | |
+| Fylo Dark Theme Landing Page | | | |
+| Fylo Data Storage Component | | | |
+| Huddle Landing Page with Alternating Feature Blocks | | | |
+| Interactive Rating Component | | | |
+| IP Address Tracker | | | |
+| News Homepage | | | |
+| Newsletter Sign Up with Success Message | | | |
+| NFT Preview Card Component | | | |
+| Order Summary Component | | | |
+| Ping Coming Soon Page | | | |
+| Pod Request Access Landing Page | | | |
+| Product Preview Card Component | | | |
+| Profile Card Component | | | |
+| QR Code Component | | | |
+| Recipe Page | | | |
+| Results Summary Component | | | |
+| Rock Paper Scissors | | | |
+| Room Homepage | | | |
+| Single Price Grid Component | | | |
+| Social Links Profile | | | |
+| Social Proof Section | | | |
+| Space Tourism Website | | | |
+| Stats Preview Card Component | | | |
+| Testimonials Grid Section | | | |
+| Time Tracking Dashboard | | | |
+| Tip Calculator App | | | |
+
+
+## Details
+
+
+## Usage
+
+
+## Feedback
+
+
+## License
+
+
+## Contact
+
+
+## Acknowledgements
+
 
 <table>
     <tr>
