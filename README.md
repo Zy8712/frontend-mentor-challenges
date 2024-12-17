@@ -1,8 +1,8 @@
 <a name="top"></a>
 
 <div align="center">
-    <img src="./z-readme-assets/frontend-mentor-logo-transparent.png" width="400px" />
-    <h1>Bryan's Frontend Mentor Projects - Vanilla Ver.</h1>
+    <img src="./z-readme-assets/frontend-mentor-logo_upscaled.png" width="800px" />
+    <h1>Bryan's Projects - Frontend Mentor [Vanilla Ver.]</h1>
     <img src="https://skillicons.dev/icons?i=html,css,js,sass,bootstrap,tailwind,github,vercel,vscode,svg&theme=dark" />
     <br>
     <br>
@@ -43,12 +43,15 @@
 ## 🚀 About
 
 
+## Usage
+> [!WARNING]
+> This repository is for portfolio reference only. Copying or redistribution is not permitted.
+
 
 ## Projects
-
-| Project Name | Project Difficulty | Attempt Details | Official Source |
+| Project Name | Difficulty | Attempt Details | Official Source |
 | :- | :-: | :-: | :-: |
-| 3 Column Preview Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| 3 Column Preview Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | |  |
 | Advice Generator App | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
 | Age Calculator App | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
 | Article Preview Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
@@ -85,13 +88,6 @@
 | Tip Calculator App | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
 
 
-## Details
-
-
-## Usage
-> [!WARNING]
-> This repository is for portfolio reference only. Copying or redistribution is not permitted.
-
 ## Feedback
 
 
@@ -102,6 +98,40 @@
 
 
 ## Acknowledgements
+
+
+## Details
+
+### 3 Column Preview Card Component
+<img src="./3-column-preview-card-component/my-work/design/desktop-preview.jpg">
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) | Jun 12th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br> [📨 Submission](https://www.frontendmentor.io/solutions/3-colum-preview-card-component-bx04fR0CV3) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work/index.html) | - background-color:rgba(0,0,0,0) |
+| #2 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![Sass](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) | Aug 8th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br>  [📨 Submission](#) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work-v2-tailwindcss) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work-v2-tailwindcss/index.html) | - tailwind css |
+
+
+### Advice Generator App
+<img src="./advice-generator-app/my-work/design/desktop-preview.jpg">
+
+### Age Calculator App
+<img src="./age-calculator-app/my-work/design/desktop-preview.jpg">
+
+### Article Preview Component
+<img src="./article-preview-component/my-work/design/desktop-preview.jpg">
+
+### Blog Preview Card
+<img src="./blog-preview-card/my-work/design/desktop-preview.jpg">
+
+### Clipboard Landing Page
+<img src="./clipboard-landing-page/my-work/design/desktop-preview.jpg">
+
+### Expenses Chart Component
+<img src="./expenses-chart-component/my-work/design/desktop-preview.jpg">
+
+
+
+
 
 
 <table>
@@ -590,36 +620,6 @@
         </details>
       </td>
       <td>#1</td>
-    </tr>
-	<tr>
-      <td>3 Column Preview Card Component</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-		<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
-		<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">💾 Challenge</a></p>
-          <p><a href="">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work-v2-tailwindcss">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work-v2-tailwindcss/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Aug 8th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>tailwindcss</li>
-          </ul>
-        </details>
-      </td>
-      <td>#2</td>
     </tr>
 	<tr>
       <td>IP Address Tracker</td>
@@ -1222,34 +1222,6 @@
       <td>#1</td>
     </tr>
     <tr>
-      <td>3 Column Preview Card Component</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/3-colum-preview-card-component-bx04fR0CV3">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Jun 12th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>background-color:rgba(0,0,0,0)</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-    <tr>
       <td>Results Summary Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -1445,11 +1417,6 @@
     <img src="./ping-coming-soon-page/my-work/design/desktop-preview.jpg">
 </details>
 <details>
-    <summary>Clipboard Landing Page</summary>
-    <br>
-    <img src="./clipboard-landing-page/my-work/design/desktop-preview.jpg">
-</details>
-<details>
     <summary>Room Homepage</summary>
     <br>
     <img src="./room-homepage/my-work/design/desktop-preview.jpg">
@@ -1463,11 +1430,6 @@
     <summary>Rock, Paper, Scissors Game</summary>
     <br>
     <img src="./rock-paper-scissors/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Expenses Chart Component</summary>
-    <br>
-    <img src="./expenses-chart-component/my-work/design/desktop-preview.jpg">
 </details>
 <details>
     <summary>IP Address Tracker</summary>
@@ -1484,16 +1446,7 @@
     <br>
     <img src="./tip-calculator-app/my-work/design/desktop-preview.jpg">
 </details>
-<details>
-    <summary>Advice Generator App</summary>
-    <br>
-    <img src="./advice-generator-app/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Age Calculator App</summary>
-    <br>
-    <img src="./age-calculator-app/my-work/design/desktop-preview.jpg">
-</details>
+
 <details>
     <summary>Single Price Grid Component</summary>
     <br>
@@ -1530,11 +1483,6 @@
     <img src="./testimonials-grid-section/my-work/design/desktop-preview.jpg">
 </details>
 <details>
-    <summary>Article Preview Component Preview</summary>
-    <br>
-    <img src="./article-preview-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
     <summary>Newsletter Signup With Success Message Preview</summary>
     <br>
     <img src="./newsletter-sign-up-with-success-message/my-work/design/desktop-preview.jpg">
@@ -1559,11 +1507,7 @@
     <br>
     <img src="./product-preview-card-component/my-work/design/desktop-preview.jpg">
 </details>
-<details>
-    <summary>3 Column Preview Card Component Preview</summary>
-    <br>
-    <img src="./3-column-preview-card-component/my-work/design/desktop-preview.jpg">
-</details>
+
 <details>
     <summary>Results Summary Component Preview</summary>
     <br>
