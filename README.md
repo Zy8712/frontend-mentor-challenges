@@ -1,11 +1,5 @@
 <a name="top"></a>
 
-> [!IMPORTANT]
-> This repository contains my work on Frontend Mentor projects.
-> Code in this repo is written in HTML, CSS, JavaScript, Sass, Bootstrap and Tailwind.
-> Projects written using frameworks can be found in separate repositories.
-> This repository is for portfolio reference only. Copying or redistribution is not permitted.
-
 <div align="center">
     <img src="./z-readme-assets/frontend-mentor-logo-transparent.png" width="400px" />
     <h1>Bryan's Frontend Mentor Projects - Vanilla Ver.</h1>
@@ -30,6 +24,10 @@
 [![Personal Portfolio](https://img.shields.io/badge/Personal_Portfolio_Site-ED1C24?style=for-the-badge&logo=dungeonsanddragons&logoColor=white)](https://bryanli.vercel.app/)
 </div>
 
+> [!IMPORTANT]
+> This repository contains my work on Frontend Mentor projects (vanilla/no frameworks).
+> Projects written using frameworks can be found in separate repositories.
+
 ## Table of Contents
 - [About](#about)
 - [Projects](#projects)
@@ -49,49 +47,50 @@
 ## Projects
 
 | Project Name | Project Difficulty | Attempt Details | Official Source |
-| :- | :- | :- | :- |
-| 3 Column Preview Card Component | | | |
-| Advice Generator App | | | |
-| Age Calculator App | | | |
-| Article Preview Component | | | |
-| Blog Preview Card | | | |
-| Clipboard Landing Page | | | |
-| Expenses Chart Component | | | |
-| FAQ Accordion Card | | | |
-| Four Card Feature Section | | | |
-| Fylo Dark Theme Landing Page | | | |
-| Fylo Data Storage Component | | | |
-| Huddle Landing Page with Alternating Feature Blocks | | | |
-| Interactive Rating Component | | | |
-| IP Address Tracker | | | |
-| News Homepage | | | |
-| Newsletter Sign Up with Success Message | | | |
-| NFT Preview Card Component | | | |
-| Order Summary Component | | | |
-| Ping Coming Soon Page | | | |
-| Pod Request Access Landing Page | | | |
-| Product Preview Card Component | | | |
-| Profile Card Component | | | |
-| QR Code Component | | | |
-| Recipe Page | | | |
-| Results Summary Component | | | |
-| Rock Paper Scissors | | | |
-| Room Homepage | | | |
-| Single Price Grid Component | | | |
-| Social Links Profile | | | |
-| Social Proof Section | | | |
-| Space Tourism Website | | | |
-| Stats Preview Card Component | | | |
-| Testimonials Grid Section | | | |
-| Time Tracking Dashboard | | | |
-| Tip Calculator App | | | |
+| :- | :-: | :-: | :-: |
+| 3 Column Preview Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Advice Generator App | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Age Calculator App | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Article Preview Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Blog Preview Card | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Clipboard Landing Page | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Expenses Chart Component | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| FAQ Accordion Card | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Four Card Feature Section | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Fylo Dark Theme Landing Page | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Fylo Data Storage Component | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Huddle Landing Page with Alternating Feature Blocks | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Interactive Rating Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| IP Address Tracker | ![Intermediate](https://img.shields.io/badge/Intermediate-d6a40b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| News Homepage | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Newsletter Sign Up with Success Message | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| NFT Preview Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Order Summary Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Ping Coming Soon Page | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Pod Request Access Landing Page | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Product Preview Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Profile Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| QR Code Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Recipe Page | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Results Summary Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Rock Paper Scissors | ![Advanced](https://img.shields.io/badge/Advanced-f48925?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Room Homepage | ![Intermediate](https://img.shields.io/badge/Intermediate-d6a40b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Single Price Grid Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Social Links Profile | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Social Proof Section | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Space Tourism Website | ![Intermediate](https://img.shields.io/badge/Intermediate-d6a40b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Stats Preview Card Component | ![Newbie](https://img.shields.io/badge/Newbie-6abecd?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Testimonials Grid Section | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Time Tracking Dashboard | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
+| Tip Calculator App | ![Junior](https://img.shields.io/badge/Junior-5db32b?style=flat&logo=frontend-mentor&logoColor=white) | | |
 
 
 ## Details
 
 
 ## Usage
-
+> [!WARNING]
+> This repository is for portfolio reference only. Copying or redistribution is not permitted.
 
 ## Feedback
 
