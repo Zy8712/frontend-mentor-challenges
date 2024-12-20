@@ -14,7 +14,7 @@
 </div>
 
 <div align="center">
-    
+
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bryan-li712/)
 [![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/bryan-li712)
@@ -107,18 +107,34 @@
 
 | Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
 | :-: | :-: | :-: | :- | :- |
-| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) | Jun 12th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br> [📨 Submission](https://www.frontendmentor.io/solutions/3-colum-preview-card-component-bx04fR0CV3) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work/index.html) | - background-color:rgba(0,0,0,0) |
-| #2 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![Sass](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) | Aug 8th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br>  [📨 Submission](#) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work-v2-tailwindcss) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work-v2-tailwindcss/index.html) | - tailwind css |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) | Jun 12th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br> [📨 Entry](https://www.frontendmentor.io/solutions/3-colum-preview-card-component-bx04fR0CV3) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work/index.html) | - background-color:rgba(0,0,0,0) |
+| #2 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![Sass](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) | Aug 8th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br>  [📨 Entry](#) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/3-column-preview-card-component/my-work-v2-tailwindcss) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/3-column-preview-card-component/my-work-v2-tailwindcss/index.html) | - tailwind css |
+| #3 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) | Aug 29th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) <br>  [📨 Entry](#) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/3-column-preview-card-component/my-react-work-v1) <br> [🖥️ Preview](#) | - ReactJS <br> - TailwindCSS |
 
 
 ### Advice Generator App
 <img src="./advice-generator-app/my-work/design/desktop-preview.jpg">
 
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 27th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) <br> [📨 Entry](https://www.frontendmentor.io/solutions/advice-generator-app-POlPklQasY) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/advice-generator-app/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/advice-generator-app/my-work/index.html) | - api-access <br> - button:disabled <br> - cursor:none-allowed <br> - setTimeout <br> - rotate <br> - transform|
+| #2 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) | Aug 14th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) <br> [📨 Entry](#) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/advice-generator-app/my-work) <br> [🖥️ Preview](#) | - ReactJS |
+| #3 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) | Oct 6th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) <br> [📨 Entry](#) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/advice-generator-app/my-react-work-v2) <br> [🖥️ Preview](#) | - ReactJS |
+   
+
 ### Age Calculator App
 <img src="./age-calculator-app/my-work/design/desktop-preview.jpg">
 
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) <br> [📨 Entry](https://www.frontendmentor.io/solutions/age-calculator-app-8b0ZHnNRAr) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/age-calculator-app/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/age-calculator-app/my-work/index.html) | - localStorage <br> - :focus <br> - outline:none |
+
 ### Article Preview Component
 <img src="./article-preview-component/my-work/design/desktop-preview.jpg">
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 1st, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) <br> [📨 Entry](https://www.frontendmentor.io/solutions/article-preview-component-8AC3WxuhNz) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/article-preview-component/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/article-preview-component/my-work/index.html) | - triangle-shape-made-using-border |
 
 ### Blog Preview Card
 <img src="./blog-preview-card/my-work/design/desktop-preview.jpg">
@@ -126,13 +142,142 @@
 ### Clipboard Landing Page
 <img src="./clipboard-landing-page/my-work/design/desktop-preview.jpg">
 
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white) | Sept 14th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9) <br> [📨 Entry](https://www.frontendmentor.io/solutions/clipboard-landing-page-6wdy5EYFmN) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/clipboard-landing-page/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/clipboard-landing-page/my-work/index.html) | |
+
+
 ### Expenses Chart Component
 <img src="./expenses-chart-component/my-work/design/desktop-preview.jpg">
 
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) ![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white) | Aug 11th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt) <br> [📨 Entry](https://www.frontendmentor.io/solutions/expenses-chart-component-7HFSNcqBMS) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/expenses-chart-component/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/expenses-chart-component/my-work/index.html) | - ChartJS |
+
+
+### FAQ Accordion Card
+<img src="./faq-accordion-card/my-work/design/desktop-preview.jpg">
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) | Jun 30th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) <br> [📨 Entry](https://www.frontendmentor.io/solutions/faq-accordion-card-pure-html-and-css-no-js-x32Gj2HTI0) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/faq-accordion-card/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/faq-accordion-card/my-work/index.html) | - transform:rotate(-180deg) <br> - min-height <br> - summary::-webkit-details-marker <br> - [open] <br> - customizing details & summary |
+
+
+### Four Card Feature Section
+<img src="./four-card-feature-section/my-work/design/desktop-preview.jpg">
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) | Jul 16th, 2023 | [💾 Challenge](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) <br> [📨 Entry](https://www.frontendmentor.io/solutions/four-card-feature-section--oQiA0MbvB) <br> [👨‍💻 My Code](https://github.com/Zy8712/frontend-mentor-challenges/tree/main/four-card-feature-section/my-work) <br> [🖥️ Preview](https://frontend-mentor-challenges-pi-sage.vercel.app/four-card-feature-section/my-work/index.html) |  |
 
 
 
+### Fylo Dark Theme Landing Page
+<img src="./fylo-dark-theme-landing-page/my-work/design/desktop-preview.jpg">
 
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) ![Sass](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white) | Aug 5th, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() | - scss |
+
+   
+          <p><a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd">💾 Challenge</a></p>
+          <p><a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-NxcaRtrhLs">📨 Submission</a></p>
+          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/fylo-dark-theme-landing-page/my-work">👨‍💻 My_Code</a></p>
+          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/fylo-dark-theme-landing-page/my-work/index.html">🖥️ Preview</a></p>
+        </details>
+      </td>
+      <td></td>
+      <td>
+        <details>
+          <summary> 📝</summary>
+          <ul>
+            <br>
+            <li>scss</li>
+          </ul>
+        </details>
+      </td>
+      <td>#1</td>
+    </tr>
+
+
+### Fylo Data Storage Component
+<img src="./fylo-data-storage-component/my-work/design/desktop-preview.jpg">
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Huddle Landing Page with Alternating Feature Blocks
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Interactive Rating Component
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### IP Address Tracker
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### News Homepage
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Newsletter Sign-up with Success Message
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### NFT Preview Card Component
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Order Summary Component
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Ping Coming Soon Page
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Pod Request Access Landing Page
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Product Preview Card Component
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### Profile Card Component
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
+
+### QR Code Component
+
+| Trial | Tech Stack | Date | 🔗 Links | 📝 Summary |
+| :-: | :-: | :-: | :- | :- |
+| #1 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow) | Jul 23rd, 2023 | [💾 Challenge]() <br> [📨 Entry]() <br> [👨‍💻 My Code]() <br> [🖥️ Preview]() |  |
 
 <table>
     <tr>
@@ -201,35 +346,6 @@
       </td>
       <td>#4</td>
     </tr>
-    <tr>
-      <td>Advice Generator App</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-		    <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
-		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">💾 Challenge</a></p>
-          <p><a href="">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/advice-generator-app/my-react-work-v2">👨‍💻 My_Code</a></p>
-          <p><a href="">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Oct 6th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-          </ul>
-        </details>
-      </td>
-      <td>#3</td>
-    </tr>
 	  <tr>
       <td>Space Tourism Website</td>
       <td>
@@ -278,34 +394,6 @@
         </details>
       </td>
       <td>Sept 16th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-	  <tr>
-      <td>Clipboard Landing Page</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/clipboard-landing-page-6wdy5EYFmN">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/clipboard-landing-page/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/clipboard-landing-page/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Sept 14th, 2023</td>
       <td>
         <details>
           <summary> 📝 </summary>
@@ -409,37 +497,6 @@
       <td>#2</td>
     </tr>
 	  <tr>
-      <td>3 Column Preview Card Component</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
-		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">💾 Challenge</a></p>
-          <p><a href="">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges-react/tree/main/3-column-preview-card-component/my-react-work-v1">👨‍💻 My_Code</a></p>
-          <p><a href="">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Aug 29th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>ReactJS</li>
-			      <li>TailwindCSS</li>
-          </ul>
-        </details>
-      </td>
-      <td>#3</td>
-    </tr>
-	  <tr>
       <td>Huddle Landing Page with Alternating Feature Blocks</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -466,37 +523,6 @@
         </details>
       </td>
       <td>#1</td>
-    </tr>
-    <tr>
-      <td>Advice Generator App</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-		    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="tailwindcss_icon">
-		    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="react_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">💾 Challenge</a></p>
-          <p><a href="">📨 Submission</a></p>
-          <p><a href="">👨‍💻 My_Code</a></p>
-          <p><a href="">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Aug 14th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>ReactJS</li>
-          </ul>
-        </details>
-      </td>
-      <td>#2</td>
     </tr>
     <tr>
       <td>QR Code Component</td>
@@ -591,37 +617,6 @@
       <td>#1</td>
     </tr>
 	<tr>
-      <td>Expenses Chart Component</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-		<img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-		<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
-		<img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="scss_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/expenses-chart-component-7HFSNcqBMS">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/expenses-chart-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/expenses-chart-component/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Aug 11th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>ChartJS</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-	<tr>
       <td>IP Address Tracker</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -648,36 +643,6 @@
             <li>Leaflet-Library</li>
 			<li>Geo Ipify</li>
 			<li>nth-of-type()</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-    <tr>
-      <td>Fylo Dark Theme Landing Page</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-        <img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" alt="scss_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-NxcaRtrhLs">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/fylo-dark-theme-landing-page/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/fylo-dark-theme-landing-page/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Aug 5th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝</summary>
-          <ul>
-            <br>
-            <li>scss</li>
           </ul>
         </details>
       </td>
@@ -774,71 +739,6 @@
       <td>#1</td>
     </tr>
     <tr>
-      <td>Advice Generator App</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/advice-generator-app-POlPklQasY">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/advice-generator-app/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/advice-generator-app/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Jul 27th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>api-access</li>
-            <li>button:disabled</li>
-            <li>cursor:none-allowed</li>
-            <li>setTimeout</li>
-            <li>rotate</li>
-            <li>transform</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-    <tr>
-      <td>Age Calculator App</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/age-calculator-app-8b0ZHnNRAr">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/age-calculator-app/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/age-calculator-app/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Jul 23rd, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>localstorage</li>
-            <li>:focus</li>
-            <li>outline:none</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-    <tr>
       <td>Single Price Grid Component</td>
       <td>
         <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
@@ -855,34 +755,6 @@
         </details>
       </td>
       <td>Jul 17th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li></li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-    <tr>
-      <td>Four Card Feature Section</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/four-card-feature-section--oQiA0MbvB">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/four-card-feature-section/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/four-card-feature-section/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Jul 16th, 2023</td>
       <td>
         <details>
           <summary> 📝 </summary>
@@ -1042,35 +914,6 @@
       </td>
       <td>#1</td>
     </tr>
-    <tr>
-      <td>Article Preview Component</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-        <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript&logoColor=yellow" alt="javascript_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/article-preview-component-8AC3WxuhNz">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/article-preview-component/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/article-preview-component/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Jul 1st, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>triangle-shape-made-using-border</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
      <tr>
       <td>Newsletter Sign-up Form With Success Message</td>
       <td>
@@ -1096,38 +939,6 @@
             <br>
             <li>linear-gradient(to right,,)</li>
             <li>email-regex</li>
-          </ul>
-        </details>
-      </td>
-      <td>#1</td>
-    </tr>
-    <tr>
-      <td>Faq Accordion Card</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="html_icon">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="css_icon">
-      </td>
-      <td>
-        <details>
-          <summary>🔗</summary>
-          <br>
-          <p><a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">💾 Challenge</a></p>
-          <p><a href="https://www.frontendmentor.io/solutions/faq-accordion-card-pure-html-and-css-no-js-x32Gj2HTI0">📨 Submission</a></p>
-          <p><a href="https://github.com/Zy8712/frontend-mentor-challenges/tree/main/faq-accordion-card/my-work">👨‍💻 My_Code</a></p>
-          <p><a href="https://frontend-mentor-challenges-pi-sage.vercel.app/faq-accordion-card/my-work/index.html">🖥️ Preview</a></p>
-        </details>
-      </td>
-      <td>Jun 30th, 2023</td>
-      <td>
-        <details>
-          <summary> 📝 </summary>
-          <ul>
-            <br>
-            <li>transform:rotate(-180deg)</li>
-            <li>min-height</li>
-            <li>summary::-webkit-details-marker</li>
-            <li>[open]</li>
-            <li>customizing details & summary</li>
           </ul>
         </details>
       </td>
@@ -1407,131 +1218,5 @@
     </tr>
 </table>
 
-<br>
-
-# challenge preview screenshots provided
-
-<details>
-    <summary>Ping Coming Soon Page</summary>
-    <br>
-    <img src="./ping-coming-soon-page/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Room Homepage</summary>
-    <br>
-    <img src="./room-homepage/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Huddle Landing Page with Alternating Feature Blocks</summary>
-    <br>
-    <img src="./huddle-landing-page-with-alternating-feature-blocks/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Rock, Paper, Scissors Game</summary>
-    <br>
-    <img src="./rock-paper-scissors/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>IP Address Tracker</summary>
-    <br>
-    <img src="./ip-address-tracker/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Fylo Dark Theme Landing Page</summary>
-    <br>
-    <img src="./fylo-dark-theme-landing-page/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Tip Calculator App</summary>
-    <br>
-    <img src="./tip-calculator-app/my-work/design/desktop-preview.jpg">
-</details>
-
-<details>
-    <summary>Single Price Grid Component</summary>
-    <br>
-    <img src="./single-price-grid-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Four Card Feature Section</summary>
-    <br>
-    <img src="./four-card-feature-section/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>News Homepage</summary>
-    <br>
-    <img src="./news-homepage/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Social Proof Section Preview</summary>
-    <br>
-    <img src="./social-proof-section/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Fylo Data Storage Component Preview</summary>
-    <br>
-    <img src="./fylo-data-storage-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Time Tracking Dashboard Preview</summary>
-    <br>
-    <img src="./time-tracking-dashboard/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Testimonials Grid Section Preview</summary>
-    <br>
-    <img src="./testimonials-grid-section/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Newsletter Signup With Success Message Preview</summary>
-    <br>
-    <img src="./newsletter-sign-up-with-success-message/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Faq Accordion Card Preview</summary>
-    <br>
-    <img src="./faq-accordion-card/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Stats Preview Card Component Preview</summary>
-    <br>
-    <img src="./stats-preview-card-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>NFT Preview Card Component	Preview</summary>
-    <br>
-    <img src="./nft-preview-card-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Product Preview Card Component	Preview</summary>
-    <br>
-    <img src="./product-preview-card-component/my-work/design/desktop-preview.jpg">
-</details>
-
-<details>
-    <summary>Results Summary Component Preview</summary>
-    <br>
-    <img src="./results-summary-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Profile Card Component Preview</summary>
-    <br>
-    <img src="./profile-card-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Order Summary Component Preview</summary>
-    <br>
-    <img src="./order-summary-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>Interactive Rating Component Preview</summary>
-    <br>
-    <img src="./interactive-rating-component/my-work/design/desktop-preview.jpg">
-</details>
-<details>
-    <summary>QR Code Component Preview</summary>
-    <br>
-    <img src="./qr-code-component/my-work/design/desktop-preview.jpg">
-</details>
 
 <!-- This repo belongs to B.L. Copy or redistribution not permitted. -->
